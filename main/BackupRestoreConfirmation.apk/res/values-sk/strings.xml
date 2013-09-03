@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="backup_confirm_title">Úplná záloha</string>
+<string name="restore_confirm_title">Úplné obnovenie</string>
+<string name="backup_confirm_text">"Bola prijatá požiadavka na úplnu zálohu všetkých dát do pripojeného počítača. Chcete túto akciu povoliť? Ak ste o zálohu nežiadali, operáciu nepovoľujte."</string>
+<string name="allow_backup_button_label">Zálohovať moje dáta</string>
+<string name="deny_backup_button_label">Nezálohovať</string>
+<string name="restore_confirm_text">"Bola prijatá požiadavka na úplne obnovenie všetkých dát z pripojeného počítača. Chcete túto akciu povoliť? Ak ste o zálohu nežiadali, operáciu nepovoľujte. Táto akcia nahradí všetky dáta v zariadení."</string>
+<string name="allow_restore_button_label">Obnoviť moje dáta</string>
+<string name="deny_restore_button_label">Neobnovovať</string>
+<string name="current_password_text">Zadajte, prosím vaše ​​aktuálne heslo pre zálohu:</string>
+<string name="device_encryption_restore_text">Zadajte, prosím heslo pre šifrovanie vášho zariadenia:</string>
+<string name="device_encryption_backup_text">Zadajte, prosím heslo pre šifrovanie vášho zariadenia. Bude tiež použité na šifrovanie vašej zálohy.</string>
+<string name="backup_enc_password_text">Zadajte, prosím heslo pre šifrovanie dát úplnej zálohy. Ak necháte pole prázdne, použije sa aktuálne heslo pre zálohy:</string>
+<string name="backup_enc_password_optional">Ak chcete vašu úplnú zálohu šifrovať, zadajte heslo nižšie:</string>
+<string name="restore_enc_password_text">Ak chcete obnoviť šifrované dáta, zadajte, prosim, heslo:</string>
+<string name="toast_backup_started">Spúšťam zálohu...</string>
+<string name="toast_backup_ended">Záloha dokončená</string>
+<string name="toast_restore_started">Spúšťam obnovu...</string>
+<string name="toast_restore_ended">Obnova ukončená</string>
+<string name="toast_timeout">Časový limit operácie vypršal</string>
+</resources>
