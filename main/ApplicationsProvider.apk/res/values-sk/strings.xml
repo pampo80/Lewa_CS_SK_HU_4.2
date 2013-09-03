@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_label">Vyhľadávanie aplikácií</string>
+<string name="search_label">Aplikácie</string>
+<string name="application_desc">Aplikácia</string>
+<string name="settings_description">Nainštalované aplikácie</string>
+<string name="search_empty">Nič nenašlo</string>
+</resources>
