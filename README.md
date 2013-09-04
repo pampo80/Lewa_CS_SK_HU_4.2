@@ -23,3 +23,7 @@ CellConnService.apk
 
 CertInstaller.apk
   strings.xml (CS100%, SK100%)
+
+Cit.apk
+  strings.xml (CS100%, SK100%)
+  arrays.xml (CS none, SK100%)
