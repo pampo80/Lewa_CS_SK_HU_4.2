@@ -34,3 +34,6 @@ CleanMemory.apk
 
 ContactsProvider.apk
   strings.xml (CS none, SK100%)
+
+DefaultContainerService.apk
+  strings.xml (CS100%, SK100%)
