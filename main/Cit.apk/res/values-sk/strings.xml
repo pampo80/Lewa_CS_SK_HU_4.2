@@ -173,7 +173,9 @@
 <string name="status_sync_succeeded_format">Úspešne synchronizovaných: %s</string>
 <string name="status_already_bound">Už prepojené na synch. zariadenie</string>
 <string name="status_sync_adapter_not_selected">Nebolo vybraté synch. zariadenie</string>
-<string name="binding_connected_format">"Connected to Sync Adapteru0009authority: %1$su0009account type: %2$s"</string>
+<string name="binding_connected_format">"Pripojený k sync adaptéru
+\u0009Oprávnenie: %1$s
+\u0009Typ účtu: %2$s"</string>
 <string name="binding_not_connected">Nepripojené na synch. zariadenie</string>
 <string name="binding_bind_failed">Prepojenie zlyhalo</string>
 <string name="binding_waiting_for_connection">Čakám na pripojenie služby...</string>
