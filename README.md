@@ -31,3 +31,6 @@ Cit.apk
 CleanMemory.apk
   strings.xml (CS100%, SK100%)
   motto.xml (CS none, SK100%)
+
+ContactsProvider.apk
+  strings.xml (CS none, SK100%)
