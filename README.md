@@ -20,3 +20,6 @@ CalendarProvider.apk
 
 CellConnService.apk
   strings.xml (CS none, SK100%)
+
+CertInstaller.apk
+  strings.xml (CS100%, SK100%)
