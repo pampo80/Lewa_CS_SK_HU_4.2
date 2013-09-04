@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="app_name">Čistič RAM</string>
+<string name="app_name">Čistenie RAM</string>
 <string name="hello_world">Ahoj Svet!</string>
 <string name="menu_settings">Nastavenia</string>
 <string name="title_activity_config">Nastavenia činnosti</string>
-<string name="result_format">Ukončených %1$d aplikácií, %2$s voľnej pamäte.</string>
+<string name="result_format">Ukončených %1$d aplikácií, %2$s uvoľnenej pamäte.</string>
 <string name="optimized">Optimalizácia ukončená</string>
 </resources>
