@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="sharedUserLabel">Aplikácia android jadra</string>
+<string name="app_label">Úložisko kontaktov</string>
+<string name="provider_label">Kontakty</string>
+<string name="upgrade_msg">Prebieha inovácia databázy kontaktov.</string>
+<string name="upgrade_out_of_memory_notification_ticker">Inovácia kontaktu vyžaduje viac pamäte</string>
+<string name="upgrade_out_of_memory_notification_title">Prebieha inovácia ukladacieho priestoru kontaktov</string>
+<string name="upgrade_out_of_memory_notification_text">Výberom tejto možnosti dokončíte inováciu</string>
+<string name="default_directory">Kontakty</string>
+<string name="local_invisible_directory">Iné</string>
+<string name="read_write_all_voicemail_label">Prístup ku všetkým hlasovým správam</string>
+<string name="read_write_all_voicemail_description">Umožňuje aplikácii uchovávať a načítavať všetky hlasové správy, ku ktorým má zariadenie prístup.</string>
+<string name="voicemail_from_column">"Hlasová správa od "</string>
+<string name="unknown">Neznámy</string>
+<string name="debug_dump_title">Kopírovať databázu kontaktov</string>
+<string name="debug_dump_database_message">Je to o 1) vytvorení kópie vaších kontaktov na vnútornú pamäť ktoré zahŕňajú všetky pridružené informácie a volania, 2) emaily. Nezabudnite vymazať kópiu potom ako sa prekopíruje do zariadenia a bude doručený email.</string>
+<string name="debug_dump_delete_button">Vymazať</string>
+<string name="debug_dump_start_button">Štart</string>
+<string name="debug_dump_email_sender_picker">Vyberte program ktorý odošle súbor</string>
+<string name="debug_dump_email_subject">Pripojená databáza kontaktov</string>
+<string name="debug_dump_email_body">Je pripojená databáza všetkých kontaktov. Budťe opatrný.</string>
+</resources>
