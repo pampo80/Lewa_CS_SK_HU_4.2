@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Volná RAM</string>
+<string name="hello_world">Ahoj Světe!</string>
+<string name="menu_settings">Nastavení</string>
+<string name="title_activity_config">Nastavení činnosti</string>
+<string name="result_format">Ukončeno %1$d applikací, %2$s volné paměti.</string>
+<string name="optimized">Optimalizovat</string>
+</resources>
