@@ -17,3 +17,6 @@ CalendarImporter.apk
 
 CalendarProvider.apk
   strings.xml (CS100%, SK100%)
+
+CellConnService.apk
+  strings.xml (CS none, SK100%)
