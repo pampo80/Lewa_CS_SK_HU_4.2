@@ -27,3 +27,7 @@ CertInstaller.apk
 Cit.apk
   strings.xml (CS100%, SK100%)
   arrays.xml (CS none, SK100%)
+
+CleanMemory.apk
+  strings.xml (CS100%, SK100%)
+  motto.xml (CS none, SK100%)
