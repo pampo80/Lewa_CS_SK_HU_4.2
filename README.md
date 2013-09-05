@@ -46,3 +46,6 @@ DeskClock.apk
 
 DownloadProvider.apk
   strings.xml (CS100%, SK100%)
+
+DownloadProviderUI.apk
+  strings.xml (CS100%, SK100%)
