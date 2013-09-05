@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="move_messages">
+        <item quantity="other">Presuň správy</item>
+        <item quantity="one">Presuň správu</item>
+    </plurals>
+    <plurals name="notification_new_one_account_fmt">
+        <item quantity="other">%1$d neprečítaných (%2$s)</item>
+        <item quantity="one">%1$d neprečítaná (%2$s)</item>
+        <item quantity="few">%1$d neprečítané (%2$s)</item>
+    </plurals>
+    <plurals name="notification_new_multi_account_fmt">
+        <item quantity="other">v %d kontách</item>
+        <item quantity="few">v %d kontách</item>
+    </plurals>
+    <plurals name="number_of_accounts">
+        <item quantity="other">%1$d kontá</item>
+        <item quantity="one">%1$d konto</item>
+    </plurals>
+    <plurals name="picker_combined_view_account_count">
+        <item quantity="other">%d kontá</item>
+        <item quantity="one">%d konto</item>
+    </plurals>
+    <plurals name="message_view_selected_message_count">
+        <item quantity="other">%d oznaČených</item>
+        <item quantity="one">%d označený</item>
+    </plurals>
+    <plurals name="message_view_show_attachments_action">
+        <item quantity="other">Prílohy %1$d</item>
+        <item quantity="one">Príloha %1$d</item>
+    </plurals>
+    <plurals name="message_delete_confirm">
+        <item quantity="other">Vymazať tieto správy?</item>
+        <item quantity="one">Vymazať túto správu?</item>
+    </plurals>
+    <plurals name="message_deleted_toast">
+        <item quantity="other">Správy boli vymazané.</item>
+        <item quantity="one">Správa bola vymazaná.</item>
+    </plurals>
+    <plurals name="message_moved_toast">
+        <item quantity="other">%1$d správ presunutých do %2$s</item>
+        <item quantity="one">%1$d správa presunutá do %2$s</item>
+    </plurals>
+    <plurals name="message_view_attachment_bytes">
+        <item quantity="other">%dB</item>
+        <item quantity="one">%dB</item>
+    </plurals>
+    <plurals name="message_view_attachment_kilobytes">
+        <item quantity="other">%dKB</item>
+        <item quantity="one">%dKB</item>
+    </plurals>
+    <plurals name="message_view_attachment_megabytes">
+        <item quantity="other">%dMB</item>
+        <item quantity="one">%dMB</item>
+    </plurals>
+    <plurals name="message_view_attachment_gigabytes">
+        <item quantity="other">%dGB</item>
+        <item quantity="one">%dGB</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d výsledkov z %2$s</item>
+        <item quantity="one">%1$d výsledok z %2$s</item>
+    </plurals>
+</resources>
