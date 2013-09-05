@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="download_title">Sťahovanie</string>
+<string name="cancel">Zrušiť</string>
+<string name="ok">OK</string>
+<string name="download_file_already_exist">Súbor už existuje, prepísať?</string>
+<string name="notification_download_complete_op01">Súbor uložený do:</string>
+<string name="app_label">Správca preberania</string>
+<string name="permlab_downloadManager">Otvoriť správcu preberania.</string>
+<string name="permdesc_downloadManager">Umožňuje aplikácii pristupovať k správcovi preberania a použiť ho na preberanie súborov. Škodlivé aplikácie to môžu využiť a narušiť preberanie alebo získať prístup k súkromným informáciám.</string>
+<string name="permlab_downloadManagerAdvanced">Rozšírené funkcie správcu preberania.</string>
+<string name="permdesc_downloadManagerAdvanced">Umožňuje aplikácii pristupovať k rozšíreným funkciám správcu preberania. Škodlivé aplikácie to môžu využiť a narušiť preberanie alebo získať prístup k súkromným informáciám.</string>
+<string name="permlab_downloadCompletedIntent">Odoslať upozornenie o prevzatí.</string>
+<string name="permdesc_downloadCompletedIntent">Umožňuje aplikácii odosielať upozornenia na dokončenie preberania. Škodlivé aplikácie môžu pomocou tohto nastavenia zmiasť iné aplikácie, ktoré preberajú súbory.</string>
+<string name="permlab_seeAllExternal">Zobrazenie všetkých položiek prevzatých na kartu SD</string>
+<string name="permdesc_seeAllExternal">Povolí aplikácii zobraziť všetky súbory prevzaté na kartu SD bez ohľadu na aplikáciu, pomocou ktorej boli prevzaté.</string>
+<string name="permlab_downloadCacheNonPurgeable">Rezervovať miesto vo vyrovnáv. pamäti preberania</string>
+<string name="permdesc_downloadCacheNonPurgeable">Umožňuje aplikácii preberať súbory do vyrovnávacej pamäte preberania, ktorú nie je možné automaticky odstrániť, keď správca preberania potrebuje viac miesta.</string>
+<string name="permlab_downloadWithoutNotification">preberať súbory bez upozornenia</string>
+<string name="permdesc_downloadWithoutNotification">Umožňuje aplikácii preberať súbory prostredníctvom správcu preberania bez toho, aby sa používateľovi zobrazilo upozornenie.</string>
+<string name="permlab_accessAllDownloads">Prístup ku všetkým systémovým prevzatiam</string>
+<string name="permdesc_accessAllDownloads">Umožňuje aplikácii zobraziť a upravovať všetky preberania spustené ľubovoľnou aplikáciou v systéme.</string>
+<string name="download_unknown_title">&lt;Bez názvu></string>
+<string name="notification_filename_separator">", "</string>
+<string name="notification_filename_extras">" a ďalšie (%d)"</string>
+<string name="notification_download_complete">Preberanie dokončené.</string>
+<string name="notification_download_failed">Preberanie bolo neúspešné.</string>
+<string name="notification_need_wifi_for_size">Vzhľadom na veľkosť preberaného súboru sa vyžaduje pripojenie Wi-Fi</string>
+<string name="notification_paused_in_background">Pozastavené na pozadí.</string>
+<string name="wifi_required_title">Preberaný súbor je pre sieť operátora príliš veľký</string>
+<string name="wifi_required_body" formatted="false">"Na dokončenie preberania tohto súboru s veľkosťou %s je potrebné pripojenie Wi-Fi. 
+
+Ak chcete spustiť preberanie pri ďalšom pripojení k sieti Wi-Fi, dotknite sa možnosti %s."</string>
+<string name="wifi_recommended_title">Zaradiť do zoznamu na neskoršie prevzatie?</string>
+<string name="wifi_recommended_body" formatted="false">"Preberanie (%s) môže skrátiť výdrž batérie alebo príliš zaťažiť mobilné pripojenie a viesť k účtovaniu poplatkov podľa dát. programu.
+
+ Dotykom možnosti %s spustíte preberanie pri ďalšom pripojení k Wi-Fi."</string>
+<string name="button_queue_for_wifi">Zoznam</string>
+<string name="button_cancel_download">Zrušiť</string>
+<string name="button_start_now">Spustiť</string>
+<string name="download_percent">%d %%</string>
+<string name="notification_title">úloha %1$d sa sťahuje</string>
+<string name="notification_title_pause">úloha %1$d je pozastavená</string>
+<string name="notification_info_pause">pauza</string>
+<string name="notification_info_wait_for_retry">počkať na nový pokus</string>
+<string name="notification_info_wait_for_network">počkať na sieť</string>
+<string name="notification_info_wait_for_wlan">počkať na wifi</string>
+<string name="notification_info_peding">čakanie</string>
+<string name="notification_info_fail">chyba</string>
+</resources>
