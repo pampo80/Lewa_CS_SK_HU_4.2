@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_auto_advance_entries">
+        <item>@string/general_preference_auto_advance_newer</item>
+        <item>@string/general_preference_auto_advance_older</item>
+        <item>@string/general_preference_auto_advance_message_list</item>
+    </string-array>
+    <string-array name="general_preference_auto_advance_values">
+        <item>novšia</item>
+        <item>staršie</item>
+        <item>zoznam</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_entries">
+        <item>@string/general_preference_text_zoom_tiny</item>
+        <item>@string/general_preference_text_zoom_small</item>
+        <item>@string/general_preference_text_zoom_normal</item>
+        <item>@string/general_preference_text_zoom_large</item>
+        <item>@string/general_preference_text_zoom_huge</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_values">
+        <item>najmenšie</item>
+        <item>malé</item>
+        <item>normal</item>
+        <item>veľké</item>
+        <item>najväčšie</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Drobný text</item>
+        <item>Malý text</item>
+        <item>Bežný text</item>
+        <item>Veľký text</item>
+        <item>Obrovský text</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_size">
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.5</item>
+    </string-array>
+</resources>
