@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="settings_label">Zámok EM SIM ME</string>
+<string name="simmelock_name">Zámok SIM ME</string>
+<string name="strInputPassword">Prosím zadajte heslo:</string>
+<string name="strConfirm">Dokončiť</string>
+<string name="strCancel">Zrušiť</string>
+<string name="strInputChancesleft">Ostáva pokusov:</string>
+<string name="strMCCMNC">MCC+MNC:</string>
+<string name="strMCCMNCHLR">MCC+MNC+HLR:</string>
+<string name="strGID1">GID1:</string>
+<string name="strGID2">GID2:</string>
+<string name="strInputPasswordAgain">Prosím zadajte znovu heslo:</string>
+<string name="strIMSI">IMSI:</string>
+<string name="strAttention">Upozornenie</string>
+<string name="strConfirmRemove">Skutočne odstrániť?</string>
+<string name="srtConfirmPermanUnlock">Skutočne odomknúť na stálo?</string>
+<string name="strYes">Ano</string>
+<string name="strLockFail">Zamknutie zlýhalo!</string>
+<string name="strLockSucceed">Zamknutie úspešné!</string>
+<string name="strUnlockFail">Odomknutie zlýhalo!</string>
+<string name="strUnlockSucceed">Odomknutie úspešné !</string>
+<string name="strUserInput">Vstup užívateľa</string>
+<string name="strInputMode">Vložené užívateľom?</string>
+<string name="strLockNameNetwork">Osobné nastavenie siete</string>
+<string name="strLockNameNetworkSub">Osobné nastavenie sieťovej masky</string>
+<string name="strLockNameService">Osobné nastavenie poskytovateľa siete</string>
+<string name="strLockNameCorporate">Osobné nastavenie firemné</string>
+<string name="strLockNameSIM">Osobné nastavenie SIM</string>
+<string name="strActionNameLock">Zamknúť</string>
+<string name="strActionNameUnlock">Odomknúť</string>
+<string name="strActionNameAddLock">Pridať</string>
+<string name="strActionNameRemoveLock">Odstrániť</string>
+<string name="strActionNamePermanentUnlock">Natrvalo odomknúť</string>
+<string name="strPasswordLengthIncorrect">4-8 čísel!</string>
+<string name="strQueryFailed">Zlýhal dotaz!</string>
+<string name="strAddLockFail">Zlýhalo pridanie!</string>
+<string name="strAddLockSucceed">Pridanie bolo úspešné!</string>
+<string name="strMCCMNCLengthIncorrect">chybné MCC+MNC!</string>
+<string name="strMCCMNCHLRLengthIncorrect">chybné MCC+MNC+HLR!</string>
+<string name="strIMSILengthIncorrect">chybné IMSI!</string>
+<string name="strGID1WRONG">chybné GID1!</string>
+<string name="strGID2WRONG">chybné GID2!</string>
+<string name="str_simme_passwords_dont_match">"Heslá sa nezhoduju"</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="settings_label">Zámek EM SIM ME</string>
+<string name="simmelock_name">Zámek SIM ME</string>
+<string name="strInputPassword">Prosím, zadejte heslo :</string>
+<string name="strConfirm">Dokončit</string>
+<string name="strCancel">Storno</string>
+<string name="strInputChancesleft">Zbývá pokusů:</string>
+<string name="strMCCMNC">MCC+MNC :</string>
+<string name="strMCCMNCHLR">MCC+MNC+HLR :</string>
+<string name="strGID1">GID1 :</string>
+<string name="strGID2">GID2 :</string>
+<string name="strInputPasswordAgain">Prosím, zadejte heslo znovu :</string>
+<string name="strIMSI">IMSI :</string>
+<string name="strAttention">Upozornění</string>
+<string name="strConfirmRemove">Opravdu odstranit?</string>
+<string name="srtConfirmPermanUnlock">Opravdu odemknout na stálo?</string>
+<string name="strYes">Ano</string>
+<string name="strLockFail">Zamknutí selhalo!</string>
+<string name="strLockSucceed">Zamknutí úspěšné!</string>
+<string name="strUnlockFail">Odemknutí selhalo!</string>
+<string name="strUnlockSucceed">Odemknutí úspěšné!</string>
+<string name="strUserInput">Vstup uživatele</string>
+<string name="strInputMode">Vloženo uživatelem?</string>
+<string name="strLockNameNetwork">Personalizace sítě</string>
+<string name="strLockNameNetworkSub">Personalizace podskupiny sítě</string>
+<string name="strLockNameService">Personalizace poskytovatele sítě</string>
+<string name="strLockNameCorporate">Firemní personalizace</string>
+<string name="strLockNameSIM">Personalizace SIM</string>
+<string name="strActionNameLock">Uzamknout</string>
+<string name="strActionNameUnlock">Odemknout</string>
+<string name="strActionNameAddLock">Přidat</string>
+<string name="strActionNameRemoveLock">Odstranit</string>
+<string name="strActionNamePermanentUnlock">Odemknout natrvalo</string>
+<string name="strPasswordLengthIncorrect">4-8 čísel!</string>
+<string name="strQueryFailed">Dotaz se nezdařil!</string>
+<string name="strAddLockFail">Přidání se nezdařilo!</string>
+<string name="strAddLockSucceed">Přidání se zdařilo!</string>
+<string name="strMCCMNCLengthIncorrect">Neplatné MCC+MNC!</string>
+<string name="strMCCMNCHLRLengthIncorrect">Neplatné MCC+MNC+HLR!</string>
+<string name="strIMSILengthIncorrect">Neplatné IMSI!</string>
+<string name="strGID1WRONG">Neplatné GID1!</string>
+<string name="strGID2WRONG">Neplatné GID2!</string>
+<string name="str_simme_passwords_dont_match">Heslo nesouhlasí</string>
+</resources>

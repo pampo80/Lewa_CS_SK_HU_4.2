@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string-array name="Input_mode">
+        <item>Vstup užívateľa</item>
+        <item>Načítať zo SIM</item>
+    </string-array>
+</resources>
