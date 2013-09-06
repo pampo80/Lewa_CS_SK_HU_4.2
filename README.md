@@ -64,3 +64,6 @@ EngineerModeSim.apk
 
 Exchange2.apk
   strings.xml (CS100%, SK100%)
+
+Flashlight.apk
+  strings.xml (CS100%, SK100%)
