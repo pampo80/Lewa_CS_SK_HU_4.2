@@ -41,6 +41,7 @@ DefaultContainerService.apk
 DeskClock.apk
   strings.xml (CS100%, SK100%)
   arrays.xml (CS none, SK100%)
+  timezones.xml (CS none, SK100%)
   alarm_on.png (CS100%, SK100%)
   alarm_off.png (CS100%, SK100%)
 
