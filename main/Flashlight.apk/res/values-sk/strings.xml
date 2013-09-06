@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="flashDevice">/sys/class/leds/flashlight/brightness</string>
+<string name="app_name">Svetlo</string>
+<string name="prompt">V režim uzamknutia podržaním tlačidla HOME sa spustí svetlo</string>
+</resources>
