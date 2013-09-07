@@ -77,3 +77,13 @@ Galaxy4.apk
 
 Guide.apk
   strings.xml (CS100%, SK100%)
+
+HoloSpiralWallpaper.apk
+  strings.xml (CS100%, SK100%)
+  
+HTMLViewer.apk
+  strings.xml (CS100%, SK100%)
+
+Intercept.apk
+  strings.xml (CS100%, SK100%)
+  arrays.xml (CS none, SK100%)
