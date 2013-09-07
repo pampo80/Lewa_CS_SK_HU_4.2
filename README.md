@@ -90,3 +90,6 @@ Intercept.apk
 
 LabiSync.apk
   strings.xml (CS100%, SK100%)
+
+LewaAntitheft.apk
+  strings.xml (CS100%, SK100%)
