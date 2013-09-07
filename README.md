@@ -87,3 +87,6 @@ HTMLViewer.apk
 Intercept.apk
   strings.xml (CS100%, SK100%)
   arrays.xml (CS none, SK100%)
+
+LabiSync.apk
+  strings.xml (CS100%, SK100%)
