@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">ContactSync</string>
+<string name="sync_success">Synchronizácia dokončená!</string>
+<string name="sync_fail">Synchronizácia zlyhala, skúste ju znova neskôr, prosim!</string>
+<string name="sync_title">Synchronizácia kontaktov</string>
+<string name="syncing">Synchronizujem, čakajte prosím...</string>
+<string name="sync_format">" Synchronizovaných %1$s kontaktov (celkom %2$s kontaktov)"</string>
+<string name="sync_warning_info">Synchronizácia vašich kontaktov. Pokračovať?</string>
+<string name="recovery_success">Obnova dokončená?</string>
+<string name="recovery_fail">Obnova zlyhala, skúste ju znova neskôr, prosim!</string>
+<string name="recovering">Obnovujem, čakajte prosím...</string>
+<string name="recover_title">Obnoviť kontakty</string>
+<string name="recover_format">" Obnovených %1$s kontaktov (celkom %2$s kontaktov)"</string>
+<string name="recover_warning_info">Obnova kontaktov odstráni pôvodné kontakty vo vašom telefóne. Pokračovať?</string>
+<string name="no_network">Sieť nedostupná, skúste ju znova neskôr, prosim!</string>
+<string name="no_contacts_oncloud">Žiadne kontakty.</string>
+</resources>
