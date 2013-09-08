@@ -109,3 +109,6 @@ LewaCalculator.apk
 LewaCompas.apk
   strings.xml (CS100%, SK100%)
   compass.png (CS100%, SK100%)
+
+LewaDataUsageAdjust.apk
+  strings.xml (CS100%, SK100%)
