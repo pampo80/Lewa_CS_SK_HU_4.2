@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Kompas</string>
+<string name="north">Sever</string>
+<string name="northeast">Severovýchod</string>
+<string name="east">Východ</string>
+<string name="southeast">Jihovýchod</string>
+<string name="south">Jih</string>
+<string name="southwest">Jihozápad</string>
+<string name="west">Západ</string>
+<string name="northwest">Severozápad</string>
+<string name="accuracy_prompt">Poblíž magnetické interference, zatřesení telefonu nakalibruje konpas</string>
+</resources>
