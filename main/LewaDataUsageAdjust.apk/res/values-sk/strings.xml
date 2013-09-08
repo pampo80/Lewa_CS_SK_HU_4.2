@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<string name="app_name">Synchronizácia dát</string>
+<string name="app_summary">Súčasť Data Meter LeWaTek Limited.</string>
+<string name="app_title">Požiadavka na 3G dáta</string>
+<string name="request_failed">Požiadavka na 3G dáta zlyhala</string>
+<string name="request_sms">Požiadavka na zaslanie konfiguračnej SMS</string>
+<string name="send_sms">Odosielam požiadavku na 3G dáta cez SMS</string>
+<string name="analyze_sms">Analyzujem 3G dáta</string>
+<string name="correct_success">Synchronizácia využitia 3G dát úspešná.</string>
+<string name="alert_slot_error">Chybný slot</string>
+<string name="alert_network_error">Chyba siete</string>
+<string name="phone_closed">Telefón nie je povolený. Povoľte ho a skuste to znova.</string>
+<string name="label_province">Provincia</string>
+<string name="label_city">Mesto</string>
+<string name="label_carrier">Operátor</string>
+<string name="label_brand">Značka</string>
+<string name="label_info">Skontrolujte informácie operátora</string>
+<string name="label_data_left">Ostáva</string>
+<string name="label_data_used">Použitých</string>
+<string name="label_partner">Powered by Tencent Mobile Manager</string>
+</resources>
