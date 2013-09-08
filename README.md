@@ -105,3 +105,7 @@ LewaCalculator.apk
   goback_his_port.png (CS100%, SK100%)
   history_land.png (CS100%, SK100%)
   history_port.png (CS100%, SK100%)
+
+LewaCompas.apk
+  strings.xml (CS100%, SK100%)
+  compass.png (CS100%, SK100%)
