@@ -93,3 +93,15 @@ LabiSync.apk
 
 LewaAntitheft.apk
   strings.xml (CS100%, SK100%)
+
+LewaCalculator.apk
+  strings.xml (CS100%, SK100%)
+  advanced.png (CS100%, SK100%)
+  back_his_port.png (CS100%, SK100%)
+  clear_his_land.png (CS100%, SK100%)
+  clear_his_port.png (CS100%, SK100%)
+  goback.png (CS100%, SK100%)
+  goback_his_land.png (CS100%, SK100%)
+  goback_his_port.png (CS100%, SK100%)
+  history_land.png (CS100%, SK100%)
+  history_port.png (CS100%, SK100%)
