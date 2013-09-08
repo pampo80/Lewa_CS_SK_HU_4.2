@@ -115,3 +115,6 @@ LewaDataUsageAdjust.apk
 
 LewaDefaultTheme.apk
   strings.xml (CS100%, SK100%)
+
+LewaFileManager.apk
+  strings.xml (CS99.7%, SK100%)
