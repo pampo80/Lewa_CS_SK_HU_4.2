@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inštalátor</string>
+    <string name="next">Pokračovať</string>
+    <string name="install">Inštalovať</string>
+    <string name="done">Hotovo</string>
+    <string name="security_settings_desc">Umožniť tejto aplikácií prístup k:</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="unknown">Neznámy</string>
+    <string name="installing">Prebieha inštalácia…</string>
+    <string name="install_done">Aplikácia nainštalovaná.</string>
+    <string name="install_confirm_question">Chcete nainštalovať túto aplikáciu? Bude potrebovať prístup k:</string>
+    <string name="install_confirm_question_no_perms">Chcete nainštalovať túto aplikáciu? Aktualizácia nevyžaduje žiadne špaciálne práva.</string>
+    <string name="install_confirm_question_update">Chcete nainštalovať aktualizáciu už existujúcej aplikácie? Existujúce údaje nebudú vymazané. Aktualizácia bude vyžadovať prístup k:</string>
+    <string name="install_confirm_question_update_system">Chcete nainštalovať aktualizáciu do vstavanej aplikácie? Existujúce údaje nebudú vymazané. Aktualizácia bude vyžadovať prístup k:</string>
+    <string name="install_confirm_question_update_no_perms">Chcete nainštalovať aktualizáciu už existujúcej aplikácie? Existujúce údaje nebudú vymazané. Aktualizácia nevyžaduje žiadne špeciálne práva.</string>
+    <string name="install_confirm_question_update_system_no_perms">Chcete nainštalovať aktualizáciu do vstavanej aplikácie? Existujúce údaje nebudú vymazané. Aktualizácia nevyžaduje žiadne špeciálne práva.</string>
+    <string name="install_failed">Aplikácia nebola nainštalovaná.</string>
+    <string name="install_failed_invalid_apk">Inštalačný balík sa zdá byť poškodený.</string>
+    <string name="install_failed_inconsistent_certificates">V systéme sa nachádza aplikácia s totožným menom ale iným digitálnym podpisom.</string>
+    <string name="install_failed_older_sdk">Aplikácia funguje len na novšej verzii systému Android.</string>
+    <string name="install_failed_cpu_abi_incompatible">"Táto aplikácia nie je kompaktibilná s vaším telefónom."</string>
+    <string name="install_failed_file_not_found">Inštalačný balík bol vymazaný ešte skôr ako mohla byť inštalácia dokončená.</string>
+    <string name="install_failed_verify_failed">Aplikácia nemôže byť nainštalovaná pretože neprešla procesom overenia.</string>
+    <string name="install_failed_verify_timeout">Vypršal časový limit overenia inštalačného balíka. Pokúste sa zopakovať inštaláciu neskôr.</string>
+    <string name="install_failed_msg">"%1$s nie je možné nainštalovať na váš telefón."</string>
+    <string name="launch">Otvoriť</string>
+    <string name="unknown_apps_dlg_title">Nainštalovať blokovaný</string>
+    <string name="unknown_apps_dlg_text">Z bezpečnostných dôvodov váš telefón blokuje inštalácie aplikácií získané z neznámych zdrojov.</string>
+    <string name="ok">OK</string>
+    <string name="settings">Nastavenie</string>
+    <string name="allow_source_dlg_title">Nový zdroj pre aplikácie</string>
+    <string name="allow_source_dlg_text">"%1$s chce inštalovať iné aplikácie.
+
+Povoliť to teraz a v budúcnosti?"</string>
+    <string name="manage_applications">Správa aplikácií</string>
+    <string name="dlg_app_replacement_title">Nahradiť aplikáciu?</string>
+    <string name="dlg_app_replacement_statement">"Aplikácia ktorú inštalujete nahradí inú aplikáciu.
+
+Všetky predchádzajúce užívateľské údaje budú uložené."</string>
+    <string name="dlg_sys_app_replacement_statement">"Toto je systémová aplikácia.
+
+Všetky predchádzajúce užívateľské údaje budú uložené."</string>
+    <string name="out_of_space_dlg_title">Málo miesta</string>
+    <string name="out_of_space_dlg_text">"%1$s nie je možné nainštalovať. Uvolnite miesto a skúste to znova."</string>
+    <string name="dlg_ok">OK</string>
+    <string name="app_not_found_dlg_title">Aplikácia nenájdená</string>
+    <string name="app_not_found_dlg_text">"Aplikácia nebola nájdená v zozname inštalovaných aplikácií."</string>
+    <string name="uninstall_application_title">Odinštalovať aplikáciu</string>
+    <string name="uninstall_update_title">Odinštalovať aktualizáciu</string>
+    <string name="uninstall_activity_text">%1$s je časťou nasledovnej aplikácie:</string>
+    <string name="uninstall_application_text">Odinštalovať túto aplikáciu?</string>
+    <string name="uninstall_application_text_all_users">Odinštalovať túto aplikáciu <b>všetkým</b> užívateľom? Aplikácia s údajmi bude odstránená <b>všetkým</b> užívateľom v zariadení.</string>
+    <string name="uninstall_update_text">Chcete nahradiť tútu aplikáciu verziou od výrobcu?</string>
+    <string name="uninstalling">Prebieha odinštalovanie…</string>
+    <string name="uninstall_done">Odinštalovanie úspešné.</string>
+    <string name="uninstall_failed">Odinštalovanie neúspešné.</string>
+    <string name="uninstall_failed_device_policy_manager">"Nemôžem odinštalovať pretože táto aplikácia je aktívne zariadenie administrátora."</string>
+    <string name="manage_device_administrators">Správa zariadení administrátora</string>
+    <string name="uninstall_failed_msg">"%1$s nie je možné odinštalovať."</string>
+    <string name="Parse_error_dlg_title">Chyba rozoberania</string>
+    <string name="Parse_error_dlg_text">Pri rozoberaní balíka aplikácie nastala chyba.</string>
+    <string name="newPerms">Nové</string>
+    <string name="allPerms">Všetky</string>
+    <string name="privacyPerms">Bezpečnosť</string>
+    <string name="devicePerms">Prístup k zariadeniu</string>
+    <string name="no_new_perms">Táto aktualizácia nevyžaduje žiadne nové oprávnenia.</string>
+    <string name="perms_new_perm_prefix"><font size="12" fgcolor="#ff33b5e5">NOVÉ: </font></string>
+    <string name="perms_description_app">Provided by %1$s.</string>
+    <string name="no_permissions">Nie sú vyžadované žiadne oprávnenia</string>
+    <string name="perm_costs_money">toto vás môže stáť peniaze</string>
+    <string name="perms_title_app">Používať %1$s</string>
+</resources>
