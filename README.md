@@ -144,3 +144,6 @@ LewaPlayer.apk
 
 LewaPond.apk
   strings.xml (CS100%, SK100%)
+
+LewaPush.apk
+  strings.xml (CS100%, SK100%)
