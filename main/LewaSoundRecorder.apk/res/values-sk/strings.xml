@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<string name="app_name">Záznamník</string>
+<string name="record_your_message">Nahrať správu</string>
+<string name="message_recorded">Správa nahraná</string>
+<string name="review_message">Prehrať správu</string>
+<string name="recording">Nahrávanie</string>
+<string name="recording_stopped">Nahrávanie zastavené</string>
+<string name="storage_is_full">Pamäť je plná</string>
+<string name="max_length_reached">Dosiahnutie maximálnej dĺžky</string>
+<string name="insert_sd_card">Nedetekovaná SD karta. Potvrdte vloženie SD karty a odpojte USB kábel z počítača</string>
+<string name="min_available">k dispozícií %d minút</string>
+<string name="sec_available">k dispozícií %ds</string>
+<string name="accept">Dokončiť</string>
+<string name="discard">Zrušiť</string>
+<string name="button_ok">OK</string>
+<string name="timer_format_with_hour" formatted="false">%02d:%02d:%02d</string>
+<string name="timer_format_without_hour" formatted="false">%02d:%02d</string>
+<string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
+<string name="audio_db_artist_name">Vaše nahrávky</string>
+<string name="audio_db_album_name">Audio nahrávky</string>
+<string name="audio_db_playlist_name">Moje nahrávky</string>
+<string name="error_sdcard_access">Nie je prístup na SD kartu</string>
+<string name="error_app_internal">Vnútorná chyba aplikácie</string>
+<string name="error_mediadb_new_record">Nie je možné uložiť nahrávku</string>
+<string name="error_app_recorder_occupied">Záznamník používa iná aplikácia.</string>
+<string name="unknown_artist_name">Neznámy umelec</string>
+<string name="error_app_failed_title">Chyba nahrávania</string>
+<string name="tell_save_record_success">úspešne uložený</string>
+<string name="save_record">Uložiť</string>
+<string name="spaceIsLow_content">Nedostatok miesta na SD karte. Zastavte nahrávku alebo uvolnite miesto na SD karte. </string>
+<string name="cancel">Zrušiť</string>
+<string name="rename_record_file">Premenovať nahrávku</string>
+<string name="file_already_exists">Súbor už existuje</string>
+<string name="select_recording_format">Vybrať formát nahrávky</string>
+<string name="recording_format_high">Vysoká</string>
+<string name="recording_format_mid">Stredná</string>
+<string name="recording_format_low">Nízka</string>
+<string name="three_mins_avail_total">k dispozícií celkom 3 minúty</string>
+<string name="recorder_can_not_be_used">Záznamník zvuku teraz nemôže byť použitý. </string>
+<string name="alert_delete_multiple">Tieto položky budú vymazané</string>
+<string name="alert_delete_single">Tato položka bude vymazaná</string>
+<string name="ok">OK</string>
+<string name="delete">Vymazať</string>
+<string name="deleting">Mažem</string>
+<string name="no_recording_file">(žiadny súbor)</string>
+<string name="recording_file_list">Zoznam nahráviek</string>
+<string name="recording_paused">Nahrávanie pozastavené</string>
+<string name="record_title">Nahrávanie</string>
+<string name="play_title">Prehrávanie</string>
+<string name="time_zero">00:00</string>
+<string name="delete_selected">Označených %s</string>
+<string name="duration_timer_format_with_hour" formatted="false">%02dH%02dM%02dS</string>
+<string name="duration_timer_format_without_hour" formatted="false">%02dM%02dS</string>
+<string name="is_recording_can_not_use_play_function">Počas nahrávania nie je možné prehrávať.</string>
+<string name="is_playing_can_not_use_record_function">Počas prehrávania nie je možné nahrávať.</string>
+<string name="menu_actionbar_selected_items">%s označených</string>
+<string name="menu_multichoice_select_all">Označiť všetko</string>
+<string name="menu_multichoice_clear_select">Odznačiť všetko</string>
+<string name="recording_notitication">Nahrávam</string>
+<string name="pause_record">Pauza v nahrávaní</string>
+</resources>
