@@ -133,3 +133,6 @@ LewaNetworkManager.apk
 
 LewaPackageInstaller.apk
   strings.xml (CS100%, SK100%)
+
+LewaPermManager.apk
+  strings.xml (CS100%, SK100%)
