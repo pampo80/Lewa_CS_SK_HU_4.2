@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="desktop_transition_effect_entries">
+        <item>Klasický</item>
+        <item>Klasický(bez prepalov)</item>
+        <item>Tablet</item>
+        <item>Zväčšovanie</item>
+        <item>Zmenšovanie</item>
+        <item>Otáčanie hore</item>
+        <item>Otáčanie dole</item>
+        <item>Kocka in</item>
+        <item>Kocka out</item>
+        <item>Narovnávanie</item>
+    </string-array>
+    <string-array name="desktop_transition_effect_values">
+        <item>Standard</item>
+        <item>NoOverShoot</item>
+        <item>Tablet</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>Stack</item>
+    </string-array>
+</resources>
