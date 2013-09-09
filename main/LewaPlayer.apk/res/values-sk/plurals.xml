@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nsongs">
+        <item quantity="other">%d skladieb</item>
+        <item quantity="one">1 skladba</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d albumov</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d skladieb pridaných do zoznamu skladieb</item>
+        <item quantity="one">1 skladba pridaná do zoznamu skladieb</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d skladieb vymazaných</item>
+        <item quantity="one">1 skladba vymazaná</item>
+    </plurals>
+    <plurals name="NNNsearchsong">
+        <item quantity="other">hľadať %d skladieb</item>
+        <item quantity="one">hľadať 1 skladbu</item>
+    </plurals>
+    <plurals name="Nfolders">
+        <item quantity="other">%d priečinkov</item>
+        <item quantity="one">1 priečinok</item>
+    </plurals>
+</resources>
