@@ -125,3 +125,8 @@ LewaLauncherX.apk
 
 LewaLockScreen.apk
   strings.xml (CS100%, SK100%)
+
+LewaNetworkManager.apk
+  strings.xml (CS79.69%, SK100%)
+  arrays.xml (CS none, SK100%)
+  plurals.xml (CS none, SK100%)
