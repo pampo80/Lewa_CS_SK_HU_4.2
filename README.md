@@ -147,3 +147,6 @@ LewaPond.apk
 
 LewaPush.apk
   strings.xml (CS100%, SK100%)
+
+LewaSecurity2.apk
+  strings.xml (CS100%, SK100%)
