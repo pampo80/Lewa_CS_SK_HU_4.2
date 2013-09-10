@@ -153,3 +153,6 @@ LewaSecurity2.apk
 
 LewaSoundRecorder.apk
   strings.xml (CS100%, SK100%)
+
+LewaSystemClean.apk
+  strings.xml (CS92.13%, SK100%)
