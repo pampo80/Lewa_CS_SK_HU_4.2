@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Systémové čistenie</string>
+<string name="menu_settings">Nastavenia</string>
+<string name="title_activity_main">Hlavná činnosť</string>
+<string name="calculate_sdcard">Spočítať SD kartu</string>
+<string name="calculate_size">Počítam veľkosť...</string>
+<string name="clean_sdcard">Vyčistiť SD kartu</string>
+<string name="clean_sdcard_completed">Čistenie SD karty dokončené</string>
+<string name="clean_log_file_name">Log súbory</string>
+<string name="clean_app_sdcard_cache_name">Cache aplikácií na SD karte</string>
+<string name="clean_sdcard_cache_name">Súbory Cache</string>
+<string name="clean_sdcard_empty_file_name">Prázdny adresár</string>
+<string name="clean_sdcard_mtk_log_name">Logy MTK</string>
+<string name="clean_sdcard_thum_file_name">Náhľadové súbory</string>
+</resources>
