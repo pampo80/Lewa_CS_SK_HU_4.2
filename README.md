@@ -165,3 +165,6 @@ LewaUpdater.apk
 
 LewaWeather.apk
   strings.xml (CS100%, SK100%)
+
+LiveWallpapers.apk
+  strings.xml (CS100%, SK100%)
