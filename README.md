@@ -159,3 +159,6 @@ LewaSystemClean.apk
 
 LewaSystemCleanService.apk
   strings.xml (CS100%, SK100%)
+
+LewaUpdater.apk
+  strings.xml (CS84.89%, SK84.89%)
