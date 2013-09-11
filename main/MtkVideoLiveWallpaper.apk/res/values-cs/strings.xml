@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="wallpapers">MTK živé tapety</string>
+<string name="vlw">Video tapeta</string>
+<string name="vlw_author">MediaTek Inc.</string>
+<string name="vlw_desc">Nastavit video jako živou tapetu.</string>
+<string name="VideoScene_error_text_invalid_progressive_playback">Omlouváme se, toto video nelze streamovat.</string>
+<string name="VideoScene_error_text_unknown">Omlouváme se, toto video nelze přehrát.</string>
+<string name="VideoScene_error_media_removed">Soubor s médii odstraněn</string>
+<string name="VideoScene_error_sdcard_unmounted">SD karta je odpojena</string>
+<string name="VideoScene_info_wait_sdcard">Čekám na přípravu SD karty</string>
+<string name="VideoScene_error_media_not_found">Soubor s médii neexistuje</string>
+<string name="VideoScene_error_be_set">Omlováme se, video nemůže být nastavenou jako video tapeta</string>
+<string name="VideoEditor_error_title">Nemohu přehrát video</string>
+<string name="VideoEditor_error_button">OK</string>
+<string name="VideoEditor_error_no_video_selected">Video nebylo vybráno</string>
+<string name="VideoEditor_warning_limited_duration">Vyberte prosím alespoň 1s dlouhé video k přehrátí</string>
+<string name="VideoScene_reload_after_mount">Nahrávám video z SD karty, moment prosím</string>
+<string name="select_video">SD karta</string>
+<string name="select_default">Výchozí</string>
+<string name="select">Vybrat video</string>
+<string name="set_wallpaper">Nastavit tapetu</string>
+<string name="title">Video tapeta</string>
+<string name="default_title">Výchozí video</string>
+<string name="default_video_path">android.resource://com.mediatek.vlw/raw/default_video</string>
+<string name="default_video_title">MediaTek Inc.</string>
+<string name="capture_video">Kamera</string>
+<string name="menu_item_add_item">Vybrat video z SD karty</string>
+<string name="group_video">Vybrat video</string>
+<string name="group_folder">Vybrat složku</string>
+<string name="folder_info">video(s)&lt;br>from&lt;br></string>
+</resources>

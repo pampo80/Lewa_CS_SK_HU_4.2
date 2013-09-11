@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="wallpapers">MTK živé tapety</string>
+<string name="vlw">Video tapeta</string>
+<string name="vlw_author">MediaTek Inc.</string>
+<string name="vlw_desc">Nastaviť video ako žívú tapetu.</string>
+<string name="VideoScene_error_text_invalid_progressive_playback">Toto video nie je možné streamovať na tomto zariadení.</string>
+<string name="VideoScene_error_text_unknown">Toto video nie je možné prehrať.</string>
+<string name="VideoScene_error_media_removed">Multimediálny súbor odstránený</string>
+<string name="VideoScene_error_sdcard_unmounted">SD karta je odpojená</string>
+<string name="VideoScene_info_wait_sdcard">Čakám na SD kartu</string>
+<string name="VideoScene_error_media_not_found">Multimediálny súbor neexistuje</string>
+<string name="VideoScene_error_be_set">Video nemôže byť nastavené ako videotapeta</string>
+<string name="VideoEditor_error_title">Nemôžem prehrať video</string>
+<string name="VideoEditor_error_button">OK</string>
+<string name="VideoEditor_error_no_video_selected">Video nebolo vybrané</string>
+<string name="VideoEditor_warning_limited_duration">Vyberte aspon 1s dlhé video</string>
+<string name="VideoScene_reload_after_mount">Nahrávam video z SD karty, čakajte.</string>
+<string name="select_video">SD karta</string>
+<string name="select_default">Predvolené</string>
+<string name="select">Vybrať video</string>
+<string name="set_wallpaper">Nastaviť tapetu</string>
+<string name="title">Video tapeta</string>
+<string name="default_title">Predvolené video</string>
+<string name="default_video_path">android.resource://com.mediatek.vlw/raw/default_video</string>
+<string name="default_video_title">MediaTek Inc.</string>
+<string name="capture_video">Kamera</string>
+<string name="menu_item_add_item">Vybrať video z SD karty</string>
+<string name="group_video">Vybrať jedno video</string>
+<string name="group_folder">Vybrať priečinok</string>
+<string name="folder_info">video(s)&lt;br>from&lt;br></string>
+</resources>
