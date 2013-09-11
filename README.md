@@ -192,3 +192,6 @@ MtkBt.apk
 
 MtkVideoLiveWallpaper.apk
   strings.xml (CS100%, SK100%)
+
+NoiseField.apk
+  strings.xml (CS100%, SK100%)
