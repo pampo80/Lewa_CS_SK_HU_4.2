@@ -181,5 +181,8 @@ MagicSmokeWallpapers.apk
 MediaProvider.apk
   strings.xml (CS100%, SK100%)
 
+MmsFavoriteProvider.apk
+  strings.xml (CS100%, SK100%)
+
 MTKAndroidSuiteDaemon.apk
   strings.xml (CS100%, SK100%)
