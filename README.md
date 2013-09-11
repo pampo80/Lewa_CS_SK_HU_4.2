@@ -171,3 +171,6 @@ LiveWallpapers.apk
 
 LocationEM.apk
   strings.xml (CS none, SK100%)
+
+LocationProvider.apk
+  location.db (deleted locations (chinese))
