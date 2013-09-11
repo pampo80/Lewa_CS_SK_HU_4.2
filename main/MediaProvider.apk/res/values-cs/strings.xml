@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="Add_More_Ringtones">Více vyzvánění ...</string>
+<string name="ringtone_custom">Vlastní...</string>
+<string name="uid_label">Média</string>
+<string name="app_label">Úložiště médií</string>
+<string name="upgrade_msg">Aktualizace databáze médií.</string>
+<string name="artist_label">Interpret</string>
+</resources>
