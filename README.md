@@ -202,12 +202,15 @@ Omacp.apk
 OneTimeInitializer.apk
   strings.xml (CS100%, SK100%)
 
+PackageInstaller.apk
+  strings.xml (CS100%, SK100%)
+
+PhaseBeam.apk
+  strings.xml (CS100%, SK100%)
+
 PIM.apk
   strings.xml (CS99.52%, SK100%)
   arrays.xml (CS none, SK100%)
   plurals.xml (CS none, SK100%)
   ic_index_normal.png (all)
   ic_index_normal_white.png (all)
-
-PackageInstaller.apk
-  strings.xml (CS100%, SK100%)
