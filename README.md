@@ -208,3 +208,6 @@ PIM.apk
   plurals.xml (CS none, SK100%)
   ic_index_normal.png (all)
   ic_index_normal_white.png (all)
+
+PackageInstaller.apk
+  strings.xml (CS100%, SK100%)
