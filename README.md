@@ -229,3 +229,7 @@ Power+.apk
 QrcodeScanner.apk
   strings.xml (CS100%, SK100%)
   arrays.xml (CS none, SK100%)
+
+Search.apk
+  strings.xml (CS100%, SK100%)
+  search.png (CS100%, SK100%)
