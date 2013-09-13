@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fotografické spořiče obrazovky</string>
+    <string name="table_screensaver_name">Fotografická tabulka</string>
+    <string name="flipper_screensaver_name">Fotografický rámeček</string>
+    <string name="posts_album_name">Fotky z příspěvků</string>
+    <string name="uploads_album_name">Okamžité nahrávání</string>
+    <string name="unknown_album_name">Album bez názvu</string>
+    <string name="stock_photo_album_name">Fotky z fotobanky</string>
+    <string name="local_source_name">Fotky v zařízení</string>
+    <string name="need_to_configure">Nejsou vybrány žádné fotky.</string>
+</resources>
