@@ -225,3 +225,7 @@ PIM.apk
 
 Power+.apk
   strings.xml (CS100%, SK100%)
+
+QrcodeScanner.apk
+  strings.xml (CS100%, SK100%)
+  arrays.xml (CS none, SK100%)
