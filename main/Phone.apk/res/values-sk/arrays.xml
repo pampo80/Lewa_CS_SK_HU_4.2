@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string-array name="gemini_sim_roaming_reminder_entries">
         <item>Iba raz</item>
         <item>Vždy</item>
