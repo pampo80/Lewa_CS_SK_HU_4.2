@@ -247,3 +247,6 @@ Settings.apk
   
 SettingsProvider.apk
   strings.xml (CS100%, SK100%)
+
+SoundRecorder.apk
+  strings.xml (CS94%, SK100%)
