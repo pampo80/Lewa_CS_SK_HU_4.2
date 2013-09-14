@@ -233,3 +233,7 @@ QrcodeScanner.apk
 Search.apk
   strings.xml (CS100%, SK100%)
   search.png (CS100%, SK100%)
+
+Settings.apk
+  device_info_icon.png (all)
+  timezones.xml (CS100%, SK100%)
