@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="unknown_artist_name">Neznámy umelec</string>
+<string name="tell_save_record_success">Uložené</string>
+<string name="save_record">Uložiť</string>
+<string name="cancel">Zrušiť</string>
+<string name="recording_format_high">Vysoký</string>
+<string name="recording_format_mid">Stredný</string>
+<string name="recording_format_low">Nízky</string>
+<string name="three_mins_avail_total">Zostávajú celkovo 3 minúty</string>
+<string name="alert_delete_multiple">Tieto položky budú vymazané</string>
+<string name="alert_delete_single">Táto položka bude vymazaná</string>
+<string name="ok">OK</string>
+<string name="delete">Zmazať</string>
+<string name="deleting">Mazanie</string>
+<string name="no_recording_file">Žiadny súbor</string>
+<string name="recording_file_list">Zoznam nahrávok</string>
+<string name="recording_paused">Nahrávanie pozastavené</string>
+<string name="voice_quality">Kvalita zvuku</string>
+<string name="recording_mode">Mód nahrávania</string>
+<string name="recording_effect">Efekty nahrávania</string>
+<string name="select_voice_quality">Vyberte kvalitu zvuku</string>
+<string name="select_recording_mode">Vyberte mód nahrávania</string>
+<string name="select_recording_effect">Vyberte efekt nahrávania</string>
+<string name="recording_mode_nomal">Normálny</string>
+<string name="time_available" formatted="false">%d minút %ds dostupných</string>
+<string name="recording_mode_meeting">Stretnutie</string>
+<string name="recording_mode_lecture">Prednáška</string>
+<string name="sd_unmounted">SD karta je odpojená</string>
+<string name="storage_low">Vašemu predvolenému úložisku dochádza voľné miesto. Zastavte nahrávanie alebo vymažte položky z SD karty.</string>
+<string name="storage_full">Predvolená pamäť je plná.</string>
+<string name="sd_no">Prosím vložte SD kartu.</string>
+<string name="recording_fail">Chyba v nahrávaní.</string>
+<string name="recorder_occupied">Nahrávač je obsadený inou aplikáciou.</string>
+<string name="playing_fail">Chyba v prehrávaní</string>
+<string name="player_occupied">Prehrávač je obsadený inou aplikáciou.</string>
+<string name="recording_doc_deleted">Nahrávaný dokument bol vymazaný.</string>
+<string name="saving_fail">Chyba pri ukládání</string>
+<string name="deleting_fail">Chyba pri mazaní</string>
+<string name="accessing_db_fail">Chyba pri prístupe k základným dátam</string>
+<string name="recording_effect_AGC">Automatické zvýšenie hlasitosti</string>
+<string name="recording_effect_AEC">Zrušenie ozveny</string>
+<string name="recording_effect_NS">Potlačenie šumu</string>
+<string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
+<string name="app_name">Rekordér</string>
+<string name="recording">Nahrávanie</string>
+<string name="recording_stopped">Nahrávanie zastavené</string>
+<string name="storage_is_full">Úložisko je plné</string>
+<string name="max_length_reached">Bola dosiahnutá max. dĺžka</string>
+<string name="min_available">Zostáva %d minút</string>
+<string name="sec_available">zostáva %d sekúnd</string>
+<string name="accept">Hotovo</string>
+<string name="discard">Zrušiť</string>
+<string name="button_ok">OK</string>
+<string name="audio_db_album_name">Audio nahrávky</string>
+<string name="audio_db_playlist_name">Moje nahrávky</string>
+<string name="error_sdcard_access">"Nemôžem načítať SD kartu."</string>
+<string name="error_mediadb_new_record">"Nemôžem uložiť nahrávku."</string>
+<string name="insert_sd_card">Vložte SD kartu</string>
+<string name="record_your_message">Nahrajte vlastnú správu</string>
+<string name="message_recorded">Správa bola nahraná</string>
+<string name="review_message">Prehrať správu</string>
+<string name="timer_format" formatted="false">%02d:%02d</string>
+<string name="audio_db_artist_name">Vaše nahrávky</string>
+<string name="error_app_internal">Vnútorná chyba aplikácie.</string>
+</resources>
