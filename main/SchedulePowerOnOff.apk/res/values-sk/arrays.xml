@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Zapnutie je nastavené za menej ako 1 minútu od teraz.</item>
+        <item>Zapnutie je nastavené za %1$s od teraz.</item>
+        <item>Zapnutie je nastavené za %2$s od teraz.</item>
+        <item>Zapnutie je nastavené za %1$s a %2$s od teraz.</item>
+        <item>Zapnutie je nastavené za %3$s od teraz.</item>
+        <item>Zapnutie je nastavené za%1$s a %3$s od teraz.</item>
+        <item>Zapnutie je nastavené za %2$s a %3$s od teraz.</item>
+        <item>Zapnutie je nastavené za %1$s, %2$s, a %3$s od teraz.</item>
+        <item>Vypnutie je nastavené za menej ako 1 minútu od teraz.</item>
+        <item>Vypnutie je nastavené za %1$s od teraz.</item>
+        <item>Vypnutie je nastavené za %2$s od teraz.</item>
+        <item>Vypnutie je nastavené za %1$s a %2$s od teraz.</item>
+        <item>Vypnutie je nastavené za %3$s od teraz.</item>
+        <item>Vypnutie je nastavené za %1$s a %3$s od teraz.</item>
+        <item>Vypnutie je nastavené za %2$s a %3$s od teraz.</item>
+        <item>Vypnutie je nastavené za %1$s, %2$s, a %3$s od teraz.</item>
+    </string-array>
+</resources>

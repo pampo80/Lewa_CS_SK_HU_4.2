@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Zapnutí za méně než minutu .</item>
+        <item>Zapnutí za %1$s .</item>
+        <item>Zapnutí za %2$s .</item>
+        <item>Zapnutí za %1$s a za %2$s .</item>
+        <item>Zapnutí za %3$s .</item>
+        <item>Zapnutí za %1$s a za %3$s .</item>
+        <item>Zapnutí za %2$s a za %3$s .</item>
+        <item>Zapnutí za %1$s, za %2$s a za %3$s .</item>
+        <item>Vypnutí za méně než minutu .</item>
+        <item>Vypnutí za %1$s .</item>
+        <item>Vypnutí za %2$s .</item>
+        <item>Vypnutí za %1$s a za %2$s .</item>
+        <item>Vypnutí za %3$s .</item>
+        <item>Vypnutí za %1$s a za %3$s .</item>
+        <item>Vypnutí za %2$s a za %3$s .</item>
+        <item>Vypnutí za %1$s, za %2$s a za %3$s .</item>
+    </string-array>
+</resources>
