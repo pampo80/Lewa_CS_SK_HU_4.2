@@ -253,3 +253,6 @@ SoundRecorder.apk
 
 Stk1.apk
   strings.xml (CS100%, SK100%)
+
+StkSelection.apk
+  strings.xml (CS100%, SK100%)
