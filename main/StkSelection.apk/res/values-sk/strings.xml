@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<string name="app_name">Sada nástrojov SIM</string>
+<string name="activity_not_found">Aplikácia nie je nainštalovaná vo vašom telefóne</string>
+<string name="simlock_toolkit">Sada nástrojov SIM</string>
+<string name="no_sim_card_inserted">Vložte SIM kartu aby ste mohli spustiť SIM Toolkit.</string>
+<string name="airplane_mode_on">Počas letového módu nie je možné spustiť SIM Toolkit.</string>
+</resources>
