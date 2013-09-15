@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_quick_texts">
+        <item>Kde si?</item>
+        <item>Čo robíš?</item>
+        <item>Zavolaj! Je to dôležité.</item>
+        <item>Prepáč. Som nedostupný.</item>
+        <item>Budem dostupný neskôr.</item>
+        <item>Nemaj strach. Som v poriadku.</item>
+        <item>Idem domov.</item>
+        <item>O chvíľu prídem.</item>
+        <item>Teším sa na vás!</item>
+    </string-array>
+</resources>
