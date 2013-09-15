@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="video_app_name">Prehrávač vídeí</string>
+<string name="scanning">Skenovanie SD karty...</string>
+<string name="sdcard_missing_message">Vaš telefón nemá vloženú SD kartu.</string>
+<string name="video_list_empty">Žiadne videá.</string>
+<string name="detail_title">Názov: %1$s</string>
+<string name="detail_date_taken">Prijaté: %1$s</string>
+<string name="detail_path">Cesta: %1$s</string>
+<string name="detail_filesize">Veľkosť súboru: %1$s</string>
+<string name="detail_duration">Dĺžka: %1$s</string>
+<string name="media_detail">Detaily</string>
+<string name="delete">Vymazať</string>
+<string name="delete_tip">Vymazať %1$s?</string>
+<string name="delete_progress">Odstraňujem %1$s ...</string>
+</resources>
