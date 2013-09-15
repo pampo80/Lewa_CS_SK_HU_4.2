@@ -278,3 +278,6 @@ ThemeManager.apk
 Treasure.apk
   strings.xml (CS100%, SK100%)
   arrays.xml (CS none, SK100%)
+
+UserDictionaryProvider.apk
+  strings.xml (CS100%, SK100%)
