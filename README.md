@@ -284,3 +284,6 @@ UserDictionaryProvider.apk
 
 VideoFavorites.apk
   strings.xml (CS100%, SK100%)
+
+VideoPlayer.apk
+  strings.xml (CS100%, SK100%)
