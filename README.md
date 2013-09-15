@@ -271,3 +271,6 @@ ThemeChooser.apk
   ic_theme_downloaded.png (CS none, SK100%)
   ic_theme_downloading.png (CS none, SK100%)
   ic_theme_update.png (CS none, SK100%)
+
+ThemeManager.apk
+  strings.xml (CS100%, SK100%)
