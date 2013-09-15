@@ -264,3 +264,10 @@ SystemUI.apk
 TelephonyProvider.apk
   strings.xml (CS100%, SK100%)
   arrays.xml (CS none, SK100%)
+
+ThemeChooser.apk
+  strings.xml (CS98.36%, SK100%)
+  ic_theme_using.png (CS none, SK100%)
+  ic_theme_downloaded.png (CS none, SK100%)
+  ic_theme_downloading.png (CS none, SK100%)
+  ic_theme_update.png (CS none, SK100%)
