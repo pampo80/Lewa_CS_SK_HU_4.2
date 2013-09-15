@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Kopání pokladu</string>
+<string name="gold_prompt_text_one">"Pro otevření truhly je nutné zaplatit "</string>
+<string name="gold_prompt_text_three">" zlaťáků."</string>
+<string name="gold_open">Otevřít</string>
+<string name="gold_cancle">Zrušit</string>
+<string name="gold_counts">Mé zlaťáky:</string>
+<string name="open_chest_goldnot">K otevření truhly nemáte dostatek zlaťáků!</string>
+<string name="slot_title">Zlatý automat se zatřese a dá Ti příležitost vyhrát! Klikni na červené táhlo.</string>
+<string name="net_error">Chyba sítě. Zkuste to prosím znovu, případně zkontrolujte nastavení sítě.</string>
+<string name="application_error">Aplikace potřebuje přístup k internetu</string>
+<string name="net_not">Selhání sítě</string>
+<string name="seq_geting">Sběr dat, prosím čekejte...</string>
+<string name="ready_download">Připraveno ke stažení</string>
+<string name="get_chest">Otvírám truhlu, prosím čekejte...</string>
+<string name="slot_str">Gratulujeme, dostanete</string>
+<string name="gold">zlaťáků</string>
+<string name="slot_finish">Zavřít</string>
+<string name="longclick_title">Podnět</string>
+<string name="webview_loading">Stránka se nahrává, prosím čekejte...</string>
+<string name="sd_error">Chyba paměťové karty</string>
+</resources>

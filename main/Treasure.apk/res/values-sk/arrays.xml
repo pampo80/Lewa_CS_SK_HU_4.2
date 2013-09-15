@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string-array name="image_long_click_event">
+        <item>Uložiť obrázok</item>
+    </string-array>
+    <string-array name="seq_not">
+        <item>Číslo mimo, zvyšok o chvíľu.</item>
+        <item>"Nebojte sa, ihneď kopať."</item>
+        <item>Počkajte chvíľu, číslo z hromady.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<string name="app_name">Kopanie pokladu</string>
+<string name="gold_prompt_text_one">"Pre otevorenie truhly je potrebné zaplatiť "</string>
+<string name="gold_prompt_text_three">"zlatiek."</string>
+<string name="gold_open">Otvoriť</string>
+<string name="gold_cancle">Zrušiť</string>
+<string name="gold_counts">Moje zlatky:</string>
+<string name="open_chest_goldnot">Na otvorenie truhly nemáte dostatok zlatiek!</string>
+<string name="slot_title">Zlatý automat sa zatrasie a dá Ti šancu vyhrať! Klikni na červené tiahlo.</string>
+<string name="net_error">Chyba siete. Skúste to prosím znovu, prípadne skontrolujte nastavenie siete.</string>
+<string name="application_error">Aplikácia potrebuje prístup k internetu</string>
+<string name="net_not">Zlyhanie siete</string>
+<string name="seq_geting">Zber dát, prosím čakajte...</string>
+<string name="ready_download">Pripravené na sťahovanie</string>
+<string name="get_chest">Otváram truhlu, prosím čakajte...</string>
+<string name="slot_str">Gratulujeme, dostanete</string>
+<string name="gold">zlatiek</string>
+<string name="slot_finish">Zatvoriť</string>
+<string name="longclick_title">Upresnenie</string>
+<string name="webview_loading">Stánka sa nahráva, čakajte...</string>
+<string name="sd_error">Chyba pamäťovej karty</string>
+</resources>
