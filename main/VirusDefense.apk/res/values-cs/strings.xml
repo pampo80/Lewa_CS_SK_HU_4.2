@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="virus_defense_title">AntiVirus</string>
+<string name="viruskill_title">Antivirová ochrana</string>
+<string name="viruskill_log_title">Log antiviru</string>
+<string name="permession_manage_title">Kontrola přístupu</string>
+<string name="check_database_update">Kontrola aktualizací</string>
+<string name="delete">Odstranit</string>
+<string name="install_monitor">Instalovat monitor</string>
+<string name="timer_scan">Plánovaná kontrola</string>
+<string name="omission">Plánuje se</string>
+<string name="logo_engine">Antivirus Engine of Tencent Mobile Manager</string>
+<string name="logo_notice">Powered by Tencent Mobile Manager</string>
+<string name="select">vybrané</string>
+<string name="first_use1">Váš telefon nebyl zkontrolován</string>
+<string name="first_use2">Prosím, zkontrolujte nyní</string>
+<string name="state_normal">Pravidelnou kontrolou telefonu eliminujete bezpečnostní rizika</string>
+<string name="need_to_kill1">Váš telefon nebyl zkontrolován %s dní</string>
+<string name="need_to_kill2">Prosím, zkontrolujte nyní</string>
+<string name="is_cancel1">Doporučujeme vám znovu zkontrolovat</string>
+<string name="is_cancel2">Kontrola zrušena, nelze posoudit bezpečnost telefonu</string>
+<string name="scanner_title">Kontrola telefonu</string>
+<string name="init_scan">0%</string>
+<string name="gap_notice">Zaposledy zkontrolováno před %s</string>
+<string name="gap_error_notice">Datum poslední kontroly: %s</string>
+<string name="scan_just_now">Právě proběhla kontrola</string>
+<string name="defense_monitor_open">Monitor byl otevřen</string>
+<string name="defense_monitor_close1">Části monitoru nelze otevřít</string>
+<string name="defense_monitor_close2">Vypnuto zabezpečení</string>
+<string name="scan_counts">Zkontrolováno:</string>
+<string name="scan_time">Čas:</string>
+<string name="viruse_counts">Virus:</string>
+<string name="caution_counts">Pozor:</string>
+<string name="scan_continue">Pokračovat v kontrole</string>
+<string name="scan_cancel">Přerušit kontrolou</string>
+<string name="scan_pause">Pozastavit kontrolu</string>
+<string name="scan_pause_log">Kontrola je již pozastavena</string>
+<string name="scan_finish">Hotovo</string>
+<string name="clear_now">Vyčistit nyní</string>
+<string name="scan_warm_tips">Oznámení</string>
+<string name="scan_dialog_content">Antivirová kontrola nebyla dokončena, opravdu přerušit?</string>
+<string name="scan_of_clound">Ukončit cloud</string>
+<string name="scan_state_safe">Kontrola dokončena, váš telefon je bezpečný</string>
+<string name="scan_state_risk">Nebezpečné, včas proskenovat.</string>
+<string name="scan_state_cloud_fail">Kontrola dokončena, ale cloud nebyl zkontrolován!</string>
+<string name="scan_result_Congratulate">Gratuluji</string>
+<string name="scan_result_tips">V telefonu nejsou žádné viry.</string>
+<string name="scan_result_suggestion">Tip: Odstranit</string>
+<string name="scan_result_suggestion_del">Tip: Smazat</string>
+<string name="scan_virus_soft">Virus</string>
+<string name="scan_caution_soft">Bezpečnostní riziko</string>
+<string name="defense_notification">Upomínka antiviru</string>
+<string name="defense_risk_notification">Tato aplikace je riziková</string>
+<string name="defense_virus_notification">Tato aplikace obsahuje virus</string>
+<string name="defense_safe_notification">Tato aplikace je bezpečná</string>
+<string name="scan_interrupt">Zastavit kontrolu</string>
+<string name="scan_interrupt_notifiction1">Kontrola zastavena</string>
+<string name="scan_interrupt_notifiction2">Doporučujeme znovu telefon proskenovat</string>
+<string name="already_clear">Rizika byla odstraněna.</string>
+<string name="scan_state_start">Kontroluji ...</string>
+<string name="scan_state_cloud">Kontrola cloudu</string>
+<string name="scan_state_end">Skenování dokončeno</string>
+<string name="scan_schedule_notice">Oznámení kontroly</string>
+<string name="scan_schedule_notice_summary">Spustit antivirovou kontrolu?</string>
+<string name="delete_notice">Smazat tento soubor?</string>
+<string name="cloud_scan_error">Nelze zkontrolovat cloud !!!</string>
+<string name="scan_init">Spouštím kontrolu ...</string>
+<string name="scan_pause_init">Pozastavuji kontrolu ...</string>
+<string name="update_title">Aktualizace virových definic</string>
+<string name="update_auto">Automatická aktualizace</string>
+<string name="update_toast">Vyhledávám aktualizace ...</string>
+<string name="update_wait">Aktualizuji virovou knihovnu ...</string>
+<string name="network_error">Chyba sítě </string>
+<string name="connect_error">Zkontrolujte nastavení sítě</string>
+<string name="update_tone">Pozor!</string>
+<string name="update_note_version">Virové definice %s jsou zastaralé!</string>
+<string name="update_notice">Aktualizujte prosím na nejnovější verzi:</string>
+<string name="update_note_size">Velikost aktualizace: %s</string>
+<string name="update_note_already_latest">Již máte poslední virové definice</string>
+<string name="update_note_known">Hotovo</string>
+<string name="update_tips">K odstranění i nejnovějších hrozeb je třeba udržovat virové definice aktualizované.</string>
+<string name="unupdate_tips">Nemáte dlouho aktualizovanou virovou knihovnu. Doporučujeme ji aktualizovat.</string>
+<string name="update_version">Verze:%s</string>
+<string name="log_list_empty">Žádné předchozí kontroly</string>
+<string name="log_virus_counts">Vir:%s</string>
+<string name="log_caution_counts">Podezřelé:: %s</string>
+<string name="log_clear_counts">Vyčištěno: %s</string>
+<string name="log_unhandle_counts">Neléčeno: %s</string>
+<string name="log_clear_all">Smazat</string>
+<string name="log_if_clear_all">Skutečně smazat %s nalezených?</string>
+<string name="menu_actionbar_selected_items">%s vybráno</string>
+<string name="setting">Nastavení kontrol</string>
+<string name="setting_install_monitor">Nastavení monitoru</string>
+<string name="setting_unknown_costs">Kontrolovat podezřelé chování</string>
+<string name="setting_unknown_costs_summary">Kontrola podezřelého chování aplikace může být zpoplatněna</string>
+<string name="setting_defense">Nastavení kontroly</string>
+<string name="setting_scan_of_clound">Kontrola cloudu</string>
+<string name="setting_cloud_kill_summary">Provést opětovnou konrolu cloudu s nejnovější virovou definicí</string>
+<string name="setting_timer_scan_summary">Naplánovat antivirovou kontrolu</string>
+<string name="setting_time">Čas</string>
+<string name="setting_defense_schedule">Plán kontrol</string>
+<string name="setting_everyday">každý den</string>
+<string name="setting_everyweek">každý týden</string>
+<string name="setting_defense_schedule_date">Naplánované datum</string>
+<string name="setting_update">Nastavení aktualizace</string>
+<string name="setting_auto_update">Automatická aktualizace</string>
+<string name="setting_data_update">Aktualizovat virovou knihovnu</string>
+<string name="setting_auto_update_summary">Online aktualizace virové knihovny</string>
+<string name="setting_install_monitor_summary">Po nainstalování spustit kontrolu</string>
+<string name="last_one_notice">Prosím vyberte nejméně jeden den</string>
+<string name="minute">minuta</string>
+<string name="second">sekunda</string>
+<string name="monday">Pondělí</string>
+<string name="tuesday">Úterý</string>
+<string name="wednesday">Středa</string>
+<string name="thursday">Čtvrtek</string>
+<string name="friday">Pátek</string>
+<string name="saturday">Sobota</string>
+<string name="sunday">Neděle</string>
+<string name="sure">Potvrdit</string>
+<string name="cancel">Storno</string>
+<string name="every_day">Každý den</string>
+<string name="never">Nikdy</string>
+<string name="day_concat">", "</string>
+<string name="days">dny</string>
+<string name="hours">hodiny</string>
+<string name="minutes">minuty</string>
+<item type="string" name="APKTOOL_DUMMY_007d">false</item>
+<item type="string" name="APKTOOL_DUMMY_007e">false</item>
+<item type="string" name="APKTOOL_DUMMY_007f">false</item>
+<item type="string" name="APKTOOL_DUMMY_0080">false</item>
+<item type="string" name="APKTOOL_DUMMY_0081">false</item>
+<item type="string" name="APKTOOL_DUMMY_0082">false</item>
+<item type="string" name="APKTOOL_DUMMY_0083">false</item>
+<item type="string" name="APKTOOL_DUMMY_0084">false</item>
+<item type="string" name="APKTOOL_DUMMY_0085">false</item>
+<item type="string" name="APKTOOL_DUMMY_0086">false</item>
+<item type="string" name="APKTOOL_DUMMY_0087">false</item>
+<item type="string" name="APKTOOL_DUMMY_0088">false</item>
+<item type="string" name="APKTOOL_DUMMY_0089">false</item>
+<item type="string" name="APKTOOL_DUMMY_008a">false</item>
+<item type="string" name="APKTOOL_DUMMY_008b">false</item>
+<item type="string" name="APKTOOL_DUMMY_008c">false</item>
+<item type="string" name="APKTOOL_DUMMY_008d">false</item>
+<item type="string" name="APKTOOL_DUMMY_008e">false</item>
+<item type="string" name="APKTOOL_DUMMY_008f">false</item>
+<item type="string" name="APKTOOL_DUMMY_0090">false</item>
+<item type="string" name="APKTOOL_DUMMY_0091">false</item>
+<item type="string" name="APKTOOL_DUMMY_0092">false</item>
+<item type="string" name="APKTOOL_DUMMY_0093">false</item>
+<item type="string" name="APKTOOL_DUMMY_0094">false</item>
+<item type="string" name="APKTOOL_DUMMY_0095">false</item>
+<item type="string" name="APKTOOL_DUMMY_0096">false</item>
+<item type="string" name="APKTOOL_DUMMY_0097">false</item>
+<item type="string" name="APKTOOL_DUMMY_0098">false</item>
+<item type="string" name="APKTOOL_DUMMY_0099">false</item>
+<item type="string" name="APKTOOL_DUMMY_009a">false</item>
+<item type="string" name="APKTOOL_DUMMY_009b">false</item>
+<item type="string" name="APKTOOL_DUMMY_009c">false</item>
+<item type="string" name="APKTOOL_DUMMY_009d">false</item>
+<item type="string" name="APKTOOL_DUMMY_009e">false</item>
+<item type="string" name="APKTOOL_DUMMY_009f">false</item>
+<item type="string" name="APKTOOL_DUMMY_00a0">false</item>
+<item type="string" name="APKTOOL_DUMMY_00a1">false</item>
+<item type="string" name="APKTOOL_DUMMY_00a2">false</item>
+<item type="string" name="APKTOOL_DUMMY_00a3">false</item>
+<item type="string" name="APKTOOL_DUMMY_00a4">false</item>
+<item type="string" name="APKTOOL_DUMMY_00a5">false</item>
+<item type="string" name="APKTOOL_DUMMY_00a6">false</item>
+<item type="string" name="APKTOOL_DUMMY_00a7">false</item>
+<item type="string" name="APKTOOL_DUMMY_00a8">false</item>
+<item type="string" name="APKTOOL_DUMMY_00a9">false</item>
+<item type="string" name="APKTOOL_DUMMY_00aa">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ab">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ac">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ad">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ae">false</item>
+<item type="string" name="APKTOOL_DUMMY_00af">false</item>
+<item type="string" name="APKTOOL_DUMMY_00b0">false</item>
+<item type="string" name="APKTOOL_DUMMY_00b1">false</item>
+<item type="string" name="APKTOOL_DUMMY_00b2">false</item>
+<item type="string" name="APKTOOL_DUMMY_00b3">false</item>
+<item type="string" name="APKTOOL_DUMMY_00b4">false</item>
+<item type="string" name="APKTOOL_DUMMY_00b5">false</item>
+<item type="string" name="APKTOOL_DUMMY_00b6">false</item>
+<item type="string" name="APKTOOL_DUMMY_00b7">false</item>
+<item type="string" name="APKTOOL_DUMMY_00b8">false</item>
+<item type="string" name="APKTOOL_DUMMY_00b9">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ba">false</item>
+<item type="string" name="APKTOOL_DUMMY_00bb">false</item>
+<item type="string" name="APKTOOL_DUMMY_00bc">false</item>
+<item type="string" name="APKTOOL_DUMMY_00bd">false</item>
+<item type="string" name="APKTOOL_DUMMY_00be">false</item>
+<item type="string" name="APKTOOL_DUMMY_00bf">false</item>
+<item type="string" name="APKTOOL_DUMMY_00c0">false</item>
+<item type="string" name="APKTOOL_DUMMY_00c1">false</item>
+<item type="string" name="APKTOOL_DUMMY_00c2">false</item>
+<item type="string" name="APKTOOL_DUMMY_00c3">false</item>
+<item type="string" name="APKTOOL_DUMMY_00c4">false</item>
+<item type="string" name="APKTOOL_DUMMY_00c5">false</item>
+<item type="string" name="APKTOOL_DUMMY_00c6">false</item>
+<item type="string" name="APKTOOL_DUMMY_00c7">false</item>
+<item type="string" name="APKTOOL_DUMMY_00c8">false</item>
+<item type="string" name="APKTOOL_DUMMY_00c9">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ca">false</item>
+<item type="string" name="APKTOOL_DUMMY_00cb">false</item>
+<item type="string" name="APKTOOL_DUMMY_00cc">false</item>
+<item type="string" name="APKTOOL_DUMMY_00cd">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ce">false</item>
+<item type="string" name="APKTOOL_DUMMY_00cf">false</item>
+<item type="string" name="APKTOOL_DUMMY_00d0">false</item>
+<item type="string" name="APKTOOL_DUMMY_00d1">false</item>
+<item type="string" name="APKTOOL_DUMMY_00d2">false</item>
+<item type="string" name="APKTOOL_DUMMY_00d3">false</item>
+<item type="string" name="APKTOOL_DUMMY_00d4">false</item>
+<item type="string" name="APKTOOL_DUMMY_00d5">false</item>
+<item type="string" name="APKTOOL_DUMMY_00d6">false</item>
+<item type="string" name="APKTOOL_DUMMY_00d7">false</item>
+<item type="string" name="APKTOOL_DUMMY_00d8">false</item>
+<item type="string" name="APKTOOL_DUMMY_00d9">false</item>
+<item type="string" name="APKTOOL_DUMMY_00da">false</item>
+<item type="string" name="APKTOOL_DUMMY_00db">false</item>
+<item type="string" name="APKTOOL_DUMMY_00dc">false</item>
+<item type="string" name="APKTOOL_DUMMY_00dd">false</item>
+<item type="string" name="APKTOOL_DUMMY_00de">false</item>
+<item type="string" name="APKTOOL_DUMMY_00df">false</item>
+<item type="string" name="APKTOOL_DUMMY_00e0">false</item>
+<item type="string" name="APKTOOL_DUMMY_00e1">false</item>
+<item type="string" name="APKTOOL_DUMMY_00e2">false</item>
+<item type="string" name="APKTOOL_DUMMY_00e3">false</item>
+<item type="string" name="APKTOOL_DUMMY_00e4">false</item>
+<item type="string" name="APKTOOL_DUMMY_00e5">false</item>
+<item type="string" name="APKTOOL_DUMMY_00e6">false</item>
+<item type="string" name="APKTOOL_DUMMY_00e7">false</item>
+<item type="string" name="APKTOOL_DUMMY_00e8">false</item>
+<item type="string" name="APKTOOL_DUMMY_00e9">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ea">false</item>
+<item type="string" name="APKTOOL_DUMMY_00eb">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ec">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ed">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ee">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ef">false</item>
+<item type="string" name="APKTOOL_DUMMY_00f0">false</item>
+<item type="string" name="APKTOOL_DUMMY_00f1">false</item>
+<item type="string" name="APKTOOL_DUMMY_00f2">false</item>
+<item type="string" name="APKTOOL_DUMMY_00f3">false</item>
+<item type="string" name="APKTOOL_DUMMY_00f4">false</item>
+<item type="string" name="APKTOOL_DUMMY_00f5">false</item>
+<item type="string" name="APKTOOL_DUMMY_00f6">false</item>
+<item type="string" name="APKTOOL_DUMMY_00f7">false</item>
+<item type="string" name="APKTOOL_DUMMY_00f8">false</item>
+<item type="string" name="APKTOOL_DUMMY_00f9">false</item>
+<item type="string" name="APKTOOL_DUMMY_00fa">false</item>
+<item type="string" name="APKTOOL_DUMMY_00fb">false</item>
+<item type="string" name="APKTOOL_DUMMY_00fc">false</item>
+<item type="string" name="APKTOOL_DUMMY_00fd">false</item>
+<item type="string" name="APKTOOL_DUMMY_00fe">false</item>
+<item type="string" name="APKTOOL_DUMMY_00ff">false</item>
+<item type="string" name="APKTOOL_DUMMY_0100">false</item>
+<item type="string" name="APKTOOL_DUMMY_0101">false</item>
+<item type="string" name="APKTOOL_DUMMY_0102">false</item>
+<item type="string" name="APKTOOL_DUMMY_0103">false</item>
+<item type="string" name="APKTOOL_DUMMY_0104">false</item>
+<item type="string" name="APKTOOL_DUMMY_0105">false</item>
+<item type="string" name="APKTOOL_DUMMY_0106">false</item>
+<item type="string" name="APKTOOL_DUMMY_0107">false</item>
+<item type="string" name="APKTOOL_DUMMY_0108">false</item>
+<item type="string" name="APKTOOL_DUMMY_0109">false</item>
+<item type="string" name="APKTOOL_DUMMY_010a">false</item>
+<item type="string" name="APKTOOL_DUMMY_010b">false</item>
+<item type="string" name="APKTOOL_DUMMY_010c">false</item>
+<item type="string" name="APKTOOL_DUMMY_010d">false</item>
+<item type="string" name="APKTOOL_DUMMY_010e">false</item>
+<item type="string" name="APKTOOL_DUMMY_010f">false</item>
+</resources>
