@@ -296,3 +296,6 @@ VisualizationWallpapers.apk
 
 VpnDialogs.apk
   strings.xml (CS100%, SK100%)
+
+YGPS.apk
+  strings.xml (CS none, SK100%)
