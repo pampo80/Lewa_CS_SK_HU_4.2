@@ -290,3 +290,6 @@ VideoPlayer.apk
 
 VirusDefense.apk
   strings.xml (CS100%, SK100%)
+
+VisualizationWallpapers.apk
+  strings.xml (CS100%, SK100%)
