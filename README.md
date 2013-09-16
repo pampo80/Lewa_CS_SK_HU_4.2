@@ -293,3 +293,6 @@ VirusDefense.apk
 
 VisualizationWallpapers.apk
   strings.xml (CS100%, SK100%)
+
+VpnDialogs.apk
+  strings.xml (CS100%, SK100%)
