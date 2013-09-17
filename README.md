@@ -299,3 +299,13 @@ VpnDialogs.apk
 
 YGPS.apk
   strings.xml (CS none, SK100%)
+
+** FRAMEWORKS **
+
+framework-res.apk
+  strings.xml (CS 95%, SK100%)
+  arrays.xml (CS 100%, SK100%)
+  plurals.xml (CS 100%, SK100%)
+  incognito_mode_start_page.html (CS 100%, SK100%)
+  loaderror.html (CS 100%, SK100%)
+  nodomain.html (CS 100%, SK100%)
