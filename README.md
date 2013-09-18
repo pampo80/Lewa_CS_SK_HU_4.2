@@ -310,6 +310,10 @@ framework-res.apk
   loaderror.html (CS 100%, SK100%)
   nodomain.html (CS 100%, SK100%)
 
+lewa-res.apk (!recompile separately)
+  strings.xml (CS100%, SK100%)
+  arrays.xml (CS100%, SK100%)
+
 mediatek-res.apk
   strings.xml (CS90%, SK100%)
   arrays.xml (CS100%, SK100%)
