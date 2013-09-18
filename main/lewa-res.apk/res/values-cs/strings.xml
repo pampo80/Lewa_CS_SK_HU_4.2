@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<string name="selectNone">Zrušit</string>
+<string name="config_longPressOnMenuAction">android.intent.action.ASSIST</string>
+<string name="reboot_system">Restartovat telefon</string>
+<string name="global_action_screenshot">Snímek obrazovky</string>
+<string name="global_action_toggle_silent_mode">Tichý režim</string>
+<string name="global_action_screenshot_status">Pro snímek obrazovky stiskněte najednou tlačítka Power a Volume Down</string>
+<string name="reboot_reboot">Restartovat</string>
+<string name="reboot_recovery">Recovery</string>
+<string name="reboot_bootloader">Bootloader</string>
+<string name="reboot_bootmenu">Bootmenu</string>
+<string name="reboot_fastboot">Fastboot</string>
+<string name="reboot_download">Stáhnout</string>
+<string name="reboot_progress">Restartuji…</string>
+<string name="reboot_confirm">Telefon bude restartován.</string>
+<string name="global_action_reboot">Restartovat</string>
+<string name="lockscreen_discharging">Baterie (%d%%)</string>
+<string name="progress_scanning">Kontroluji</string>
+<string name="phone_goggles_problem_count">Problém #%1$d:</string>
+<string name="phone_goggles_description">Vyřešit následující matematický příklad %1$d za méně než %2$d vteřin pro uskutečnění komunikace.</string>
+<string name="permlab_revokePermissions">Umožňuje prohlížet a upravovat odebraná oprávnění. Není určeno pro běžné aplikace.</string>
+<string name="permdesc_revokePermissions">Umožňuje číst a zapisovat odebraná oprávnění. Není určeno pro běžně aplikace.</string>
+<string name="app_killed_message">Aplikace ukončená</string>
+<string name="back_killed_message">Ukončeno</string>
+<string name="lock_screen_miss_call">%1$d zmeškané volání</string>
+<string name="lock_screen_new_msg">%1$d nové zprávy</string>
+<string name="lock_screen_miss_calls">Zmeškaná volání: %1$d</string>
+<string name="lock_screen_new_msgs">Nové zprávy: %1$d</string>
+<string name="lock_screen_drag_down">Tažením dolů odemknout</string>
+<string name="lock_screen_drag_here">Tažením sem odemknout</string>
+<string name="lock_screen_dismiss">Zamítnout</string>
+<string name="lock_screen_snooze">Podřimovat</string>
+<string name="lock_screen_pm">odp.</string>
+<string name="lock_screen_am">dop.</string>
+<string name="fixed_line">Pevná linka</string>
+<string name="ringtone_custom">Vlastní...</string>
+<string name="ringtone_silent_summary">Tichý</string>
+<string name="data_usage_warning_body">Pozor, jen %s zbývá do konce vašeho datového balíčku.</string>
+</resources>

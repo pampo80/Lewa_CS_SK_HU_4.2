@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<string name="selectNone">Zrušiť</string>
+<string name="config_longPressOnMenuAction">android.intent.action.ASSIST</string>
+<string name="reboot_system">Reštartovať telefón</string>
+<string name="global_action_screenshot">Snímok obrazovky</string>
+<string name="global_action_toggle_silent_mode">Tichý režim</string>
+<string name="global_action_screenshot_status">Súčasným stlačením tlačítok Power a Volume- vytvoríte snímok obrazovky</string>
+<string name="reboot_reboot">Reštartovať</string>
+<string name="reboot_recovery">Reštartovať do Recovery</string>
+<string name="reboot_bootloader">Bootloader</string>
+<string name="reboot_bootmenu">Bootmenu</string>
+<string name="reboot_fastboot">Fastboot</string>
+<string name="reboot_download">Stiahnuť</string>
+<string name="reboot_progress">Reštartujem…</string>
+<string name="reboot_confirm">Telefón sa reštartuje.</string>
+<string name="global_action_reboot">Reštartovať</string>
+<string name="lockscreen_discharging">Batéria (%d%%)</string>
+<string name="progress_scanning">Kontrolujem</string>
+<string name="phone_goggles_problem_count">Problém #%1$d:</string>
+<string name="phone_goggles_description">Riešiť %1$d nasledovných matematických problémov za menej ako %2$d sekúnd na vylepšenie komunikácie.</string>
+<string name="permlab_revokePermissions">Umožňuje prezerať a upravovať zrušené oprávnenia. Nie je určené pre bežné aplikácie.</string>
+<string name="permdesc_revokePermissions">Umožňuje prezerať a zapisovať zrušené oprávnenia. Nie je určené pre bežné aplikácie.</string>
+<string name="app_killed_message">Aplikácia ukončená</string>
+<string name="back_killed_message">Ukončená</string>
+<string name="lock_screen_miss_call">%1$d zmeškaných hovorov</string>
+<string name="lock_screen_new_msg">%1$d nová správa</string>
+<string name="lock_screen_miss_calls">Zmeškaných hovorov: %1$d</string>
+<string name="lock_screen_new_msgs">Nových správ: %1$d</string>
+<string name="lock_screen_drag_down">Potiahnutím dolu odomknite</string>
+<string name="lock_screen_drag_here">Potiahnutím sem odomknite</string>
+<string name="lock_screen_dismiss">Zamietnuť</string>
+<string name="lock_screen_snooze">Uspať</string>
+<string name="lock_screen_pm">PM</string>
+<string name="lock_screen_am">AM</string>
+<string name="fixed_line">Pevná linka</string>
+<string name="ringtone_custom">Vlastný...</string>
+<string name="ringtone_silent_summary">Tichý</string>
+<string name="data_usage_warning_body">Pozor, do konca dátového balíčku vášho operátora zostáva len %s.</string>
+</resources>

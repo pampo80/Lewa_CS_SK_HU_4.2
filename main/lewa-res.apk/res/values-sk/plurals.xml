@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_goggles_countdown">
+        <item quantity="other">%d ostáva sekúnd</item>
+        <item quantity="one">%d ostáva sekunda</item>
+    </plurals>
+</resources>
