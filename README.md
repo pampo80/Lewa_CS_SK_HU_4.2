@@ -309,3 +309,7 @@ framework-res.apk
   incognito_mode_start_page.html (CS 100%, SK100%)
   loaderror.html (CS 100%, SK100%)
   nodomain.html (CS 100%, SK100%)
+
+mediatek-res.apk
+  strings.xml (CS90%, SK100%)
+  arrays.xml (CS100%, SK100%)
