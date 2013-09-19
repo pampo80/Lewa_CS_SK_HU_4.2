@@ -14,7 +14,10 @@ BackupRestoreConfirmation.apk
 
 BasicDreams.apk
   strings.xml (CS100%, SK100%)
-  
+
+BatteryWarning.apk
+  strings.xml (CS100%, SK100%)
+
 CalendarImporter.apk
   strings.xml (CS100%, SK100%)
 
