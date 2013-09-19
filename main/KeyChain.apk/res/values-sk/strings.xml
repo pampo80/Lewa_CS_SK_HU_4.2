@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<string name="app_name">Kľúčenka</string>
+<string name="title_no_certs">Nenájdené certifikáty</string>
+<string name="title_select_cert">Výber certifikátu</string>
+<string name="requesting_application">Aplikácia %s vyžaduje certifikát. Výberom certifikátu overíte identitu so serverom teraz aj v budúcnosti.</string>
+<string name="requesting_server">Aplikácia identifikovala požadovaný server ako %s, ale mali by ste dať aplikácií prístup k certifikátu, pokiaľ dôverujete aplikácií.</string>
+<string name="install_new_cert_message">Môžete inštalovať certifikáty zo súboru PKCS#12 s príponou %1$s alebo %2$s umiestnenom na externom úložisku.</string>
+<string name="install_new_cert_button_label">Inštalovať</string>
+<string name="allow_button">Povoliť</string>
+<string name="deny_button">Zamietnúť</string>
+</resources>
