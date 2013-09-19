@@ -304,6 +304,10 @@ VirusDefense.apk
 VisualizationWallpapers.apk
   strings.xml (CS100%, SK100%)
 
+VoiceUnlock.apk
+  strings.xml (CS none, SK100%)
+  arrays.xml (CS none, SK100%)
+
 VpnDialogs.apk
   strings.xml (CS100%, SK100%)
 
@@ -313,12 +317,12 @@ YGPS.apk
 ** FRAMEWORKS **
 
 framework-res.apk
-  strings.xml (CS 95%, SK100%)
-  arrays.xml (CS 100%, SK100%)
-  plurals.xml (CS 100%, SK100%)
-  incognito_mode_start_page.html (CS 100%, SK100%)
-  loaderror.html (CS 100%, SK100%)
-  nodomain.html (CS 100%, SK100%)
+  strings.xml (CS95%, SK100%)
+  arrays.xml (CS100%, SK100%)
+  plurals.xml (CS100%, SK100%)
+  incognito_mode_start_page.html (CS100%, SK100%)
+  loaderror.html (CS100%, SK100%)
+  nodomain.html (CS100%, SK100%)
 
 lewa-res.apk (!recompile separately)
   strings.xml (CS100%, SK100%)
