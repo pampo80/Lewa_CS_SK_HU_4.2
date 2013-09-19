@@ -97,6 +97,9 @@ Intercept.apk
 LabiSync.apk
   strings.xml (CS100%, SK100%)
 
+LatinIME.apk
+  strings.xml (CS built in, SK100%)
+
 LatinImeDictionaryPack.apk
   strings.xml (CS built in, SK100%)
   
