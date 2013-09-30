@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_op02_text_encoding_choices">
+        <item>Automatická detekcia</item>
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Unicode (UTF-16)</item>
+        <item>Čínsky (GB2312)</item>
+        <item>Čínsky (GBK)</item>
+        <item>Čínsky (Big5)</item>
+        <item>Japonsky (ISO-2022-JP)</item>
+        <item>Japonsky (SHIFT_JIS)</item>
+        <item>Japonsky (EUC-JP)</item>
+        <item>Kórejsky (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_op02_text_encoding_values">
+        <item>auto-detector</item>
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>UTF-16</item>
+        <item>GB2312</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+        <item>EUC-KR</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_site_navigation">
+        <item>Aktuálna stránka</item>
+        <item>Prázdna stránka</item>
+        <item>Predvolená stránska</item>
+        <item>Najnavštevovanejšia stránka</item>
+        <item>Panel navigácie</item>
+        <item>Iné</item>
+    </string-array>
+    <string-array name="pref_homepage_values_site_navigation">
+        <item>current</item>
+        <item>blank</item>
+        <item>default</item>
+        <item>most_visited</item>
+        <item>site_navigation</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="pref_link_prefetch_choices">
+        <item>Nikdy</item>
+        <item>Len cez Wi-Fi</item>
+        <item>Vždy</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>Vždy zapnuté</item>
+        <item>Na požiadanie</item>
+        <item>Vypnuté</item>
+    </string-array>
+    <string-array name="pref_content_plugins_values">
+        <item>ON</item>
+        <item>ON_DEMAND</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Aktuálna stránka</item>
+        <item>Prázdna stránka</item>
+        <item>Predvolená stránska</item>
+        <item>Najnavštevovanejšia stránka</item>
+        <item>Iné</item>
+    </string-array>
+    <string-array name="pref_homepage_values">
+        <item>current</item>
+        <item>blank</item>
+        <item>default</item>
+        <item>most_visited</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Drobné</item>
+        <item>Malé</item>
+        <item>Štandartné</item>
+        <item>Veľké</item>
+        <item>Obrovské</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Ďaleko</item>
+        <item>Stredne</item>
+        <item>Blízko</item>
+    </string-array>
+    <string-array name="pref_default_zoom_values">
+        <item>FAR</item>
+        <item>MEDIUM</item>
+        <item>CLOSE</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+		<item>Automatická detekcia</item>
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Čínsky (GBK)</item>
+        <item>Čínsky (Big5)</item>
+        <item>Japonsky (ISO-2022-JP)</item>
+        <item>Japonsky (SHIFT_JIS)</item>
+        <item>Japonsky (EUC-JP)</item>
+        <item>Kórejsky (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_values">
+        <item>auto-detector</item>
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+        <item>EUC-KR</item>
+    </string-array>
+    <string-array name="pref_data_preload_choices">
+        <item>Nikdy</item>
+        <item>Len cez Wi-Fi</item>
+        <item>Vždy</item>
+    </string-array>
+    <string-array name="pref_data_preload_values">
+        <item>@string/pref_data_preload_value_never</item>
+        <item>@string/pref_data_preload_value_wifi_only</item>
+        <item>@string/pref_data_preload_value_always</item>
+    </string-array>
+    <string-array name="pref_link_prefetch_values">
+        <item>@string/pref_link_prefetch_value_never</item>
+        <item>@string/pref_link_prefetch_value_wifi_only</item>
+        <item>@string/pref_link_prefetch_value_always</item>
+    </string-array>
+</resources>
