@@ -77,7 +77,8 @@ Naozaj chcete zavreť upozornenie pri preberaní cez 2G/3G sieť"</string>
 <string name="download_dialog_title">Rady preberania</string>
 <string name="mobile_dialog_content_prefix">"Naozaj prevziať cez mobilnú sieť:
 "</string>
-<string name="mobile_dialog_content_suffix">"môže to byť spoplatnené"</string>
+<string name="mobile_dialog_content_suffix">"
+môže to byť spoplatnené"</string>
 <string name="mobile_dialog_positive">prevziať</string>
 <string name="mobile_dialog_negative">pripojiť ku WiFi a prevziať</string>
 <string name="wifi_dialog_content">"Môžete začať preberať len cez Wi-Fi, ak chcete začať preberať musíte ukončiť preberania len cez Wi-Fi.
