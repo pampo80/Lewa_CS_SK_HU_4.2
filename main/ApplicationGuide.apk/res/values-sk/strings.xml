@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="next">Ďalej</string>
-    <string name="scroll_left_bar_title">Skroluj pre zobrazenie zachytávacích módov</string>
+    <string name="scroll_left_bar_title">Posunutím sa zobrazí viac režimov snímania</string>
     <string name="zoome_title">Zväčšiť/zmenšiť</string>
 </resources>

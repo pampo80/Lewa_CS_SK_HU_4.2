@@ -2,10 +2,14 @@
 <resources>
 <string name="backup_confirm_title">Úplná záloha</string>
 <string name="restore_confirm_title">Úplné obnovenie</string>
-<string name="backup_confirm_text">"Bola prijatá požiadavka na úplnu zálohu všetkých dát do pripojeného počítača. Chcete túto akciu povoliť? Ak ste o zálohu nežiadali, operáciu nepovoľujte."</string>
+<string name="backup_confirm_text">"Bola prijatá požiadavka na úplnu zálohu všetkých dát do pripojeného počítača. Chcete túto akciu povoliť?
+
+Ak ste o zálohu nežiadali, operáciu nepovoľujte."</string>
 <string name="allow_backup_button_label">Zálohovať moje dáta</string>
 <string name="deny_backup_button_label">Nezálohovať</string>
-<string name="restore_confirm_text">"Bola prijatá požiadavka na úplne obnovenie všetkých dát z pripojeného počítača. Chcete túto akciu povoliť? Ak ste o zálohu nežiadali, operáciu nepovoľujte. Táto akcia nahradí všetky dáta v zariadení."</string>
+<string name="restore_confirm_text">"Bola prijatá požiadavka na úplne obnovenie všetkých dát z pripojeného počítača. Chcete túto akciu povoliť?
+
+Ak ste o zálohu nežiadali, operáciu nepovoľujte. Táto akcia nahradí všetky dáta v zariadení."</string>
 <string name="allow_restore_button_label">Obnoviť moje dáta</string>
 <string name="deny_restore_button_label">Neobnovovať</string>
 <string name="current_password_text">Zadajte, prosím vaše ​​aktuálne heslo pre zálohu:</string>
