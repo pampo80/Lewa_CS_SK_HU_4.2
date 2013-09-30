@@ -207,8 +207,20 @@ Môžete to zmeniť v nastaveniach kedykoľvek."</string>
 <string name="bcc">Skrytá kópia</string>
 <string name="subject_hint">Predmet</string>
 <string name="body_hint">Napísať e-mail</string>
-<string name="message_compose_fwd_header_fmt">"-------- Pôvodná správa --------Predmet: %1$sOdosielateľ: %2$sKomu: %3$sKópia: %4$s"</string>
-<string name="message_compose_reply_header_fmt">"%snapísal/a:"</string>
+<string name="message_compose_fwd_header_fmt">"
+
+-------- Pôvodná správa --------
+Predmet: %1$s
+Odosielateľ: %2$s
+Komu: %3$s
+Kópia: %4$s
+
+"</string>
+<string name="message_compose_reply_header_fmt">"
+
+%s snapísal/a::
+
+"</string>
 <string name="message_compose_quoted_text_label">Zahrnúť citovaný text</string>
 <string name="message_compose_include_quoted_text_checkbox_label">Zaradiť text</string>
 <string name="message_compose_error_no_recipients">Musíte pridať aspoň jedného príjemcu.</string>
@@ -371,14 +383,17 @@ Môžete to zmeniť v nastaveniach kedykoľvek."</string>
 <string name="account_setup_options_mail_window_all">Všetky</string>
 <string name="account_setup_options_mail_window_default">"Použiť predv. nast. účtu"</string>
 <string name="account_setup_failed_dlg_auth_message">Používateľské meno alebo heslo nie je správne.</string>
-<string name="account_setup_failed_dlg_auth_message_fmt">"Používateľské meno alebo heslo nie je správne.(%s)"</string>
+<string name="account_setup_failed_dlg_auth_message_fmt">"Používateľské meno alebo heslo nie je správne.
+(%s)"</string>
 <string name="account_setup_failed_dlg_certificate_message">"Nepodarilo sa bezpečne pripojiť k serveru."</string>
-<string name="account_setup_failed_dlg_certificate_message_fmt">"Nepodarilo sa bezpečne pripojiť k serveru.(%s)"</string>
+<string name="account_setup_failed_dlg_certificate_message_fmt">"Nepodarilo sa bezpečne pripojiť k serveru.
+(%s)"</string>
 <string name="account_setup_failed_certificate_required">Vyžaduje sa certifikát klienta. Pripojiť sa k serveru pomocou certifikátu klienta?</string>
 <string name="account_setup_failed_certificate_inaccessible">Certifikát je neplatný alebo neprístupný.</string>
 <string name="account_setup_failed_check_credentials_message">Server odpovedal s chybou. Skontrolujte používateľské meno a heslo a skúste to znova.</string>
 <string name="account_setup_failed_dlg_server_message">"Nepodarilo sa pripojiť k serveru."</string>
-<string name="account_setup_failed_dlg_server_message_fmt">"Nepodarilo sa pripojiť k serveru.(%s)"</string>
+<string name="account_setup_failed_dlg_server_message_fmt">"Nepodarilo sa pripojiť k serveru.
+(%s)"</string>
 <string name="account_setup_failed_tls_required">Vyžaduje sa služba TLS, ale server ju nepodporuje.</string>
 <string name="account_setup_failed_auth_required">"Metódy overovania totožnosti nie sú na tomto serveri podporované."</string>
 <string name="account_setup_failed_security">"Pripojenie k serveru sa nepodarilo otvoriť kvôli chybe zabezpečenia."</string>
@@ -508,7 +523,8 @@ Môžete to zmeniť v nastaveniach kedykoľvek."</string>
 <string name="long_string">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
 <string name="require_manual_sync_message">Synchronizácia na pozadí je pre tento účet v roamingu zakázaná.</string>
 <string name="multiple_new_message_notification_item"><b>%1$s</b>" %2$s"</string>
-<string name="single_new_message_notification_big_text">"%1$s%2$s"</string>
+<string name="single_new_message_notification_big_text">"%1$s
+%2$s"</string>
 <string name="choosertitle_sharevia">Zdieľať prostredníctvom</string>
 <string name="contextmenu_openlink">Otvoriť v prehliadači</string>
 <string name="contextmenu_copy">Kopírovať</string>
