@@ -18,6 +18,10 @@ BasicDreams.apk
 BatteryWarning.apk
   strings.xml (CS100%, SK100%)
 
+Browser.apk
+  strings.xml (CS97%, SK100%)
+  arrays.xml (CS none, SK100%)
+
 CalendarImporter.apk
   strings.xml (CS100%, SK100%)
 
