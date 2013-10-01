@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="flashDevice">/sys/class/leds/flashlight/brightness</string>
+<string name="app_name">Svítilna</string>
+<string name="prompt">Mód zámku obrazovky, stiskněte a držte klávesu DOMŮ pro rychlé otevření svítilny</string>
+</resources>
