@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Poskytovateľ motívov</string>
+<string name="permlab_access_DrmThemeResources">čítať DRM - chránené mediálne zdroje</string>
+<string name="permdesc_access_DrmThemeResources">Umožňuje aplikácii prístup k čítaniu mediálnych zdrojov chránených DRM</string>
+<string name="permlab_set_theme">Nastaviť globálne aplikovaný motív</string>
+<string name="permdesc_set_theme">"Dovoliť aplikácii meniť motív vašeho telefónu."</string>
+<string name="apply_font_failed">Nastavenie písma zlyhalo</string>
+</resources>

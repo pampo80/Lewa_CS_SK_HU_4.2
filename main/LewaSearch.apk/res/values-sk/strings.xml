@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Vyhľadať</string>
+<string name="app_setting">Nastavenie vyhľadávania</string>
+<string name="app_setting_info">Je možné hľadať</string>
+<string name="app_setting_about">O aplikácii</string>
+<string name="system_app">Systémová aplikácia</string>
+<string name="user_app">Užívateľská aplikácia</string>
+<string name="system_setting">Systémové nastavenie</string>
+<string name="web_search">Internetové vyhľadávanie</string>
+<string name="app_search">Hľadanie aplikácii</string>
+<string name="find_no_associated_app">Nie je možné nájsť odpovedajúci program!</string>
+<string name="enter_app_error_prefix">Tuto</string>
+<string name="enter_app_error_suffix">!</string>
+<string name="web_search_prefix">"Vyhľadať na Internete"</string>
+<string name="web_search_suffix">"Súvisiace informácie"</string>
+<string name="app_search_prefix">"Vyhľadať na Internete"</string>
+<string name="app_search_suffix">"Súvisiace informácie"</string>
+<string name="select_browser">Vyhľadať prehliadač</string>
+<string name="choose_browser">Zvoliť východzí prehliadač</string>
+<string name="info_setting_message">Správa</string>
+<string name="info_setting_message_str">Obsah správy</string>
+<string name="info_setting_app">Aplikácia</string>
+<string name="info_setting_app_str">Nainštalované aplikácie</string>
+<string name="info_setting_image">Obraz</string>
+<string name="info_setting_image_str">Obrázok</string>
+<string name="info_setting_contact">Kontakt</string>
+<string name="info_setting_contact_str">Detaily kontaktu</string>
+<string name="info_setting_music">Hudobný prehrávač</string>
+<string name="info_setting_music_str">Hudobné súbory</string>
+<string name="info_setting_setting">Systémové nastavenie</string>
+<string name="info_setting_setting_str">Podrobné nastavenie</string>
+<string name="info_setting_file">Lokálne</string>
+<string name="info_setting_file_str">Ostatné lokálne subory</string>
+<string name="no_default_browser">Žiaden východzí prehliadač</string>
+<string name="sdcard_status_changed_title">Nie je dostupná pamäťová karta</string>
+<string name="sdcard_status_changed_msg">Uistite sa, že karta existuje a telefón nie je v režime prenosu dát</string>
+<string name="type_ok">OK</string>
+<string name="no_browser">Žiaden prehliadač</string>
+</resources>

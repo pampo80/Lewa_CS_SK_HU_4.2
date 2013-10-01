@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Vyhledávání</string>
+<string name="app_setting">Nastavení vyhledávání</string>
+<string name="app_setting_info">Lze hledat</string>
+<string name="app_setting_about">O aplikaci</string>
+<string name="system_app">Systémová aplikace</string>
+<string name="user_app">Uživatelská aplikace</string>
+<string name="system_setting">Systémové nastavení</string>
+<string name="web_search">Internetové hledání</string>
+<string name="app_search">Hledání aplikací</string>
+<string name="find_no_associated_app">Nelze nalézt odpovídající program!</string>
+<string name="enter_app_error_prefix">Tuto</string>
+<string name="enter_app_error_suffix">nelze otevřít</string>
+<string name="web_search_prefix">"Hledat na internetu"</string>
+<string name="web_search_suffix">"Související informace"</string>
+<string name="app_search_prefix">"Hledat na internetu"</string>
+<string name="app_search_suffix">"Související aplikace"</string>
+<string name="select_browser">Vybrat prohlížeč</string>
+<string name="choose_browser">Vybrat výchozí prohlížeč</string>
+<string name="info_setting_message">Zprávy</string>
+<string name="info_setting_message_str">Obsah zprávy</string>
+<string name="info_setting_app">Aplikace</string>
+<string name="info_setting_app_str">Instalované aplikace</string>
+<string name="info_setting_image">Obraz</string>
+<string name="info_setting_image_str">Obrázek</string>
+<string name="info_setting_contact">Kontakt</string>
+<string name="info_setting_contact_str">Detaily kontaktu</string>
+<string name="info_setting_music">Hudební přehrávač</string>
+<string name="info_setting_music_str">Hudební soubory</string>
+<string name="info_setting_setting">Systémové nastavení</string>
+<string name="info_setting_setting_str">Podrobné nastavení</string>
+<string name="info_setting_file">Místní</string>
+<string name="info_setting_file_str">Ostatní lokální soubory</string>
+<string name="no_default_browser">Výchozí prohlížeč není nastaven</string>
+<string name="sdcard_status_changed_title">Paměťová karta není přístupná</string>
+<string name="sdcard_status_changed_msg">Ujistěte se, že SD karta existuje a telefon není v módu přenosu dat</string>
+<string name="type_ok">OK</string>
+<string name="no_browser">Žádný prohlížeč</string>
+</resources>
