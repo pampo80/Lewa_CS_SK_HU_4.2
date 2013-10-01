@@ -96,7 +96,9 @@
 <string name="target_name_is_not_allow_null">Musí byť zadané cieľové meno</string>
 <string name="rename_fail">Meno obsahuje chybný znak</string>
 <string name="sure">Súhlas</string>
-<string name="feedback_confirm">"Pripojenie Wifi je momentálne nedostupné. Obrázok, ktorý chcete odoslať je väčší ako 300k, čo môže spôsobiť spoplatnenie dát. Pokračovať v odoslaní?"</string>
+<string name="feedback_confirm">"Pripojenie Wifi je momentálne nedostupné. Obrázok, ktorý chcete odoslať je väčší ako 300k, čo môže spôsobiť spoplatnenie dát.
+ 
+Pokračovať v odoslaní?"</string>
 <string name="reminder">Pripomienka</string>
 <string name="directly_install">Priamo inštalovať</string>
 <string name="appInstallStartTicker">Spustiť inštaláciu ...</string>
@@ -285,6 +287,8 @@
 <string name="external_sd_card_available">Dostupné: %1$s</string>
 <string name="internal_sd_card_size">Vnútorná pamäť: %1$s</string>
 <string name="internal_sd_card_available">Dostupné: %1$s</string>
+<string name="usb_otg_card_size">USB zariadenie: %1$s</string>
+<string name="usb_otg_card_available">Dostupné: %1$s</string>
 <string name="hide_file">Skryť skryté súbory</string>
 <string name="file_doesnt_exist">Súbor neexistuje</string>
 <string name="file_deleted">Vymazané</string>
@@ -333,5 +337,7 @@
 <string name="name_index_tail">Iné</string>
 <string name="space_limit">Málo miesta na vloženie</string>
 <string name="file_info_status">Stav</string>
+<string name="usbotg_title">USB OTG</string>
+<string name="usbotg_name">USB OTG</string>
 <string name="sdcard_io_error">Chyba SD karty</string>
 </resources>
