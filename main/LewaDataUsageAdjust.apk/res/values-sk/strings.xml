@@ -7,7 +7,6 @@
 <string name="request_sms">Požiadavka na zaslanie konfiguračnej SMS</string>
 <string name="send_sms">Odosielam požiadavku na 3G dáta cez SMS</string>
 <string name="analyze_sms">Analyzujem 3G dáta</string>
-<string name="correct_success">Synchronizácia využitia 3G dát úspešná.</string>
 <string name="alert_slot_error">Chybný slot</string>
 <string name="alert_network_error">Chyba siete</string>
 <string name="phone_closed">Telefón nie je povolený. Povoľte ho a skuste to znova.</string>
