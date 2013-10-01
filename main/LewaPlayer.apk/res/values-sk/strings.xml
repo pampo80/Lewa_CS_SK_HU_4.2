@@ -267,4 +267,5 @@
 <string name="setting_flowhint_summary">Zobrazovať okno zakaždým pri preberaní</string>
 <string name="songs_download">Prevziať skladby</string>
 <string name="Hearing_loss">Nepočúvajte hudbu na plné pecky. Riskujete tým poškodenie sluchu.</string>
+<string name="playlist_exists">Playlist už existuje, premenujte ho prosím</string>
 </resources>
