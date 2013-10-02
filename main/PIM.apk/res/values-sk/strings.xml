@@ -1291,6 +1291,7 @@ Opakované odoslanie..."</string>
 <string name="label_mmsframent">Správy</string>
 <string name="label_calllogframent">Hovor</string>
 <string name="label_updatefragment">aktualizácia Detailu</string>
+<string name="label_loaderframents">Informácia kontaktu</string>
 <string name="label_calllog">Register hovorov</string>
 <string name="label_allcontacts">Všetky kontakty</string>
 <string name="label_mms">SMS</string>
@@ -1307,6 +1308,8 @@ Opakované odoslanie..."</string>
 <string name="title_contacts_settings">Nastavenie kontaktov</string>
 <string name="title_stick_photo">Upraviť foto</string>
 <string name="prompt_no_contacts_pepole">Nemáte žiadny kontakt</string>
+    <string name="prompt_no_contacts_people_propose">"Môžete importovať kontakty zo SIM karty 
+   alebo iného úložného zariadenia"</string>
 <string name="login_lewa_account">Pripojiť LeWa účet</string>
 <string name="prompt_contact_myself">Ja</string>
 <string name="prompt_no_profile_data">Nemáte vyplnené všetky informácie na vizitke</string>
@@ -1351,6 +1354,9 @@ Opakované odoslanie..."</string>
 <string name="send_message">Odoslať správu</string>
 <string name="dialpad_showdialpad">Zobraziť číselník</string>
 <string name="call_dialpad_setting">Nastavenie číselníka</string>
+<string name="dialer_search_item_misscall_time">Zvonilo: %sx</string>
+<string name="dialpad_to_text">vytáčam</string>
+<string name="call_log_clear_all">vymazať celý register hovorov</string>
 <string name="mms_select_contacts_group_count">kontakty</string>
 <string name="mms_select_contacts_recent_contacts">nedávne kontakty</string>
 <string name="message_compose_menu_resend_label">Znovu poslať</string>
@@ -1405,6 +1411,8 @@ Opakované odoslanie..."</string>
 <string name="sms_import_sdcard">Importovať %s sms</string>
 <string name="sms_export_sdcard">Exportovať %s sms</string>
 <string name="sms_whether_export_item">Chcete exportovať %s?</string>
+<string name="message_send_fail_view">odosielanie zlyhalo</string>
+<string name="message_send_of_late">neskôr</string>
 <string name="prefs_ims_settings">BSS nastavenie</string>
 <string name="prefs_ims_close_title">Bezplatná služba správ</string>
 <string name="prefs_ims_close_title_summary">Zapnúť odosielanie ľubovolného textu, hlasu, fotografie a video správ.</string>
@@ -1550,4 +1558,7 @@ In four, the opening of free information service needs to send a message to the 
 <string name="dlg_title_ippref_notset">Neotvorené IP vytáčanie</string>
 <string name="dlg_msg_ippref_tosetting">Pre otvorenie IP vytáčania!</string>
 <string name="ipsetting_no_sim_card">Nie je karta SIM, nemožno nastaviť IP vytáčanie</string>
+<string name="hint_findAllContacts">Vyhľadať%skontaktov</string>
+<string name="company_info">Informácie o spoločnosti</string>
+<string name="group_entry_item">Skupina kontaktov</string>
 </resources>
