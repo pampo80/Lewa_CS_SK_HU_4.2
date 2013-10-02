@@ -2441,4 +2441,25 @@ Každý používateľ môže prijať oprávnenia aplikácie v mene všetkých po
 <string name="location_access_title">Prístup k údajom o mojej polohe</string>
 <string name="location_access_summary">Umožniť aplikáciám, ktoré o to požiadali, používať údaje o polohe</string>
 <string name="location_sources_heading">Zdroje polohy</string>
+<string name="nightmodecolor_title">Farba nočného režimu</string>
+<string name="summary_nightmode_value">%1$s</string>
+<string name="inadvertmode_title">Zabránenie zlej operácií</string>
+<string name="inadvertmode_msg">Zabránenie nesprávnej operácií pokiaľ je telefón vo vrecku</string>
+<string name="sim_settings_guide_editname_title">Sprievodca nastavením Dual kariet</string>
+<string name="sim_settings_guide_voicesms_title">Volania a správy</string>
+<string name="sim_settings_guide_data_title">Internet and ochrana objemu dát</string>
+<string name="sim_settings_guide_datasave_title">Ochrana objemu dát</string>
+<string name="sim_settings_guide_video_title">Video hovorty</string>
+<string name="sim_settings_guide_fastmode_title">Sprievodca rýchlym režimom</string>
+<string name="sim_settings_data_usage_title">Objem dát</string>
+<string name="sim_settings_data_usage_hint_text">Zadajte prosím balík objemu dát</string>
+<string name="sim_settings_data_usage_mb_size">MB/Mesiac</string>
+<string name="sim_settings_data_usage_dont_care"><u>Neviem, zadám neskôr</u></string>
+<string name="sim_settings_data_switch">Použitie dátového balíčka</string>
+<string name="sim_settings_guide_editname_summary">Zmena mena pre rozlišovanie duálnych kariet</string>
+<string name="sim_settings_guide_voicesms_summary">Vyberte podľa toho, ako často telefónom voláte či smskujete z predvoleného čísla</string>
+<string name="sim_settings_guide_data_summary">Výber predvolenej dátovej karty. Odporúčame nastaviť ku nej dátový balíček. Keď sa presiahne budete upozornený aby ste nemuseli platiť dodatočné poplatky</string>
+<string name="sim_settings_guide_datasave_summary">Ak ste ešte nemali podchytený tok mobilnej dátovej prevádzky aby ste neriskovali pretečenie dát za ktoré vám operátor môže účtovať dodatočné poplatky</string>
+<string name="sim_settings_guide_video_summary">Vybrať podporu 3G firemnej telefónnej karty ako predvolenej pre video hovory</string>
+<string name="sim_settings_guide_fastmode_summary">Užívajte si rýchle vytáčanie a odosielanie správ</string>
 </resources>
