@@ -21,4 +21,6 @@
     <string name="revert">Vrátiť</string>
     <string name="schpwr_shutdown_message">Zariadenie sa vypne za %s sekúnd</string>
     <string name="schpwr_shutdown_message_second">Zariadenie sa vypne za %s sekundu</string>
+	<string name="schedule_power_on">ZAP</string>
+    <string name="schedule_power_off">VYP</string>
 </resources>
