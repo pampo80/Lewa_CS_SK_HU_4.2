@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string-array name="update_options_entries">
+        <item>OTA aktualizácia</item>
+        <item>SD karta aktualizácia</item>
+        <item>OTA a SD karta aktualizácia</item>
+    </string-array>
+    <string-array name="update_options_values">
+        <item>OTA_UPDATE_ONLY</item>
+        <item>SDCARD_UPDATE_ONLY</item>
+        <item>OTA_SDCARD_UPDATE</item>
+    </string-array>
+</resources>
