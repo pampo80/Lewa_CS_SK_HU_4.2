@@ -26,7 +26,7 @@
 <string name="autostarts_title">Automaticky spustené aplikácie</string>
 <string name="autostarts_allowed">Umožnené</string>
 <string name="autostarts_prohibited">Neumožnené</string>
-<string name="autostarts_optimized_list">%d aplikacií spúšťaných po starte povolených</string>
+<string name="autostarts_optimized_list">Po štarte telefónu je povolené spustenie %d aplikacií</string>
 <string name="autostarts_prohibited_list">%d aplikacií spúšťaných po starte zakázáných</string>
 <string name="autostarts_empty_msg">Žiadne aplikácie  na nastavenie</string>
 <string name="autostarts_optimize_empty_msg">Žiadne aplikácie na optimalizáciu</string>
