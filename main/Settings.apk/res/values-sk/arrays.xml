@@ -737,4 +737,8 @@
         <item>6</item>
         <item>7</item>
     </string-array>
+	<string-array name="simguide_datauseage">
+        <item>MB/Mesiac</item>
+        <item>GB/Mesiac</item>
+    </string-array>
 </resources>

@@ -201,12 +201,12 @@ Používajte iba nabíjačku, ktorá bola dodaná spolu so zariadením."</string
 <string name="title_qr_code">QR kód</string>
 <string name="title_nightmode">Nočný režim</string>
 <string name="switchwidgetsettings_title">Vybrať prepínače do lišty</string>
-<string name="switchwidgetsettings_switch_title">Nastavenia notifikačnej lišty</string>
+<string name="switchwidgetsettings_switch_title">Nastavenia oznamovacej lišty</string>
 <string name="switchwidgetsettings_switch_on">Otvoriť</string>
 <string name="switchwidgetsettings_switch_off">Zavrieť</string>
 <string name="switchwidgetsettings_notice_title">Je možné vybrať len 10 prepínačov</string>
 <string name="twelve_hour_time_format_nopm">h:mm</string>
-<string name="statusbarsettings">Nastavenia notifikačnej lišty</string>
+<string name="statusbarsettings">Nastavenia oznamovacej lišty</string>
 <string name="today_usage">Dnes:</string>
 <string name="month_left_usage">Zostavá:</string>
 <string name="double_statusbar_setting">Dvojitý stavový riadok</string>
