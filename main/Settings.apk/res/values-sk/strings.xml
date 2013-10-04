@@ -1207,7 +1207,6 @@ Zrejme ste zadali nesprávny kód PIN."</string>
 <string name="baseband_version">Verzia základného pásma</string>
 <string name="kernel_version">Verzia jadra</string>
 <string name="build_number">Číslo zostavy</string>
-<string name="build_number">Build number</string>
 <string name="selinux_status">stav SELinux</string>
 <string name="device_info_not_available">Nie je k dispozícii</string>
 <string name="device_status_activity_title">Stav</string>
