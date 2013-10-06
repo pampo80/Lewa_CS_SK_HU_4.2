@@ -1373,9 +1373,9 @@ Opakované odoslanie..."</string>
 <string name="hint">Vložte svoju odpoveď...</string>
 <string name="reply">Odpoveď</string>
 <string name="choosesms">vyberte spoločnú správu</string>
-<string name="alter_title">Horúce tipy</string>
+<string name="alter_title">Upozornenie</string>
 <string name="alter_message">Naozaj chcete vymazať túto správu?</string>
-<string name="alter_positive">Iste</string>
+<string name="alter_positive">Áno</string>
 <string name="alter_successed_toast">Úspešne vymazané</string>
 <string name="alter_negtive">Zrušiť</string>
 <string name="replycontent">Obsah nesmie byť prázdny</string>
