@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d posledních apps</item>
+        <item quantity="one">1 poslední app</item>
+    </plurals>
+</resources>
