@@ -43,7 +43,7 @@ CleanMemory.apk
   motto.xml (CS none, SK100%)
 
 ContactsProvider.apk
-  strings.xml (CS none, SK100%)
+  strings.xml (CS100%, SK100%)
 
 DataUsageLockScreenClient.apk
   strings.xml (CS none, SK100%)
