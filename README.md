@@ -243,9 +243,9 @@ PicoTts.apk
   strings.xml (CS100%, SK100%)
 
 PIM.apk
-  strings.xml (CS99.52%, SK100%)
-  arrays.xml (CS none, SK100%)
-  plurals.xml (CS none, SK100%)
+  strings.xml (CS100%, SK100%)
+  arrays.xml (CS100%, SK100%)
+  plurals.xml (CS100%, SK100%)
   ic_index_normal.png (all)
   ic_index_normal_white.png (all)
 
@@ -265,8 +265,8 @@ Search.apk
   search.png (CS100%, SK100%)
 
 Settings.apk
-  strings.xml (CS95%, SK100%)
-  arrays.xml (CS none, SK100%)
+  strings.xml (CS100%, SK100%)
+  arrays.xml (CS100%, SK100%)
   plurals.xml (CS100%, SK100%)  
   timezones.xml (CS100%, SK100%)
   device_info_icon.png (all)
