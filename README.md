@@ -102,7 +102,7 @@ Intercept.apk
   arrays.xml (CS none, SK100%)
 
 KeyChain.apk
-  strings.xml (CS none, SK100%)
+  strings.xml (CS100%, SK100%)
 
 LabiSync.apk
   strings.xml (CS100%, SK100%)
