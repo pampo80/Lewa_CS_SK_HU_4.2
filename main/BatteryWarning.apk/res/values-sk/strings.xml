@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="batteryWarning_label">BatériaPozor</string>
-    <string name="title_charger_over_voltage">Nad rámec napätia nabíjačky</string>
-    <string name="title_battery_over_temperature">Nad rámec teploty batérie</string>
-    <string name="title_over_current_protection">Nad rámec aktuálnej ochrany</string>
-    <string name="title_battery_over_voltage">Nad rámec napätia batérie</string>
-    <string name="title_safety_timer_timeout">Nad rámec nabíjacieho času</string>
+    <string name="batteryWarning_label">BatériaVýstraha</string>
+    <string name="title_charger_over_voltage">Prepätie nabíjačky</string>
+    <string name="title_battery_over_temperature">Zvýšená teplota batérie</string>
+    <string name="title_over_current_protection">Ochrana proti prepätiu</string>
+    <string name="title_battery_over_voltage">Prepätie batérie</string>
+    <string name="title_safety_timer_timeout">Čas prepätia</string>
     <string name="msg_charger_over_voltage">Vaša nabíjačka prekračuje napätie, prosím odpojte nabíjačku!</string>
     <string name="msg_battery_over_temperature">Batéria prekročila dovolenú teplotu, prosím vyberte ju!</string>
     <string name="msg_over_current_protection">Batéria prekročila aktuálnu ochranu, prosím vyberte ju!</string>
