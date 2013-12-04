@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<resources>
 <string name="unlock_set_unlock_mode_voice_weak">Odomykanie hlasom</string>
 <string name="voice_unlock_setup_intro_header">Nahrať hlasový povel</string>
 <string name="voice_command_select_title">Vybrať povel</string>
@@ -30,7 +30,8 @@
 <string name="stop_playing_message">Pred nahrávaním ukončite prehrávanie multimédií.</string>
 <string name="voice_command_record_introdution">Stlačením tlačítka NAHRAŤ a VYSLOVENÍM hlasového povelu.</string>
 <string name="voice_command_record_prepare">Pripravujem, čakajte...</string>
-<string name="voice_command_record_first_recording">"VYSLOVTE hlasový povel. 2-8 slabík je odporúčaných."</string>
+<string name="voice_command_record_first_recording">"VYSLOVTE hlasový povel.
+2-8 slabík je odporúčaných."</string>
 <string name="voice_command_record_non_first_recording">OPAKUJTE hlasový povel.</string>
 <string name="voice_command_record_one_round_ok">ZAZNAMENANÉ</string>
 <string name="voice_command_record_one_round_noisy">Príliš hlasno zaznamenaný hlas. Skúste to znova.</string>
