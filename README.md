@@ -324,8 +324,8 @@ VoiceCommand.apk
   strings.xml (CS none, SK100%)
 
 VoiceUnlock.apk
-  strings.xml (CS none, SK100%)
-  arrays.xml (CS none, SK100%)
+  strings.xml (CS100%, SK100%)
+  arrays.xml (CS100%, SK100%)
 
 VpnDialogs.apk
   strings.xml (CS100%, SK100%)
