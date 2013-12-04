@@ -80,7 +80,7 @@ Používajte iba nabíjačku, ktorá bola dodaná spolu so zariadením."</string
 <string name="status_bar_settings_auto_brightness_label">AUTO</string>
 <string name="status_bar_settings_notifications">Upozornenia</string>
 <string name="status_bar_settings_battery_meter_format">%d%%</string>
-<string name="status_bar_network_name_separator">""</string>
+<string name="status_bar_network_name_separator">|</string>
 <string name="bluetooth_tethered">Zdieľané dátové pripojenie cez Bluetooth</string>
 <string name="status_bar_input_method_settings_configure_input_methods">Nastavenie metód vstupu</string>
 <string name="status_bar_use_physical_keyboard">Použiť fyzickú klávesnicu</string>
@@ -201,12 +201,12 @@ Používajte iba nabíjačku, ktorá bola dodaná spolu so zariadením."</string
 <string name="title_qr_code">QR kód</string>
 <string name="title_nightmode">Nočný režim</string>
 <string name="switchwidgetsettings_title">Vybrať prepínače do lišty</string>
-<string name="switchwidgetsettings_switch_title">Nastavenia oznamovacej lišty</string>
+<string name="switchwidgetsettings_switch_title">Nastavenia informačnej lišty</string>
 <string name="switchwidgetsettings_switch_on">Otvoriť</string>
 <string name="switchwidgetsettings_switch_off">Zavrieť</string>
 <string name="switchwidgetsettings_notice_title">Je možné vybrať len 10 prepínačov</string>
 <string name="twelve_hour_time_format_nopm">h:mm</string>
-<string name="statusbarsettings">Nastavenia oznamovacej lišty</string>
+<string name="statusbarsettings">Nastavenia informačnej lišty</string>
 <string name="today_usage">Dnes:</string>
 <string name="month_left_usage">Zostavá:</string>
 <string name="double_statusbar_setting">Dvojitý stavový riadok</string>
@@ -218,7 +218,7 @@ Používajte iba nabíjačku, ktorá bola dodaná spolu so zariadením."</string
 <string name="recent_totalmem">Celková pamäť:</string>
 <string name="recent_usedmem">Využitá pamäť:</string>
 <string name="phonestatusbarsettings_title">Nastavania pozície prepínača</string>
-<string name="trans_statusbar_setting">Priehľadný stavový riadok</string>
+<string name="trans_statusbar_setting">Priehľadná informačná lišta</string>
 <string name="trans_statusbar_key">trans_statusbar_key</string>
 <string name="notifilter_header">Preventívne oznamovať</string>
 <string name="notifilter_tail">Preventívne neoznamovať</string>
@@ -226,8 +226,8 @@ Používajte iba nabíjačku, ktorá bola dodaná spolu so zariadením."</string
 <string name="notifilter_activity_title">Nastavenia notifikácií</string>
 <string name="power_battery_fulltitle">Nabíjanie batérie</string>
 <string name="power_battery_full">Nabíjanie ukončené, odpojte nabíjačku</string>
-<string name="lockscreen_expanded">Rozšíriteľné pri režime celej obrazovky</string>
-<string name="lockscreen_expanded_comman">Pracuje len pri odomknutej klávesnici</string>
+<string name="lockscreen_expanded">Rozšírený režim uzamknutia</string>
+<string name="lockscreen_expanded_comman">Funguje len pri odomknutej klávesnici</string>
 <string name="title_toggle_gemini_data">Dátová karta</string>
 <string name="recent_meminfo">%1$dM/%2$dM</string>
 <string name="recent_noapp">Žiadne nové aplikácie</string>
