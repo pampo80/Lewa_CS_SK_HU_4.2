@@ -214,7 +214,7 @@ MTKAndroidSuiteDaemon.apk
   strings.xml (CS100%, SK100%)
 
 MtkBt.apk
-  strings.xml (CS none, SK100%)
+  strings.xml (CS100%, SK100%)
 
 MtkVideoLiveWallpaper.apk
   strings.xml (CS100%, SK100%)
