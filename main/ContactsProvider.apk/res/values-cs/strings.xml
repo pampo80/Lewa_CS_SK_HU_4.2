@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="unknown">Neznámý</string>
+    <string name="sharedUserLabel">Android jádra aplikace</string>
+    <string name="app_label">Ukládání kontaktů</string>
+    <string name="provider_label">Kontakty</string>
+    <string name="upgrade_msg">Inovace databáze kontaktů.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Kontakty inovace potřebuje více paměti.</string>
+    <string name="upgrade_out_of_memory_notification_title">Inovace úložiště kontaktů</string>
+    <string name="upgrade_out_of_memory_notification_text">Dotkněte se pro dokončení upgrade.</string>
+    <string name="default_directory">Kontakty</string>
+    <string name="local_invisible_directory">Ostatní</string>
+    <string name="read_write_all_voicemail_label">Přístup všech hlasových zpráv</string>
+    <string name="read_write_all_voicemail_description">Umožňuje aplikace pro ukládání a načítání všech hlasových zpráv, které toto zařízení přístup.</string>
+    <string name="voicemail_from_column">Hlasová schránka od</string>
+    <string name="debug_dump_title">Kopie databáze kontaktů</string>
+    <string name="debug_dump_database_message">Jsou o 1) vytvořit kopii databáze, která zahrnuje všechny kontakty související informace a všech hovorů do vnitřní paměti a 2) e-mail. Nezapomeňte odstranit kopie, jak úspěšně zkopírovali jste to ze zařízení nebo e-mailu je přijat.</string>
+    <string name="debug_dump_delete_button">Nyní odstranit</string>
+    <string name="debug_dump_start_button">Začátek</string>
+    <string name="debug_dump_email_sender_picker">Zvolte program pro odeslání souboru</string>
+    <string name="debug_dump_email_subject">Kontakty Db připojené</string>
+    <string name="debug_dump_email_body">Připojena je moje databáze kontaktů se všemi informacemi a kontakty. Manipulujte opatrně.</string>
+</resources>
