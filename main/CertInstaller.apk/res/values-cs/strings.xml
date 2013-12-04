@@ -29,5 +29,4 @@
 <string name="cert_read_error">Instalace se nezdařila. Soubor certifikátu se nepodařilo přečíst.</string>
 <string name="no_cert_file_found">Na kartě SD nebyl nalezen žádný certifikát.</string>
 <string name="sdcard_not_present">Karta SD není k dispozici.</string>
-<item type="string" name="APKTOOL_DUMMY_001d">false</item>
 </resources>
