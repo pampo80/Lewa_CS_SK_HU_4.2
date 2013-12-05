@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpapers">Varázslatos füst háttérképek</string>
+    <string name="wallpaper_magicsmoke">Varázslatos füst</string>
+    <string name="author">Google</string>
+    <string name="ok">OK</string>
+    <string name="taptochange">A módosításhoz érintse meg</string>
+</resources>
