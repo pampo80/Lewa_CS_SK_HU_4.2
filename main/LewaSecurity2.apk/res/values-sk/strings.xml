@@ -7,9 +7,9 @@
 <string name="app_intercept">Blokovač</string>
 <string name="app_clearance">Vyčistenie systému</string>
 <string name="app_auto_start">Automatické spustenie</string>
-<string name="app_notification_manager">Nastavenie oznámení</string>
+<string name="app_notification_manager">Nastavenia notifikácií</string>
 <string name="app_antitheft">Ochrana proti krádeži</string>
-<string name="app_perm_manager">Nastavenie oprávnení</string>
+<string name="app_perm_manager">Nastavenia oprávnení</string>
 <string name="intercept_details">Hovory: %1$s, Správy: %2$s</string>
 <string name="clearance_details">%1$s: Využité %2$s</string>
 <string name="clearance_checking">Kontrola odkladacieho súboru</string>

@@ -198,7 +198,7 @@
     <string name="title_qr_code">QR kód</string>
     <string name="title_nightmode">Noční režim</string>
     <string name="switchwidgetsettings_title">Nastavení umístění přepínače</string>
-    <string name="switchwidgetsettings_switch_title">Nastavení stavového řádku</string>
+    <string name="switchwidgetsettings_switch_title">Nastavení oznamovací lišty</string>
     <string name="switchwidgetsettings_switch_on">Otevřít</string>
     <string name="switchwidgetsettings_switch_off">Zavřít</string>
     <string name="switchwidgetsettings_notice_title">Lze umístit pouze 10 přepínačů</string>
@@ -226,7 +226,7 @@
     <string name="lockscreen_expanded">Rozšiřitelný při režimu celé obrazovky</string>
     <string name="lockscreen_expanded_comman">Funguje pouze pro neuzamknutou klávesnici</string>
     <string name="title_toggle_gemini_data">Datová karta</string>
-    <string name="recent_meminfo">%1$dMB / %2$dMB</string>
+    <string name="recent_meminfo">%1$dMB/%2$dMB</string>
     <string name="recent_noapp">Žádné naposledy otevřené aplikace</string>
     <string name="notifilter_cloud">Blokování oznámení v Cloudu</string>
     <string name="notifilter_addtoblack">Přidat na černou listinu</string>

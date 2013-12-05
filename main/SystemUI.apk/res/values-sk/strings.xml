@@ -80,7 +80,7 @@ Používajte iba nabíjačku, ktorá bola dodaná spolu so zariadením."</string
 <string name="status_bar_settings_auto_brightness_label">AUTO</string>
 <string name="status_bar_settings_notifications">Upozornenia</string>
 <string name="status_bar_settings_battery_meter_format">%d%%</string>
-<string name="status_bar_network_name_separator">|</string>
+<string name="status_bar_network_name_separator">""</string>
 <string name="bluetooth_tethered">Zdieľané dátové pripojenie cez Bluetooth</string>
 <string name="status_bar_input_method_settings_configure_input_methods">Nastavenie metód vstupu</string>
 <string name="status_bar_use_physical_keyboard">Použiť fyzickú klávesnicu</string>
@@ -226,7 +226,7 @@ Používajte iba nabíjačku, ktorá bola dodaná spolu so zariadením."</string
 <string name="notifilter_activity_title">Nastavenia notifikácií</string>
 <string name="power_battery_fulltitle">Nabíjanie batérie</string>
 <string name="power_battery_full">Nabíjanie ukončené, odpojte nabíjačku</string>
-<string name="lockscreen_expanded">Rozšírený režim uzamknutia</string>
+<string name="lockscreen_expanded">Rozšírený režim v lockscreen</string>
 <string name="lockscreen_expanded_comman">Funguje len pri odomknutej klávesnici</string>
 <string name="title_toggle_gemini_data">Dátová karta</string>
 <string name="recent_meminfo">%1$dM/%2$dM</string>
@@ -236,7 +236,7 @@ Používajte iba nabíjačku, ktorá bola dodaná spolu so zariadením."</string
 <string name="notifilter_del">Vymazať z čiernej listiny</string>
 <string name="notifilter_allow">Povoliť</string>
 <string name="notifilter_denie">Zakázať</string>
-<string name="notifilter_headernotice">x zakázaná notifikácia</string>
+<string name="notifilter_headernotice">x zakázané notifikácie</string>
 <string name="notifilter_item_activity">Správca oznámení</string>
 <string name="notifilter_cloudloading">Načítanie cloudu...</string>
 <string name="notifilter_cloudlasttime">Čas posledného prebratia:</string>
