@@ -2259,11 +2259,11 @@ Každý používateľ môže prijať oprávnenia aplikácie v mene všetkých po
 <string name="user_picture_title">Foto ID</string>
 <string name="cell_broadcast_settings">Hromadné zasielanie správ v rámci bunky</string>
 <string name="cell_broadcast_settings_summary">Vyberte typy tiesňových upozornení, ktoré sa majú zobraziť.</string>
-<string name="common_settings_title">OBVYKLÉ</string>
+<string name="common_settings_title">OBĽÚBENÉ</string>
 <string name="settings_title">VŠETKY NASTAVENIA</string>
 <string name="custom_frequent_foot_btn_text">Vlastné....</string>
 <string name="frequent_settings_notice_title">Ďalšie nastavenia sú skryté</string>
-<string name="status_bar_title">Oznamovacia lišta</string>
+<string name="status_bar_title">Informačná lišta</string>
 <string name="custom_frequently_title">POLOŽKY VLASTNÉ NASTAVENIA</string>
 <string name="ringvolume_vibrate_title">Vyzváňať a vibrovať</string>
 <string name="audio_sound_title">Zvuk</string>
@@ -2330,7 +2330,7 @@ Každý používateľ môže prijať oprávnenia aplikácie v mene všetkých po
 <string name="clean_log_summary">Log:</string>
 <string name="clean_system_cache_file">Medzipamäť systému:</string>
 <string name="clean_calculate_complete_result">%1$s volného miesto po vyčistení sa očakáva %2$s</string>
-<string name="storage_install_app_sdcard_summary">(Niektoré aplikácie nie sú podporované)</string>
+<string name="storage_install_app_sdcard_summary">(Nie je podporované všetkými aplikáciami)</string>
 <string name="gsm_umts_network_preferences_default_values">0</string>
 <string name="notify_dialog_message">Aby sa prejavili zmeny je nutné reštarovať zariadenie. Reštartovať?</string>
 <string name="sim_setting_guide_continue">Pokračovať</string>
