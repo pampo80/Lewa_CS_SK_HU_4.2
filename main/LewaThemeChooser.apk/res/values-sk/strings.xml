@@ -102,7 +102,7 @@
 <string name="onekey_font_changing">Prebieha zmena písma...</string>
 <string name="onekey_theme_changing">Prebieha zmena motívu...</string>
 <string name="onekey_font_no_font">Prosím stiahnite najmenej dva fonty písiem v aplikácií Témy, aby sa zmenili písma</string>
-<string name="onekey_font_no_theme">Prosím stiahnite najmenej jednu tému v aplikácií Témy, aby sa zmenila téma</string>
+<string name="onekey_font_no_theme">Prosím stiahnite najmenej jednu tému  v aplikácií Témy, aby sa zmenila téma</string>
 <string name="font_change_reboot">Vybraný motív obsahuje písmo. Aplikácia vyžaduje reštart</string>
 <string name="apply_reboot">Aplikovať a reštartovať</string>
 <string name="wallpaper_selector">Centrum tapiet</string>
