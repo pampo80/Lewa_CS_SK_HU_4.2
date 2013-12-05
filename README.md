@@ -147,7 +147,7 @@ LewaGallery2.apk
 
 LewaLauncherX.apk
   strings.xml (CS100%, SK100%)
-  arrays.xml (CS none, SK100%)
+  arrays.xml (CS100%, SK100%)
 
 LewaLockScreen.apk
   strings.xml (CS100%, SK100%)
