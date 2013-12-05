@@ -25,7 +25,7 @@
 <string name="intercept_time_settingtime">Vlastný časový interval</string>
 <string name="intercept_time_startTime">Začiatok</string>
 <string name="intercept_time_endTime">Koniec</string>
-<string name="intercept_blockmode_title">Vyberte režima blokovania</string>
+<string name="intercept_blockmode_title">Vyberte režim blokovania</string>
 <string name="intercept_blacksmart">Inteligentné blokovanie</string>
 <string name="intercept_blackname">Čierna listina</string>
 <string name="intercept_only_accept_whitelist">akceptovať len bielu listinu</string>
@@ -169,13 +169,13 @@
 <string name="confirm_delete_select_msg_conversion">Potvrdiť vymazanie %s správ ?</string>
 <string name="confirm_delete_select_call_conversion">Potvrdiť vymazanie %s hovorov ?</string>
 <string name="confirm_to_delete_select_blackname">Potvrdiť vymazanie %s čísel na čiernej listine ?</string>
-<string name="confirm_to_delete_select_whitename">Potvrdiť vymazanie %s čísel na bielej listine ?</string>
+<string name="confirm_to_delete_select_whitename">Potvrdiť vymazanie %s  čísel na bielej listine ?</string>
 <string name="confirm_to_send_selected_to_whitename">Potvrdiť presunutie %s na bielu listinu ?</string>
 <string name="confirm_to_send_to_whitename">Potvrdiť presunutie na bielu listinu ?</string>
 <string name="recover_all_info">Tiež obnoviť sms konverzáciu a register hovorov</string>
 <string name="confirm_to_send_selected_to_blackname">Potvrdiť presunutie %s na čiernu listinu ?</string>
 <string name="confirm_to_send_to_blackname">Potvrdiť presunutie na bielu čiernu listinu ?</string>
-<string name="import_all_info">Tiež importovať register hovorov a sms všetkých týchto čísel</string>
+<string name="import_all_info">Tiež importovať register hovorov a  sms všetkých týchto čísel</string>
 <string name="intercept_not_open">neotvorený</string>
 <string name="msg_send_recovery">Povrdiť obnovenie konverzácie do zoznamu sms ?</string>
 <string name="call_send_recovery">Potvrdiť obnovenie konverzácie do zoznamu hovorov ?</string>
@@ -233,4 +233,8 @@
 <string name="log_beforeyesterday">Pred</string>
 <string name="recovering_to_msg_list">Obnovujem SMS konverzáciu....</string>
 <string name="recovering_to_calllog">Obnovujem register hovorov....</string>
+<string name="title_unknown_number">Neznáme číslo</string>
+<string name="ic_more">Viac</string>
+<string name="annoy_call">otravný hovor</string>
+<string name="ringonce_notice">potiahnite krúžok na zrušenie</string>
 </resources>
