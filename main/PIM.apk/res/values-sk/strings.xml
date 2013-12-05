@@ -1412,7 +1412,7 @@ Opakované odoslanie..."</string>
 <string name="sms_export_sdcard">Exportovať %s sms</string>
 <string name="sms_whether_export_item">Chcete exportovať %s?</string>
 <string name="message_send_fail_view">odosielanie zlyhalo</string>
-<string name="message_send_of_late">neskôr</string>
+<string name="message_send_of_late">posled</string>
 <string name="prefs_ims_settings">BSS nastavenie</string>
 <string name="prefs_ims_close_title">Bezplatná služba správ</string>
 <string name="prefs_ims_close_title_summary">Zapnúť odosielanie ľubovolného textu, hlasu, fotografie a video správ.</string>

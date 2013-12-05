@@ -308,9 +308,9 @@
         <item>0</item>
     </string-array>
     <string-array name="app_install_location_entries">
-        <item>Vnútorná pamäť</item>
+        <item>Vnútorná pamäť telefónu</item>
         <item>SD karta</item>
-        <item>Systém rozhodne</item>
+        <item>Systém sa rozhodne</item>
     </string-array>
     <string-array name="app_install_location_values">
         <item>zariadenie</item>
@@ -318,9 +318,9 @@
         <item>auto</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
-        <item>Krátky</item>
-        <item>Stredný</item>
-        <item>Dlhý</item>
+        <item>Krátke</item>
+        <item>Stredné</item>
+        <item>Dlhé</item>
     </string-array>
     <string-array name="long_press_timeout_selector_values">
         <item>500</item>
@@ -740,5 +740,23 @@
 	<string-array name="simguide_datauseage">
         <item>MB/Mesiac</item>
         <item>GB/Mesiac</item>
+    </string-array>
+	    <string-array name="alarm_set">
+        <item>Zapnutie je nastavené na menej ako 1 minútu od teraz.</item>
+        <item>Zapnutie je nastavené na %1$s od teraz.</item>
+        <item>Zapnutie je nastavené na %2$s od teraz.</item>
+        <item>Zapnutie je nastavené na %1$s a %2$s od teraz.</item>
+        <item>Zapnutie je nastavené na %3$s od teraz.</item>
+        <item>Zapnutie je nastavené na %1$s a %3$s od teraz.</item>
+        <item>Zapnutie je nastavené na %2$s a %3$s od teraz.</item>
+        <item>Zapnutie je nastavené na %1$s, %2$s, a %3$s od teraz.</item>
+        <item>Vypnutie je nastavené na menej ako 1 minútu od teraz.</item>
+        <item>Vypnutie je nastavené na %1$s od teraz.</item>
+        <item>Vypnutie je nastavené na %2$s od teraz.</item>
+        <item>Vypnutie je nastavené na %1$s a %2$s od teraz.</item>
+        <item>Vypnutie je nastavené na %3$s od teraz.</item>
+        <item>Vypnutie je nastavené na %1$s a %3$s od teraz.</item>
+        <item>Vypnutie je nastavené na %2$s a %3$s od teraz.</item>
+        <item>Vypnutie je nastavené na %1$s, %2$s, a %3$s od teraz.</item>
     </string-array>
 </resources>
