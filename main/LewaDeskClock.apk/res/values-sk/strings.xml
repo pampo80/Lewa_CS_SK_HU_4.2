@@ -104,7 +104,7 @@
 <string name="timer_init_start">"Posunom 
  začnete"</string>
 <string name="timer_time_up">Čas vypršal</string>
-<string name="timer_time_up_ok">Známy</string>
+<string name="timer_time_up_ok">OK</string>
 <string name="delete_selected">Vybrané %s</string>
 <string name="alarm_empty_text">Stlačením tlačidla nižšie pridáte budík</string>
 <string name="world_clock_empty_text">Stlačením tlačidla nižšie pridáte budík</string>
