@@ -1215,6 +1215,7 @@
 <string name="label_mmsframent">Zprávy</string>
 <string name="label_calllogframent">Hovor</string>
 <string name="label_updatefragment">aktualizace Detailu</string>
+<string name="label_loaderframents">Kontakty</string>
 <string name="label_calllog">Seznam hovorů</string>
 <string name="label_allcontacts">Všechny kontakty</string>
 <string name="label_mms">SMS</string>
