@@ -1355,7 +1355,7 @@ Opakované odoslanie..."</string>
 <string name="dialpad_showdialpad">Zobraziť číselník</string>
 <string name="call_dialpad_setting">Nastavenie číselníka</string>
 <string name="dialer_search_item_misscall_time">Zvonilo: %sx</string>
-<string name="dialpad_to_text">vytáčam</string>
+<string name="dialpad_to_text">zavolať cez</string>
 <string name="call_log_clear_all">vymazať celý register hovorov</string>
 <string name="mms_select_contacts_group_count">kontakty</string>
 <string name="mms_select_contacts_recent_contacts">nedávne kontakty</string>

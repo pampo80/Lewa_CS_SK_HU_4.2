@@ -6,7 +6,7 @@
 <string name="security_settings_desc">Povoliť tejto aplikácii:</string>
 <string name="cancel">Zrušiť</string>
 <string name="unknown">Neznáme</string>
-<string name="installing">Prebieha inštalácia...</string>
+<string name="installing">Inštaluje sa...</string>
 <string name="install_done">Aplikácia bola nainštalovaná</string>
 <string name="install_confirm_question">Chcete túto aplikáciu nainštalovať?</string>
 <string name="install_confirm_question_no_perms">Chcete nainštalovať túto aplikáciu? Nevyžaduje žiadne špeciálne prístupové práva.</string>
