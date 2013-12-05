@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kereső</string>
+    <string name="app_setting">Keresési beállítások</string>
+    <string name="app_setting_info">Kereshető elemek</string>
+    <string name="app_setting_about">Névjegy</string>
+    <string name="system_app">Rendszer alkalmazás</string>
+    <string name="user_app">Felhasználói alkalmazás</string>
+    <string name="system_setting">Rendszerbeállítás</string>
+    <string name="web_search">Internetes keresés</string>
+    <string name="app_search">Alkalmazás keresés</string>
+    <string name="find_no_associated_app">Nem található a kapcsolódó program!</string>
+    <string name="enter_app_error_prefix">Ez</string>
+    <string name="enter_app_error_suffix">hiba</string>
+    <string name="web_search_prefix">"Keresés az Interneten "</string>
+    <string name="web_search_suffix">" Kapcsolódó információk"</string>
+    <string name="app_search_prefix">"Keresés az Interneten "</string>
+    <string name="app_search_suffix">" Kapcsolódó alkalmazások"</string>
+    <string name="select_browser">Böngésző a kereséshez</string>
+    <string name="choose_browser">Válasszon böngészőt</string>
+    <string name="info_setting_message">Üzenetek</string>
+    <string name="info_setting_message_str">Üzenetek tartalmában</string>
+    <string name="info_setting_app">Alkalmazások</string>
+    <string name="info_setting_app_str">Telepített alkalmazásokban</string>
+    <string name="info_setting_image">Képek</string>
+    <string name="info_setting_image_str">Képek között</string>
+    <string name="info_setting_contact">Névjegyek</string>
+    <string name="info_setting_contact_str">Személyek adataiban</string>
+    <string name="info_setting_music">Zenék</string>
+    <string name="info_setting_music_str">Zenei fájlokban</string>
+    <string name="info_setting_setting">Beállítások</string>
+    <string name="info_setting_setting_str">Rendszerbeállításokban</string>
+    <string name="info_setting_file">Egyéb fájlok</string>
+    <string name="info_setting_file_str">További helyi fájlok</string>
+    <string name="no_default_browser">Nincs alapértelmezett böngésző</string>
+    <string name="sdcard_status_changed_title">A memóriakártya nem használható</string>
+    <string name="sdcard_status_changed_msg">Győződjön meg róla, hogy van memóriakártyája, és nincs PC-s átvitelre állítva.</string>
+    <string name="type_ok">OK</string>
+    <string name="no_browser">Nincs böngésző</string>
+</resources>
