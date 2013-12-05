@@ -142,9 +142,10 @@ LewaFileManager.apk
   strings.xml (CS99.7%, SK100%)
 
 LewaGallery2.apk
-  strings.xml (CS none, SK100%)
-  plurals.xml (CS none, SK100%)
-
+  strings.xml (CS100%, SK100%)
+  plurals.xml (CS100%, SK100%)
+  arrays.xml (CS100%, SK100%)
+  
 LewaIntercept.apk
   strings.xml (CS100%, SK100%)
   arrays.xml (CS100%, SK100%)
