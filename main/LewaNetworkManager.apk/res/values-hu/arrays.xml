@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string-array name="iface_wifi">
+        <item>wlan+</item>
+    </string-array>
+    <string-array name="iface_mobile">
+        <item>ccmni+</item>
+        <item>rmnet+</item>
+    </string-array>
+    <string-array name="pref_adjust_interval">
+        <item>Soha</item>
+        <item>Naponta</item>
+        <item>Havonta</item>
+    </string-array>
+    <string-array name="detail_times">
+        <item>@string/time_all</item>
+        <item>@string/time_month</item>
+        <item>@string/time_today</item>
+    </string-array>
+    <string-array name="pref_adjust_interval_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
