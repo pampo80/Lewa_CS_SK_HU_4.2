@@ -1154,6 +1154,7 @@ Nastavenie telefónu vyžaduje značný sieťový prenos dát."</string>
 <string name="search_settings_summary">Správa nastavení a histórie vyhľadávaní</string>
 <string name="display_settings">Zobrazenie</string>
 <string name="accelerometer_title">Automatické otáčanie obrazovky</string>
+<string name="nightmode_title">Nočný režim</string>
 <string name="accelerometer_summary_on">Pri otáčaní telefónu automaticky prepínať orientáciu</string>
 <string name="accelerometer_summary_off">Pri otáčaní telefónu automaticky prepínať orientáciu</string>
 <string name="brightness">Jas</string>
