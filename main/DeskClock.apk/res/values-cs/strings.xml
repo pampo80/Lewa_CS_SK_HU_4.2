@@ -103,7 +103,7 @@
 <string name="timer_ring">Vyzváněcí tón:</string>
 <string name="timer_init_start">"Posunem do strany nastavte délku času"</string>
 <string name="timer_time_up">Čas vypršel</string>
-<string name="timer_time_up_ok">Známý</string>
+<string name="timer_time_up_ok">OK</string>
 <string name="delete_selected">Vybráno %s</string>
 <string name="alarm_empty_text">Stiskem tlačítka níže přidáte budík</string>
 <string name="world_clock_empty_text">Stiskem tlačítka níže přidáte čas</string>
