@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string-array name="t9_sort_entries">
+        <item>@string/t9_sort_name</item>
+        <item>@string/t9_sort_number</item>
+    </string-array>
+    <string-array name="t9_sort_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="t9_map">
+        <item>0</item>
+        <item>1</item>
+        <item>@string/t9_map_row_2</item>
+        <item>@string/t9_map_row_3</item>
+        <item>@string/t9_map_row_4</item>
+        <item>@string/t9_map_row_5</item>
+        <item>@string/t9_map_row_6</item>
+        <item>@string/t9_map_row_7</item>
+        <item>@string/t9_map_row_8</item>
+        <item>@string/t9_map_row_9</item>
+        <item>*</item>
+        <item>\#</item>
+        <item>+</item>
+    </string-array>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="common_smiley_texts">
+        <item>[disappointed_but_relieved]</item>
+        <item>[Bad_smile]</item>
+        <item>[pensive]</item>
+        <item>[Bared_teeth_smile]</item>
+        <item>[winking]</item>
+        <item>[persevering]</item>
+        <item>[confounded]</item>
+        <item>[sleepy]</item>
+        <item>[Tongue]</item>
+        <item>[tightly_closed_smiling]</item>
+        <item>[fearful]</item>
+        <item>[Cold]</item>
+        <item>[flushed]</item>
+        <item>[unamused]</item>
+        <item>[Embarrassed]</item>
+        <item>[astonished]</item>
+        <item>[loudly_crying]</item>
+        <item>[tears_of_joy]</item>
+        <item>[crying]</item>
+        <item>[Giggle]</item>
+        <item>[Laugh_out_loud]</item>
+        <item>[pouting]</item>
+        <item>[kissing]</item>
+        <item>[kiss]</item>
+        <item>[meet]</item>
+        <item>[Grin]</item>
+        <item>[disappointed]</item>
+        <item>[angry]</item>
+        <item>[Grimace]</item>
+        <item>[Leering]</item>
+        <item>[fear]</item>
+        <item>[Cold_sweat]</item>
+        <item>[mouth]</item>
+        <item>[cloud]</item>
+        <item>[sun]</item>
+        <item>[umbrella_rain]</item>
+        <item>[moon]</item>
+        <item>[angel]</item>
+        <item>[heart]</item>
+        <item>[broken_heart]</item>
+        <item>[beer]</item>
+        <item>[present]</item>
+        <item>[party_popper]</item>
+        <item>[rice]</item>
+        <item>[pot_of_food]</item>
+        <item>[birthday_cake]</item>
+        <item>[Disagree]</item>
+        <item>[agree]</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Winking</item>
+        <item>Tongue sticking out</item>
+        <item>Surprised</item>
+        <item>Kissing</item>
+        <item>Yelling</item>
+        <item>Cool</item>
+        <item>Money mouth</item>
+        <item>Foot in mouth</item>
+        <item>Embarrassed</item>
+        <item>Angel</item>
+        <item>Undecided</item>
+        <item>Crying</item>
+        <item>Lips are sealed</item>
+        <item>Laughing</item>
+        <item>Confused</item>
+        <item>Heart</item>
+        <item>Mad</item>
+        <item>Smirk</item>
+        <item>Poker face</item>
+    </string-array>
+    <string-array name="default_quick_texts">
+        <item>Hol vagy?</item>
+        <item>Mit csinálsz most?</item>
+        <item>Hívj vissza, kérlek!</item>
+        <item>Bocs, de most egy megbeszélésen vagyok.</item>
+        <item>Nemsokára felhívlak.</item>
+        <item>"Ne aggódj! Rendben vagyok."</item>
+        <item>Úton vagyok hazafelé.</item>
+        <item>Hamarosan megérkezek.</item>
+        <item>Ne keress, haragszom rád!</item>
+    </string-array>
+    <string-array name="pref_mms_creation_mode_choices">
+        <item>Korlátozott mód</item>
+        <item>Figyelmzeztetés mód</item>
+        <item>Szabad mód</item>
+    </string-array>
+    <string-array name="pref_mms_creation_mode_values">
+        <item>RESTRICTED</item>
+        <item>WARNING</item>
+        <item>FREE</item>
+    </string-array>
+    <string-array name="pref_mms_size_limit_choices">
+        <item>100K</item>
+        <item>200K</item>
+        <item>300K</item>
+    </string-array>
+    <string-array name="pref_mms_size_limit_values">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="pref_key_mms_priority_choices">
+        <item>Magas</item>
+        <item>Normál</item>
+        <item>Alacsony</item>
+    </string-array>
+    <string-array name="pref_key_mms_priority_values">
+        <item>Magas</item>
+        <item>Normál</item>
+        <item>Alacsony</item>
+    </string-array>
+    <string-array name="pref_sms_input_mode_choice">
+        <item>GSM ábécé</item>
+        <item>Unicode</item>
+        <item>Automatikus</item>
+    </string-array>
+    <string-array name="pref_sms_input_mode_values">
+        <item>GSM ábécé</item>
+        <item>Unicode</item>
+        <item>Automatikus</item>
+    </string-array>
+    <string-array name="pref_sms_save_location_choices">
+        <item>Telefon</item>
+        <item>SIM kártya</item>
+    </string-array>
+    <string-array name="pref_sms_save_location_values">
+        <item>Telefon</item>
+        <item>Sim</item>
+    </string-array>
+    <string-array name="ip_call_location_provinces">
+        <item>BeiJing</item>
+        <item>ShangHai</item>
+        <item>TianJin</item>
+        <item>ChongQing</item>
+        <item>AnHui</item>
+        <item>FuJian</item>
+        <item>GanSu</item>
+        <item>GuangDong</item>
+        <item>GuangXi</item>
+        <item>GuiZhou</item>
+        <item>HaiNan</item>
+        <item>HeBei</item>
+        <item>HeNan</item>
+        <item>HeiLongJiang</item>
+        <item>HuBei</item>
+        <item>HuNan</item>
+        <item>JiLin</item>
+        <item>JiangXu</item>
+        <item>JiangXi</item>
+        <item>LiaoNing</item>
+        <item>NeiMengGu</item>
+        <item>NingXia</item>
+        <item>QingHai</item>
+        <item>ShanDong</item>
+        <item>Shan1Xi</item>
+        <item>Shan3Xi</item>
+        <item>SiChuan</item>
+        <item>XiZang</item>
+        <item>XinJiang</item>
+        <item>YunNan</item>
+        <item>ZheJiang</item>
+    </string-array>
+    <string-array name="ip_call_location_anhui_cities">
+        <item>HeFei</item>
+        <item>AnQing</item>
+        <item>BengBu</item>
+        <item>ChaoHu</item>
+        <item>ChiZhou</item>
+        <item>ChuZhou</item>
+        <item>FuYang/HaoZhou</item>
+        <item>HuaiBei</item>
+        <item>HuaiNan</item>
+        <item>HuangShan</item>
+        <item>LuAn</item>
+        <item>MaAnShan</item>
+        <item>SuZhou</item>
+        <item>TongLing</item>
+        <item>WuHu</item>
+        <item>XuanCheng</item>
+    </string-array>
+    <string-array name="ip_call_location_fujian_cities">
+        <item>FuZhou</item>
+        <item>LongYan</item>
+        <item>NanPing</item>
+        <item>NingDe</item>
+        <item>PuTian</item>
+        <item>QuanZhou</item>
+        <item>SanMing</item>
+        <item>XiaMen</item>
+        <item>ZhangZhou</item>
+    </string-array>
+    <string-array name="ip_call_location_gansu_cities">
+        <item>LanZhou</item>
+        <item>BaiYin</item>
+        <item>DingXi</item>
+        <item>GanNan</item>
+        <item>JiaYuGuan/JiuQuan</item>
+        <item>JinChan/WuWei</item>
+        <item>LinXia</item>
+        <item>LongNan</item>
+        <item>PingLiang</item>
+        <item>QingYang</item>
+        <item>TianShui</item>
+        <item>ZhangYe</item>
+    </string-array>
+    <string-array name="ip_call_location_guangdong_cities">
+        <item>GuangZhou</item>
+        <item>ChaoZhou</item>
+        <item>DongGuan</item>
+        <item>FoShan</item>
+        <item>HeYuan</item>
+        <item>HuiZhou</item>
+        <item>JiangMen</item>
+        <item>JieYang</item>
+        <item>MaoMing</item>
+        <item>MeiZhou</item>
+        <item>QingYuan</item>
+        <item>ShanTou</item>
+        <item>ShanWei</item>
+        <item>ShaoGuan</item>
+        <item>ShenZhen</item>
+    </string-array>
+    <string-array name="ip_call_location_guangxi_cities">
+        <item>NanNing</item>
+        <item></item>
+    </string-array>
+    <string-array name="ip_call_location_guizhou_cities">
+        <item></item>
+    </string-array>
+    <string-array name="ip_call_location_hainan_cities">
+        <item></item>
+    </string-array>
+    <string-array name="ip_call_location_hebei_cities">
+        <item></item>
+    </string-array>
+    <string-array name="ip_call_location_henan_cities">
+        <item></item>
+    </string-array>
+    <string-array name="ip_call_location_heilongjiang_cities">
+        <item></item>
+    </string-array>
+    <string-array name="ip_call_location_hubei_cities">
+        <item>WuHan</item>
+    </string-array>
+    <string-array name="ip_call_location_hunan_cities">
+        <item>ChangSha</item>
+    </string-array>
+    <string-array name="ip_call_location_jilin_cities">
+        <item>ChangChun</item>
+    </string-array>
+    <string-array name="ip_call_location_jiangsu_cities">
+        <item>NanJing</item>
+    </string-array>
+    <string-array name="ip_call_location_jiangxi_cities">
+        <item>NanChang</item>
+    </string-array>
+    <string-array name="ip_call_location_liaoning_cities">
+        <item>ShenYang</item>
+    </string-array>
+    <string-array name="ip_call_location_neimenggu_cities">
+        <item>HuHeHaoTe</item>
+    </string-array>
+    <string-array name="ip_call_location_ningxia_cities">
+        <item>YinChuan</item>
+    </string-array>
+    <string-array name="ip_call_location_qinghai_cities">
+        <item>XiNing</item>
+    </string-array>
+    <string-array name="ip_call_location_shandong_cities">
+        <item>JiNan</item>
+    </string-array>
+    <string-array name="ip_call_location_shan1xi_cities">
+        <item>TaiYuan</item>
+    </string-array>
+    <string-array name="ip_call_location_shan3xi_cities">
+        <item>XiAn</item>
+    </string-array>
+    <string-array name="ip_call_location_sichuan_cities">
+        <item>ChengDu</item>
+    </string-array>
+    <string-array name="ip_call_location_xizang_cities">
+        <item>LaSa</item>
+    </string-array>
+    <string-array name="ip_call_location_xinjiang_cities">
+        <item>WuLuMuQi</item>
+    </string-array>
+    <string-array name="ip_call_location_yunnan_cities">
+        <item>KungMing</item>
+    </string-array>
+    <string-array name="ip_call_location_zhejiang_cities">
+        <item>HangZhou</item>
+    </string-array>
+    <string-array name="ims_ip_call_setting_items">
+        <item>make long distance call</item>
+        <item>make all number call</item>
+    </string-array>
+    <string-array name="pref_sms_backup_location">
+        <item>sdcard</item>
+        <item>sdcard2</item>
+    </string-array>
+    <item type="array" name="BART_DUMMY_002f">false</item>
+    <item type="array" name="BART_DUMMY_0030">false</item>
+    <item type="array" name="BART_DUMMY_0031">false</item>
+    <string-array name="otherLabels">
+        <item>Szervezet</item>
+        <item>Jegyzet</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 másodperc</item>
+        <item>2 másodperc</item>
+        <item>3 másodperc</item>
+        <item>4 másodperc</item>
+        <item>5 másodperc</item>
+        <item>6 másodperc</item>
+        <item>7 másodperc</item>
+        <item>8 másodperc</item>
+        <item>9 másodperc</item>
+        <item>10 másodperc</item>
+        <item>Más…</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Mindig</item>
+        <item>Csak ha néma</item>
+        <item>Soha</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>Mindig</item>
+        <item>Csak ha néma</item>
+        <item>Soha</item>
+    </string-array>
+    <item type="array" name="BART_DUMMY_0036">false</item>
+</resources>

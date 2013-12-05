@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Hálózati alapért.</item>
+        <item>Szám rejtése</item>
+        <item>Szám mutatása</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA / EvDo automatikus</item>
+        <item>Csak WCDMA</item>
+        <item>CsakGSM</item>
+        <item>GSM / WCDMA preferált</item>
+        <item>WCDMA only</item>
+        <item>GSM only</item>
+        <item>GSM / WCDMA preferred</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>Angol</item>
+        <item>Francia</item>
+        <item>Spanyol</item>
+        <item>Japán</item>
+        <item>Koreai</item>
+        <item>Kínai</item>
+        <item>Héber</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (autom. mód)</item>
+        <item>Csak WCDMA</item>
+        <item>Csak GSM</item>
+        <item>GSM/WCDA (WCDMA preferált)</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Csak otthoni</item>
+        <item>Automatikus</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Csak otthoni hálózatok</item>
+        <item>Engedélyezett hálózatok</item>
+        <item>Bármilyen hálózat</item>
+    </string-array>
+</resources>
