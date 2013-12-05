@@ -14,10 +14,10 @@
 <string name="clearance_details">%1$s: Využité %2$s</string>
 <string name="clearance_checking">Kontrola odkladacieho súboru</string>
 <string name="auto_start_details">Počet aplikácií, ktoré je možné ukončiť: %1$s</string>
-<string name="auto_start_check_info">Počet aplikácií, ktoré je možné ukončiť: %1$s</string>
+<string name="auto_start_check_info">Počet aplikácii, ktoré je možné ukončiť: %1$s</string>
 <string name="auto_start_checing">Kontrolujem automaticky spustené</string>
 <string name="perm_manager_details">Počet aplikácií s citlivými oprávneniami: %1$s</string>
-<string name="notification_manager_open">Prístup do cloudu je otevrený</string>
+<string name="notification_manager_open">Prístup do Centra zabezpečenia je otvorený</string>
 <string name="notification_manager_close">Prístup do cloudu je uzavretý</string>
 <string name="notification_black_number">Aplikácie které boli zablokované: %1$d</string>
 <string name="antitheft_close">Ochrana proti krádeži je vypnutá.</string>
