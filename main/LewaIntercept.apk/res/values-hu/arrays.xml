@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="modes_array">
+        <item>Hívás és SMS feltartóztatás</item>
+        <item>Hívás </item>
+        <item>SMS feltartóztatás</item>
+    </string-array>
+    <integer-array name="modes_array_int">
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+</resources>
