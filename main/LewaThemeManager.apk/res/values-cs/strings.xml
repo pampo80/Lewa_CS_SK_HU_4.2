@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Poskytovatel motivů</string>
-    <string name="permlab_access_DrmThemeResources">Čtení zdrojů médií chráněných technologií DRM</string>
-    <string name="permdesc_access_DrmThemeResources">Umožňuje aplikaci pro čtení přístup k prostředkům médií chráněných technologií DRM téma balíčků</string>
-    <string name="permlab_set_theme">Nastavit globálně vyrovnané téma</string>
-    <string name="permdesc_set_theme">Umožňuje aplikaci změnit váš telefonní vizuální motiv.</string>
-    <string name="apply_font_failed">Použití písma se nezdařilo.</string>
+<string name="app_name">Poskytovatel motivů</string>
+<string name="permlab_access_DrmThemeResources">Číst DRM chráněné mediální zdroje</string>
+<string name="permdesc_access_DrmThemeResources">Umožňuje aplikaci přístup ke čtení balíčků motivů z mediálních zdrojů chráněných DRM .</string>
+<string name="permlab_set_theme">Nastavit globálně aplikované téma</string>
+<string name="permdesc_set_theme">"Dovolit aplikaci měnit motiv vašeho telefonu."</string>
+<string name="apply_font_failed">Nastavení písma selhalo.</string>
 </resources>
