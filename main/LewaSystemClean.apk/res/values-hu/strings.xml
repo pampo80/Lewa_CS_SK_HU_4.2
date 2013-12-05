@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="app_name">Rendszertisztítás</string>
+    <string name="menu_settings">Beállítások</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="calculate_sdcard">SD kártya kiszámítása</string>
+    <string name="calculate_size">Méret kiszámítása...</string>
+    <string name="clean_sdcard">SD kártya takarítása</string>
+    <string name="clean_sdcard_completed">Az SD kártya takarítása befejeződött</string>
+    <string name="clean_log_file_name">Naplófájlok</string>
+    <string name="clean_app_sdcard_cache_name">Az SD kártyán lévő alkalmazás cache</string>
+    <string name="clean_sdcard_cache_name">Cache fájlok</string>
+    <string name="clean_sdcard_empty_file_name">Üres fájlok</string>
+    <string name="clean_sdcard_mtk_log_name">MTK naplók</string>
+    <string name="clean_sdcard_thum_file_name">Bélyegkép fájlok</string>
+</resources>
