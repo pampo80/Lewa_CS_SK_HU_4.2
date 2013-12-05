@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpapers">MTK élő háttérképek</string>
+    <string name="vlw">Videó háttérképek</string>
+    <string name="vlw_author">MediaTek Inc.</string>
+    <string name="vlw_desc">Videó beállítása élő háttérképként.</string>
+    <string name="VideoScene_error_text_invalid_progressive_playback">Sajnáljuk, de ezt a videót nem lehet beállítani háttérképnek.</string>
+    <string name="VideoScene_error_text_unknown">A videó lejátszása nem lehetséges.</string>
+    <string name="VideoScene_error_media_removed">A médiafájl eltávolíva</string>
+    <string name="VideoScene_error_sdcard_unmounted">Az SD kártya nincs csatlakoztatva</string>
+    <string name="VideoScene_info_wait_sdcard">Várakozás az SD kártya csatlakoztatására</string>
+    <string name="VideoScene_error_media_not_found">Nincsenek média fájlok</string>
+    <string name="VideoScene_error_be_set">sajnáljuk, de ezt a videót nem lehet beállítani háttérképnek</string>
+    <string name="VideoEditor_error_title">A videó lejátszása nem lehetséges</string>
+    <string name="VideoEditor_error_button">OK</string>
+    <string name="VideoEditor_error_no_video_selected">Nincs kiválasztott videó</string>
+    <string name="VideoEditor_warning_limited_duration">Kérjük, jelöljön ki legalább egy másodpercnyi videót a lejátszáshoz</string>
+    <string name="VideoScene_reload_after_mount">Videó betöltése az SD kártyáról, kérem várjon.</string>
+    <string name="select_video">SD kártya</string>
+    <string name="select_default">Alapértelmezett</string>
+    <string name="select">Videó kiválasztása</string>
+    <string name="set_wallpaper">Háttérkép beállítása</string>
+    <string name="title">Videó háttérkép</string>
+    <string name="default_title">Alapértelmezett videó</string>
+    <string name="default_video_path">android.resource://com.mediatek.vlw/raw/default_video</string>
+    <string name="default_video_title">MediaTek Inc.</string>
+    <string name="capture_video">Kamera</string>
+    <string name="menu_item_add_item">Videó kiválasztása az SD kártyáról</string>
+    <string name="group_video">Egy videó kiválasztása</string>
+    <string name="group_folder">Mappa kiválasztása</string>
+    <string name="folder_info">videók&lt;br>innen&lt;br></string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Add_More_Ringtones">Több csengőhang...</string>
+    <string name="ringtone_custom">Egyéni...</string>
+    <string name="uid_label">Média</string>
+    <string name="app_label">Médiatároló</string>
+    <string name="upgrade_msg">Médiaszolgáltató adatbázisának frissítése</string>
+    <string name="artist_label">Előadó</string>
+</resources>
