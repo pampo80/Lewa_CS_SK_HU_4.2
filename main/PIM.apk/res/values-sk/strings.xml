@@ -876,7 +876,7 @@ Počet pokusov: %s."</string>
 <string name="menu_view_contact">Zobraziť kontakt</string>
 <string name="menu_add_to_contacts">Pridať do kontaktov</string>
 <string name="hidden_sender_address">Skrytá adresa odosielateľa</string>
-<string name="yes">Ospráva smsK</string>
+<string name="yes">OK</string>
 <string name="no">Zrušiť</string>
 <string name="set">Nastaviť</string>
 <string name="play">Spustiť</string>
@@ -1387,7 +1387,7 @@ Opakované odoslanie..."</string>
 <string name="mms_menu_del_message">Vymazať správu</string>
 <string name="mms_menu_quick_text">rýchly text</string>
 <string name="mms_select_contacts_favorites">Obľúbené</string>
-<string name="sms_recommend_message">doporučená správa</string>
+<string name="sms_recommend_message">Šablóny správ</string>
 <string name="sms_recommend_copy_text">kopírovať text</string>
 <string name="sms_recommend_copy_text_ready">kopírovanie textu pripravené</string>
 <string name="mms_menu_select_title">vybrať</string>

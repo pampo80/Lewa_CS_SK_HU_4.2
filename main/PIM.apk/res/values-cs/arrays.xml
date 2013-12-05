@@ -97,48 +97,48 @@
         <item>[agree]</item>
     </string-array>
     <string-array name="default_smiley_names">
-        <item>Happy</item>
-        <item>Sad</item>
-        <item>Winking</item>
-        <item>Tongue sticking out</item>
-        <item>Surprised</item>
-        <item>Kissing</item>
-        <item>Yelling</item>
-        <item>Cool</item>
-        <item>Money mouth</item>
-        <item>Foot in mouth</item>
-        <item>Embarrassed</item>
-        <item>Angel</item>
-        <item>Undecided</item>
-        <item>Crying</item>
-        <item>Lips are sealed</item>
-        <item>Laughing</item>
-        <item>Confused</item>
-        <item>Heart</item>
-        <item>Mad</item>
-        <item>Smirk</item>
-        <item>Poker face</item>
+        <item>Radost</item>
+        <item>Smoutek</item>
+        <item>Mrkání</item>
+        <item>Jazyk trčí</item>
+        <item>Překvapení</item>
+        <item>Pusa</item>
+        <item>Křik</item>
+        <item>Chlad</item>
+        <item>Peníze</item>
+        <item>Noha v ústech</item>
+        <item>Rozpaky</item>
+        <item>Anjel</item>
+        <item>Nerozhodnost</item>
+        <item>Plač</item>
+        <item>Pery zavřeté</item>
+        <item>Smích</item>
+        <item>Zmatenost</item>
+        <item>Srdce</item>
+        <item>Rozrušení</item>
+        <item>Úšklebek</item>
+        <item>Poker tvář</item>
     </string-array>
     <string-array name="default_quick_texts">
         <item>Kde jsi?</item>
         <item>Co děláš?</item>
-        <item>Zavolej zpět, prosím!</item>
-        <item>Omlouvám se, ale mám schůzku.</item>
-        <item>Zavolám brzy.</item>
-        <item>Neměj obavy, jsem v pořádku!</item>
-        <item>Jsem na cestě domů.</item>
-        <item>Přijedu brzy.</item>
-        <item>Buď na místě včas!</item>
+        <item>Zavolej mi!</item>
+        <item>Promiňte, mám schůzku.</item>
+        <item>Zavolám o chvíli.</item>
+        <item>"Neboj! Jsem v pořádku."</item>
+        <item>Jsem na ceste domů.</item>
+        <item>O chvíli přijdu.</item>
+        <item>Budu tam.</item>
     </string-array>
     <string-array name="pref_mms_creation_mode_choices">
         <item>Omezený režim</item>
-        <item>Režim varování</item>
+        <item>Varovný režim</item>
         <item>Volný režim</item>
     </string-array>
     <string-array name="pref_mms_creation_mode_values">
-        <item>RESTRICTED</item>
-        <item>WARNING</item>
-        <item>FREE</item>
+        <item>OMEZENÝ</item>
+        <item>VAROVNÝ</item>
+        <item>VOLNÝ</item>
     </string-array>
     <string-array name="pref_mms_size_limit_choices">
         <item>100K</item>
@@ -156,27 +156,27 @@
         <item>Nízká</item>
     </string-array>
     <string-array name="pref_key_mms_priority_values">
-        <item>High</item>
-        <item>Normal</item>
-        <item>Low</item>
+        <item>Vysoká</item>
+        <item>Normální</item>
+        <item>Nízká</item>
     </string-array>
     <string-array name="pref_sms_input_mode_choice">
-        <item>GSM alphabet</item>
+        <item>GSM abeceda</item>
         <item>Unicode</item>
         <item>Automaticky</item>
     </string-array>
     <string-array name="pref_sms_input_mode_values">
-        <item>GSM alphabet</item>
+        <item>GSM abeceda</item>
         <item>Unicode</item>
-        <item>Automatic</item>
+        <item>Automaticky</item>
     </string-array>
     <string-array name="pref_sms_save_location_choices">
         <item>Telefon</item>
-        <item>SIM karta</item>
+        <item>Karta SIM</item>
     </string-array>
     <string-array name="pref_sms_save_location_values">
         <item>Telefon</item>
-        <item>SIM karta</item>
+        <item>SIM</item>
     </string-array>
     <string-array name="ip_call_location_provinces">
         <item>BeiJing</item>
@@ -342,8 +342,8 @@
         <item>HangZhou</item>
     </string-array>
     <string-array name="ims_ip_call_setting_items">
-        <item>meziměstské volání</item>
-        <item>volat všechny číselné</item>
+        <item>vytvořit vzdálený hovor</item>
+        <item>vytvořit hovor (všechny čísla)</item>
     </string-array>
     <string-array name="pref_sms_backup_location">
         <item>sdcard</item>
@@ -351,7 +351,7 @@
     </string-array>
     <string-array name="otherLabels">
         <item>Organizace</item>
-        <item>poznámka</item>
+        <item>Poznámka</item>
     </string-array>
     <string-array name="select_dialog_items">
         <item>1 sekunda</item>
@@ -364,16 +364,16 @@
         <item>8 sekund</item>
         <item>9 sekund</item>
         <item>10 sekund</item>
-        <item>Jiné...</item>
+        <item>Other…</item>
     </string-array>
     <string-array name="prefEntries_vibrateWhen">
         <item>Vždy</item>
-        <item>Jen při potichu</item>
+        <item>Jen při tichém</item>
         <item>Nikdy</item>
     </string-array>
     <string-array name="prefValues_vibrateWhen">
         <item>vždy</item>
-        <item>ticho</item>
+        <item>tichý</item>
         <item>nikdy</item>
     </string-array>
 </resources>
