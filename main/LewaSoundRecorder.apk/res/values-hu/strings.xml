@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hangfelvevő</string>
+    <string name="record_your_message">Üzenet rögzítése</string>
+    <string name="message_recorded">Üzenet rögzítve</string>
+    <string name="review_message">Üzenet megtekintése</string>
+    <string name="recording">Felvétel</string>
+    <string name="recording_stopped">Felvétel leállítva</string>
+    <string name="storage_is_full">A háttértár megtelt</string>
+    <string name="max_length_reached">Elérte a maximális hosszt.</string>
+    <string name="insert_sd_card">Nem található SD-kártya. Kérjük ellenőrizze, hogy a készüléke nincs-e csatlakoztatva a PC-jére.</string>
+    <string name="min_available">%d perc van vissza</string>
+    <string name="sec_available">%d m.perc használható</string>
+    <string name="accept">Kész</string>
+    <string name="discard">Töröl</string>
+    <string name="button_ok">OK</string>
+    <string name="timer_format_with_hour" formatted="false">%02d:%02d:%02d</string>
+    <string name="timer_format_without_hour" formatted="false">%02d:%02d</string>
+    <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
+    <string name="audio_db_artist_name">Hangfelvételei</string>
+    <string name="audio_db_album_name">Hangfelvételei</string>
+    <string name="audio_db_playlist_name">Hangfelvételeim</string>
+    <string name="error_sdcard_access">Nem lehetett az SD kártyát megnyitni</string>
+    <string name="error_app_internal">Belső alkalmazás hiba</string>
+    <string name="error_mediadb_new_record">A felvételt nem lehetett menteni</string>
+    <string name="error_app_recorder_occupied">A felvevőt más alkalmazás használja.</string>
+    <string name="unknown_artist_name">Ismeretlen előadó</string>
+    <string name="error_app_failed_title">Felvétel sikertelen</string>
+    <string name="tell_save_record_success">mentése sikeres.</string>
+    <string name="save_record">Mentése</string>
+    <string name="spaceIsLow_content">Az SD-kártyáján elfogyóban van a hely. Töröljön róla valamit.</string>
+    <string name="cancel">Mégsem</string>
+    <string name="rename_record_file">Felvétel átnevezése</string>
+    <string name="file_already_exists">A fájl már létezik</string>
+    <string name="select_recording_format">Felvételi formátum megadása</string>
+    <string name="recording_format_high">Magas</string>
+    <string name="recording_format_mid">Közepes</string>
+    <string name="recording_format_low">Alacsony</string>
+    <string name="three_mins_avail_total">Még 3 perc van vissza</string>
+    <string name="recorder_can_not_be_used">A hangfelvevőt jelnelneg nem használhatja.</string>
+    <string name="alert_delete_multiple">Ezek lesznek törölve</string>
+    <string name="alert_delete_single">A kijelölt elem(ek) törlése?</string>
+    <string name="ok">OK</string>
+    <string name="delete">Törlés</string>
+    <string name="deleting">Törlés</string>
+    <string name="no_recording_file">(Nincs hangfelvétel)</string>
+    <string name="recording_file_list">Felvételek listája</string>
+    <string name="recording_paused">Felvétel szüneteltetve</string>
+    <string name="record_title">Felvétel</string>
+    <string name="play_title">Lejátszás</string>
+    <string name="time_zero">00:00</string>
+    <string name="delete_selected">Kiválasztott %s</string>
+    <string name="duration_timer_format_with_hour" formatted="false">%02dH%02dM%02dS</string>
+    <string name="duration_timer_format_without_hour" formatted="false">%02dM%02dS</string>
+    <string name="is_recording_can_not_use_play_function">Felvétel folyamatban, nem lehet lejátszani közben.</string>
+    <string name="is_playing_can_not_use_record_function">Lejátszás közben nem lehet felvenni.</string>
+</resources>
