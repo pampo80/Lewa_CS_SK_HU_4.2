@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="flashDevice">/sys/class/leds/flashlight/brightness</string>
+    <string name="app_name">Zseblámpa</string>
+</resources>
