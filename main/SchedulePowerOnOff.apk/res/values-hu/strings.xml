@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="schedule_power_on_off_settings_title">Be-/kikapcsolás ütemezése</string>
+    <string name="schedule_power_on_off_time">Idő</string>
+    <string name="schedule_power_on_off_repeat">Ismétlés</string>
+    <string name="schedule_power_on_off_set">Be-/kikapcsolás ütemezése</string>
+    <string name="schedule_power_on_set">Bekapcsolás ütemezése</string>
+    <string name="schedule_power_off_set">Kikapcsolás ütemezése</string>
+    <string name="enable_schpwr">Engedélyezés</string>
+    <string name="disable_schpwr">Letiltás</string>
+    <string name="day">1 nap</string>
+    <string name="days">" %s nap"</string>
+    <string name="hour">1 óra</string>
+    <string name="hours">%s óra</string>
+    <string name="minute">1 perc</string>
+    <string name="minutes">" %s perc"</string>
+    <string name="every_day">mindennap</string>
+    <string name="never">Soha</string>
+    <string name="done">Kész</string>
+    <string name="revert">Visszavonás</string>
+    <string name="schpwr_shutdown_message">A telefon %s másodperc múlva kikapcsolódik</string>
+    <string name="schpwr_shutdown_message_second">A telefon %s másodperc múlva kikapcsolódik</string>
+</resources>
