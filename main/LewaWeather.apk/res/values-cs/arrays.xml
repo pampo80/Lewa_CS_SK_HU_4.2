@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week">
+        <item></item>
+        <item>Neděle</item>
+        <item>Pondělí</item>
+        <item>Úterý</item>
+        <item>Středa</item>
+        <item>Čtvrtek</item>
+        <item>Pátek</item>
+        <item>Sobota</item>
+    </string-array>
+    <string-array name="week_times">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+    <string-array name="weather_solar_holiday_in_month">
+        <item>元旦</item>
+        <item>情人</item>
+        <item>妇女</item>
+        <item>植树</item>
+        <item>愚人</item>
+        <item>劳动</item>
+        <item>青年</item>
+        <item>儿童</item>
+        <item>建党</item>
+        <item>抗战</item>
+        <item>建军</item>
+        <item>教师</item>
+        <item>国庆</item>
+        <item>光棍</item>
+        <item>平安</item>
+        <item>圣诞</item>
+    </string-array>
+    <string-array name="weather_lunar_holiday_in_month">
+        <item>春节</item>
+        <item>元宵</item>
+        <item>端午</item>
+        <item>七夕</item>
+        <item>中秋</item>
+        <item>重阳</item>
+        <item>腊八</item>
+        <item>小年</item>
+        <item>除夕</item>
+    </string-array>
+    <string-array name="weather_solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="weather_rss_long_click_items">
+        <item>分享</item>
+    </string-array>
+    <string-array name="weather_default_first_day">
+        <item>周一</item>
+        <item>周日</item>
+    </string-array>
+    <string-array name="weather_default_first_day_valuse">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="weather_setup_items">
+        <item>周首日</item>
+        <item>提醒设置</item>
+        <item>插件风格</item>
+        <item>日期计算</item>
+        <item>阴阳转换</item>
+        <item>黄历显示开关</item>
+        <item>星座显示开关</item>
+        <item>节日介绍显示开关</item>
+        <item>清除缓存</item>
+        <item>关于</item>
+    </string-array>
+    <string-array name="weather_help_contact_list">
+        <item>意见反馈</item>
+        <item>15910709384　</item>
+        <item>365rili@gmail.com</item>
+    </string-array>
+    <string-array name="weather_default_plug_bg">
+        <item>浅色</item>
+        <item>深色</item>
+    </string-array>
+    <string-array name="weather_account_change_label">
+        <item>账号</item>
+        <item>密码</item>
+    </string-array>
+    <string-array name="weather_account_input_tip">
+        <item>账号长度不少于4位</item>
+        <item>请输入账号密码</item>
+        <item>两次密码不一致，请再次输入确认</item>
+        <item>请输入不同于当前正在使用的账号</item>
+        <item>请输入6-20位的密码</item>
+    </string-array>
+    <string-array name="weather_account_change_result_tip">
+        <item>账号切换成功！</item>
+        <item>账号不存在</item>
+        <item>密码不正确</item>
+        <item>网络问题或未知错误</item>
+    </string-array>
+    <string-array name="weather_account_edit_label">
+        <item>新账号名</item>
+        <item>旧的密码</item>
+        <item>新建密码</item>
+        <item>确认密码</item>
+    </string-array>
+    <string-array name="weather_account_edit_result_tip">
+        <item>账号修改成功！</item>
+        <item>账号名已存在</item>
+        <item>原密码错误</item>
+        <item>网络问题或未知错误</item>
+    </string-array>
+    <string-array name="weather_default_swidth_on_or_off">
+        <item>关</item>
+        <item>开</item>
+    </string-array>
+    <string-array name="weather_hot_city">
+        <item>自动定位,北京,上海,广州</item>
+        <item>深圳,武汉,南京,天津</item>
+        <item>杭州,西安,郑州,重庆</item>
+        <item>成都,福州,昆明,厦门</item>
+        <item>沈阳,长春,大连,济南</item>
+        <item>太原,长沙,哈尔滨,合肥</item>
+        <item>南昌,青岛,香港,澳门</item>
+    </string-array>
+    <string-array name="weather_hot_provices">
+        <item>无,北京,上海,广东</item>
+        <item>广东,湖北,江苏,天津</item>
+        <item>浙江,陕西,河南,重庆</item>
+        <item>四川,福建,云南,福建</item>
+        <item>辽宁,吉林,辽宁,山东</item>
+        <item>山西,湖南,黑龙江,安徽</item>
+        <item>江西,山东,香港,澳门</item>
+    </string-array>
+</resources>
