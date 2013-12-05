@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selectNone">Mégsem</string>
+    <string name="config_deviceKeyHandlerLib" />
+    <string name="config_deviceKeyHandlerClass" />
+    <string name="reboot_system">Újraindítás</string>
+    <string name="global_action_screenshot">Képernyőkép</string>
+    <string name="global_action_screenshot_status">Képernyőkép mentéséhez nyomja le együtt a bekapcsolás és hangerő - gombokat.</string>
+    <string name="reboot_reboot">Újraindítás</string>
+    <string name="reboot_recovery">Visszaállító menü</string>
+    <string name="reboot_bootloader">Rendszertöltő</string>
+    <string name="reboot_bootmenu">Bootmenü</string>
+    <string name="reboot_fastboot">Gyorsboot</string>
+    <string name="reboot_download">Letöltés</string>
+    <string name="reboot_progress">Újraindítás…</string>
+    <string name="reboot_confirm">A készüléke újra fog indulni.</string>
+    <string name="global_action_reboot">Újraindít</string>
+    <string name="lockscreen_discharging">Akkumulátor (%d%%)</string>
+    <string name="progress_scanning">Keresés</string>
+    <string name="phone_goggles_problem_count">Hiba #%1$d:</string>
+    <string name="phone_goggles_description">Solve the %1$d following maths problems in less than %2$d seconds in order to perform your communication.</string>
+    <string name="permlab_revokePermissions">Allows view and edit of revoked permissions. Not for use by normal applications.</string>
+    <string name="permdesc_revokePermissions">Allows read and write for revoked permissions. Not for use by normal applications.</string>
+     <string name="app_killed_message">Alkalmazás leállítva</string>
+    <string name="back_killed_message">Leállítva</string>
+    <string name="lock_screen_miss_call">%1$d nem fogadott hívás</string>
+    <string name="lock_screen_new_msg">%1$d új üzenet</string>
+    <string name="lock_screen_miss_calls">%1$d nem fogadott hívás</string>
+    <string name="lock_screen_new_msgs">%1$d új üzenet</string>
+    <string name="lock_screen_drag_down">Húzza a feloldáshoz</string>
+    <string name="lock_screen_drag_here">Húzza ide a feloldáshoz</string>
+    <string name="lock_screen_dismiss">Elutasít</string>
+    <string name="lock_screen_snooze">Szundi</string>
+    <string name="lock_screen_pm">DU</string>
+    <string name="lock_screen_am">DE</string>
+    <string name="ringtone_custom">Egyéb...</string>
+    <string name="ringtone_silent_summary">Néma</string>
+    <string name="data_usage_warning_body">Figyelem, már csak %s maradt az adatcsomagjából.</string>
+</resources>

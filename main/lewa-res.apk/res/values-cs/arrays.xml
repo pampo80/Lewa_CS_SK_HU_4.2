@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shutdown_reboot_options">
+        <item>@string/reboot_reboot</item>
+        <item>@string/reboot_recovery</item>
+    </string-array>
+    <string-array name="shutdown_reboot_actions">
+        <item></item>
+        <item>recovery</item>
+    </string-array>
+    <integer-array name="config_autoBrightnessButtonBacklightValues">
+        <item>0</item>
+        <item>102</item>
+        <item>180</item>
+        <item>200</item>
+        <item>210</item>
+        <item>230</item>
+        <item>255</item>
+    </integer-array>
+    <string-array name="config_standaloneLockscreens">
+        <item>com.miui.mihome2/com.miui.home.lockscreen.LockscreenActivity</item>
+    </string-array>
+</resources>
