@@ -1274,6 +1274,10 @@
 <string name="twelve_hour_time_format">h:mma</string>
 <string name="send_message">Odeslat zprávu</string>
 <string name="dialpad_showdialpad">Zobrazit Číselník</string>
+<string name="call_dialpad_setting">Nastavení číselníku</string>
+<string name="dialer_search_item_misscall_time">Zvonilo: %sx</string>
+<string name="dialpad_to_text">volat přes</string>
+<string name="call_log_clear_all">vymazať celý register hovorov</string>
 <string name="mms_select_contacts_group_count">kontakty</string>
 <string name="mms_select_contacts_recent_contacts">nedávné kontakty</string>
 <string name="message_compose_menu_resend_label">Znovu poslat</string>
