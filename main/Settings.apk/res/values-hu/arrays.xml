@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Európa</item>
+        <item>Afrika</item>
+        <item>Ázsia</item>
+        <item>Ausztrália</item>
+	<item>Csendes-óceán</item>
+	<item>Összes</item>    
+    </string-array>
+        
+    
+    <string-array name="screen_timeout_entries">
+        <item>15 másodperc</item>
+        <item>30 másodperc</item>
+        <item>1 perc</item>
+        <item>2 perc</item>
+        <item>5 perc</item>
+	<item>10 perc</item>
+        <item>30 perc</item>
+        
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Soha</item>
+        <item>15 másodperc</item>
+        <item>30 másodperc</item>
+        <item>1 perc</item>
+        <item>2 perc</item>
+        <item>5 perc</item>
+        <item>10 perc</item>
+        <item>30 perc</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Azonnal</item>
+        <item>5 másodperc</item>
+        <item>15 másodperc</item>
+        <item>30 másodperc</item>
+        <item>1 perc</item>
+	<item>2 perc</item>
+        <item>5 perc</item>
+        <item>10 perc</item>
+        <item>30 perc</item>
+    </string-array>
+        
+  
+    <string-array name="entries_font_size">
+        <item>Kicsi</item>
+        <item>Normál</item>
+        <item>Nagy</item>
+        <item>Extra nagy</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Nagyon lassú</item>
+        <item>Lassú</item>
+        <item>Normál</item>
+        <item>Gyors</item>
+        <item>Nagyon gyors</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Nagyon alacsony</item>
+        <item>Alacsony</item>
+        <item>Normál</item>
+        <item>Magas</item>
+        <item>Nagyon magas</item>
+    </string-array>
+    <string-array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+    </string-array>
+    <string-array name="tts_demo_string_langs">
+        <item>eng</item>
+        <item>fra</item>
+        <item>deu</item>
+        <item>ita</item>
+        <item>spa</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Keresés...</item>
+        <item>Kapcsolódás…</item>
+        <item>Hitelesítés...</item>
+        <item>IP-cím lekérése...</item>
+        <item>Csatlakozva</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása...</item>
+        <item>Nincs kapcsolat</item>
+        <item>Sikertelen</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Keresés...</item>
+        <item>Csatlakozás a(z) %1$s hálózathoz...</item>
+        <item>Hitelesítés a(z) %1$s hálózaton...</item>
+        <item>IP-cím lekérése a(z) %1$s hálózattól...</item>
+        <item>Kapcsolódva a(z) %1$s hálózathoz</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása %1$s hálózattal...</item>
+        <item>Nincs kapcsolat</item>
+        <item>Sikertelen</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Nyomógomb</item>
+        <item>Partnereszköztől kapott PIN</item>
+        <item>A készülék PIN kódja</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Kapcsolva</item>
+        <item>Meghívott</item>
+        <item>Sikertelen</item>
+        <item>Rendelkezésre álló</item>
+        <item>Tartományon kívül</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 perc</item>
+        <item>5 perc</item>
+        <item>1 óra</item>
+        <item>Soha ne legyen időtúllépés</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Gyenge</item>
+        <item>Közepes</item>
+        <item>Jó</item>
+        <item>Kiváló</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Mindig</item>
+        <item>Csak ha csatlakoztatva van</item>
+        <item>Soha (növeli az adatforgalmat)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Mindig</item>
+        <item>Csak ha csatlakoztatva van</item>
+        <item>Soha</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automatikus</item>
+        <item>Csak 5 GHz</item>
+        <item>Csak 2,4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Használat ideje</item>
+        <item>Elindítások száma</item>
+        <item>Alkalmazás neve</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Semelyik</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statikus</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Nincs</item>
+        <item>Kézi</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Ki</item>
+        <item>Riasztás</item>
+        <item>Rezgés</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Belső tárhely</item>
+        <item>Eltávolítható SD-kártya</item>
+	<item>Döntse el a rendszer</item>
+    </string-array>
+        
+   
+    <string-array name="long_press_timeout_selector_titles">
+	<item>Rövid</item>
+	<item>Közepes</item>
+	<item>Hosszú</item>
+    </string-array>
+        
+   
+    <string-array name="hdcp_checking_titles">
+        <item>Ellenőrzés soha</item>
+        <item>Csak DRM-tartalom ellenőrzése</item>
+        <item>Ellenőrzés mindig</item>
+    </string-array>
+    <string-array name="hdcp_checking_values">
+        <item>never</item>
+        <item>drm-only</item>
+        <item>always</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Soha ne használjon HDCP ellenőrzést</item>
+        <item>Csak DRM-tartalomhoz használjon HDCP ellenőrzést</item>
+        <item>Mindig használjon HDCP ellenőrzést</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animáció ki</item>
+        <item>Animáció mérete: 0,5x</item>
+        <item>Animáció mérete: 1x</item>
+        <item>Animáció mérete: 1,5x</item>
+        <item>Animáció mérete: 2x</item>
+        <item>Animáció mérete: 5x</item>
+        <item>Animáció mérete: 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animáció ki</item>
+	<item>Animáció mérete: 0,5x</item>
+        <item>Animáció mérete: 1x</item>
+        <item>Animáció mérete: 1,5x</item>
+        <item>Animáció mérete: 2x</item>   
+        <item>Animáció mérete: 5x</item>
+        <item>Animáció mérete: 10x</item>
+    </string-array>
+    
+    <string-array name="app_process_limit_entries">
+	<item>Normál korlátozás</item>
+        <item>Nincsenek háttérfolyamatok</item>
+        <item>Legfeljebb 1 folyamat</item>
+        <item>Legfeljebb 2 folyamat</item>
+        <item>Legfeljebb 3 folyamat</item>
+        <item>Legfeljebb 4 folyamat</item>
+    </string-array>
+        
+    <string-array name="vpn_types">
+        <item>PPTP</item>
+        <item>L2TP/IPSec PSK</item>
+        <item>L2TP/IPSec RSA</item>
+        <item>IPSec Xauth PSK</item>
+        <item>IPSec Xauth RSA</item>
+        <item>IPSec Hybrid RSA</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN megosztott kulcsokkal</item>
+        <item>L2TP/IPSec VPN-tanúsítványokkal</item>
+        <item>IPSec VPN előre megosztott kulcsokkal és Xauth azonosítás</item>
+        <item>IPSec VPN-tanúsítványokkal és Xauth azonosítás</item>
+        <item>IPSec VPN-tanúsítványokkal és hibrid azonosítás</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Szétkapcsolva</item>
+        <item>Inicializálás...</item>
+        <item>Csatlakozás…</item>
+	<item>Csatlakoztatva</item>
+	<item>Időtúllépés</item>
+        <item>Sikertelen</item>
+    </string-array>
+        
+        
+    <string-array name="haptic_feedback_level_entries">
+  	<item>Gyenge</item>
+        <item>Közepes</item>
+        <item>Erős</item>
+    </string-array>  
+    <string-array name="battery_style_entries">
+        <item>Grafikus</item>
+	    <item>Százalék</item>
+    </string-array>
+        
+    
+    <string-array name="usb_connection_mode_entries">
+        <item>Mindig kérdezzen rá</item>
+        <item>Csak töltés</item>
+        <item>SD kártya felcsatolása</item>
+    </string-array>
+    <string-array name="led_freq_entries">
+        <item>2 másodperc</item>
+        <item>3 másodperc</item>
+        <item>4 másodperc</item>
+        <item>5 másodperc</item>
+        <item>6 másodperc</item>
+        <item>7 másodperc</item>
+        <item>8 másodperc</item>
+        <item>9 másodperc</item>
+    </string-array>
+    <string-array name="led_color_entries">
+        <item>Kék</item>
+        <item>Piros</item>
+        <item>Narancssárga</item>
+        <item>Sárga</item>
+        <item>Zöld</item>
+        <item>Cián</item>
+        <item>Fehér</item>
+        <item>Lila</item>
+    </string-array>
+    <string-array name="back_long_press_timeout">
+        <item>0.5 másodperc</item>
+        <item>1 másodperc</item>
+        <item>1.5 másodperc</item>
+        <item>2 másodperc</item>
+    </string-array>
+    <string-array name="button_light_timeout_entries">
+        <item>1 másodperc</item>
+        <item>2 másodperc</item>
+        <item>5 másodperc</item>
+        <item>10 másodperc</item>
+        <item>20 másodperc</item>
+ 	<item>Mindig</item>
+    </string-array>
+        
+        
+    <string-array name="screen_color_title">
+        <item>Meleg</item>
+        <item>Természetes</item>
+        <item>Hideg</item>
+    </string-array>
+    <string-array name="screen_saturation_title">
+        <item>Kiváló</item>
+        <item>Alapértelmezett</item>
+    </string-array>
+	    <string-array name="auto_time_entries">
+        <item>Szolgáltató náltal biztosított idő használata</item>
+        <item>GPS által biztosított idő használata</item>
+        <item>Kikpacsolva</item>
+    </string-array>
+
+    <string-array name="gemini_sim_roaming_reminder_entries">
+        <item>Egyszer</item>
+        <item>Mindíg</item>
+        <item>Soha</item>
+    </string-array>	
+</resources>
