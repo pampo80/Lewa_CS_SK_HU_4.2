@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM eszköztár</string>
+    <string name="activity_not_found">Az alkalmazás már nincs telepítve a telefonján.</string>
+    <string name="simlock_toolkit">SIM eszköztár</string>
+</resources>
