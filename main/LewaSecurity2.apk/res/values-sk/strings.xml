@@ -13,8 +13,8 @@
 <string name="intercept_details">Hovory: %1$s, Správy: %2$s</string>
 <string name="clearance_details">%1$s: Využité %2$s</string>
 <string name="clearance_checking">Kontrola odkladacieho súboru</string>
-<string name="auto_start_details">Počet aplikácii, ktoré je možné ukončiť: %1$s</string>
-<string name="auto_start_check_info">Počet aplikácii, ktoré je možné ukončiť: %1$s</string>
+<string name="auto_start_details">Počet aplikácií, ktoré je možné ukončiť: %1$s</string>
+<string name="auto_start_check_info">Počet aplikácií, ktoré je možné ukončiť: %1$s</string>
 <string name="auto_start_checing">Kontrolujem automaticky spustené</string>
 <string name="perm_manager_details">Počet aplikácií s citlivými oprávneniami: %1$s</string>
 <string name="notification_manager_open">Prístup do cloudu je otevrený</string>
@@ -28,7 +28,7 @@
 <string name="virus_has_been_scanned">Kontrola bola dokončená</string>
 <string name="virus_checking">Kontrolujem ...</string>
 <string name="virus_optimizing_progress">prehľadávam %s</string>
-<string name="first_use">Váš telefón nikdy nebol skontrolovaný</string>
+<string name="first_use">Váš telefón nebol nikdy skontrolovaný</string>
 <string name="scan_just_now">Práve bolo skontrolované</string>
 <string name="days">d</string>
 <string name="hours">h</string>
@@ -38,8 +38,8 @@
 <string name="goto_details">Detaily</string>
 <string name="clearance_calculate_state">detekujem %s</string>
 <string name="oneclick_optimize">Celková optimalizácia</string>
-<string name="clearance_garbage_size">Nepotrebných súborov vyčištených z cloudu: %1$s</string>
-<string name="clearance_garbage_cleared">Nepotrebných súborov vyčištených z cloudu: %1$s</string>
+<string name="clearance_garbage_size">Veľkosť súborov na vyhodenie: %1$s</string>
+<string name="clearance_garbage_cleared">Veľkosť súborov vyhodených: %1$s</string>
 <string name="dialog_title">Upozornenie centra zabezpečenia</string>
 <string name="dialog_message_check">Prebieha kontrola, skutočne chcete uzavrieť?</string>
 <string name="dialog_message_optimize">Prebieha kontrola, skutočne chcete uzavrieť?</string>
