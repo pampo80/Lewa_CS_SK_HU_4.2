@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
     <string name="app_name">Přenosy dat</string>
     <string name="app_summary">Data Meter© LeWaTek Limited.</string>
     <string name="settings_safetylegal_activity_loading">Nahrávání...</string>
@@ -19,7 +19,7 @@
     <string name="time_today">Dnešní přenesená data</string>
     <string name="time_month">Data přenesená tento měsíc</string>
     <string name="time_yesterday">Včerejší hodnocení</string>
-    <string name="error_input">Špatně zadaný formát čísla. Poznámka překladatele: místo čárky zadejte tečku</string>
+    <string name="error_input">Špatně zadaný formát čísla.</string>
     <string name="usage_title">Přenesená data</string>
     <string name="usage_today_usage">Dnes</string>
     <string name="usage_daily_remain">Denně</string>
@@ -30,7 +30,7 @@
     <string name="usage_remain">Zbývá</string>
     <string name="usage_nocard">Není k dispozici</string>
     <string name="usage_total">Celkem využito</string>
-    <string name="usage_plan">Upravit datový plán</string>
+    <string name="usage_plan">Upravit plán</string>
     <string name="usage_adjust">Synchronizace</string>
     <string name="usage_adjusting">Synchronizuji</string>
     <string name="usage_adjust_success">Synchronizace dokončena</string>
@@ -43,8 +43,8 @@
     <string name="pref_title">Nastavení</string>
     <string name="pref_alert_title">Tipy nápovědy</string>
     <string name="pref_data_pack">Datový plán</string>
-    <string name="pref_data_pack_title">Datový plán</string>
-    <string name="pref_data_pack_summary">%1$s, zbývá: %2$s, od: %3$s</string>
+    <string name="pref_data_pack_title">Upravit datový plán</string>
+    <string name="pref_data_pack_summary">%1$s, zbývá: %2$s, z: %3$s</string>
     <string name="pref_monthly_usage">Měsíční využití</string>
     <string name="pref_adjust_settings">Synchronizovat data automaticky</string>
     <string name="pref_adjust_regularly">Synchronizovat využití dat</string>
@@ -53,12 +53,12 @@
     <string name="background_warning_close_content">Při uzavření varování o datech na pozadí nebudete o těchto varováni, což může způsobit ztrátu mobilních dat. Jste si jisti zavřením?</string>
     <string name="pref_data_warning">Varování, pokud zbývá málo dat</string>
     <string name="notify_data_warning">Vaše data jsou nízká</string>
-    <string name="pref_data_warning_prepend">"Varovat když zbývá "</string>
-    <string name="pref_data_warning_append" />
-    <string name="pref_data_warning_unset">Prvně nastavte datový plán</string>
+    <string name="pref_data_warning_prepend">"Varovat, když zbývá méně než "</string>
+    <string name="pref_data_warning_append">"dat."</string>
+    <string name="pref_data_warning_unset">Nejdříve nastavte datový plán</string>
     <string name="pref_category_common">Další nastavení</string>
     <string name="pref_background_antitheft">Proti datům na pozadí</string>
-    <string name="pref_background_antitheft_summary">Automaticky zavřít 2G/3G sítě mezi 0:00-07:00</string>
+    <string name="pref_background_antitheft_summary">Automaticky uzavřít 2G/3G sítě mezi 00:00-07:00</string>
     <string name="pref_background_warning">Varování o datech na pozadí</string>
     <string name="pref_background_warning_summary">Varovat, když 2G/3G data přesáhnou 1M</string>
     <string name="pref_clear_history">Vymazat historii využití dat</string>
@@ -68,15 +68,15 @@
     <string name="widget_today_usage">Dnes</string>
     <string name="widget_exceed">Překročeno</string>
     <string name="widget_remain">Zbývá</string>
-    <string name="widget_data_pack_warning">Nastavte prosím datový plán</string>
-    <string name="notify_data_pack_title">Varování pokud zbývá málo dat</string>
+    <string name="widget_data_pack_warning">Nastavte, prosím, datový plán</string>
+    <string name="notify_data_pack_title">Varovat, pokud zbývá málo dat</string>
     <string name="notify_data_pack_summary">@string/widget_data_pack_warning</string>
     <string name="permlab_manageNetworkPolicy">Upravit zabezpečení sítě</string>
     <string name="permdesc_manageNetworkPolicy">Povolit aplikaci upravovat zabezpečení sítě a přidávat pravidla aplikací.</string>
-    <string name="data_usage_sweep_warning">" "<font size="21">^1</font> <font size="9">^2</font>"
- "<font size="12">warning</font>" "</string>
-    <string name="data_usage_sweep_limit">" "<font size="21">^1</font> <font size="9">^2</font>"
- "<font size="12">limit</font>" "</string>
+    <string name="data_usage_sweep_warning"><font size="21">^1</font> <font size="9">^2</font>"
+"<font size="12">warning</font></string>
+    <string name="data_usage_sweep_limit"><font size="21">^1</font> <font size="9">^2</font>"
+"<font size="12">limit</font></string>
     <string name="data_usage_total_during_range">%2$s: z %1$s využitých</string>
     <string name="data_usage_disclaimer">Měřeno vaším mobilem. Počítání využití dat operátorem se může lišit.</string>
     <string name="data_usage_empty">Žádná aplikace nevyužila data během tohoto období.</string>
@@ -111,12 +111,12 @@
     <string name="netspeed_setting">Zobrazit rychlost sítě ve statusbaru</string>
     <string name="daily_usage_warning_title">Upozornění o denním použití</string>
     <string name="daily_usage_warning_message">Dnešní mobilní využití dat je %1$s, to je více než každodenní použití, je doporučeno se podívat na mesíční data a spravovat je</string>
-    <string name="daily_usage_warning_summary_unset">Prosím nastavte nejdříve datový tarif.</string>
+    <string name="daily_usage_warning_summary_unset">Prosím, nastavte nejdříve datový tarif.</string>
     <string name="daily_usage_no_warning">nevarovat</string>
     <string name="daily_usage_recommand">(doporučováno)</string>
     <string name="continue_use">pokračovat v užívání</string>
     <string name="see_details">detaily</string>
-    <string name="data_default">Výchozí pro síť</string>
+    <string name="data_default">výchozí síť</string>
     <string name="show_system_app">Ukázat systémové aplikace</string>
     <string name="donot_show_system_app">neukazovat systémové aplikace</string>
     <string name="daily_remain_suffix">(dynamicky zbývá)</string>
