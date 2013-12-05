@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="virus_defense_title">Vírusirtó</string>
+    <string name="viruskill_title">Antivírus</string>
+    <string name="viruskill_log_title">Antivírus napló</string>
+    <string name="permession_manage_title">Hozzáférés kontroll</string>
+    <string name="check_database_update">Frissítések keresése</string>
+    <string name="delete">Törlés</string>
+    <string name="install_monitor">Figyelés telepítése</string>
+    <string name="timer_scan">Ütemezett víruskeresés</string>
+    <string name="omission">Hamarosan</string>
+    <string name="logo_engine">Az antivírus kereső motor készítője: Tencent Mobile Manager</string>
+    <string name="logo_notice">A Tencent Mobile Manager támogatásával</string>
+    <string name="select">kiválasztva</string>
+    <string name="first_use1">A készülék még nem volt ellenőrizve</string>
+    <string name="first_use2">Kérjük, ellenőrizze most</string>
+    <string name="state_normal">Ellenőrizze rendszeresen készülékét a kártevők elkerülése érdekében</string>
+    <string name="need_to_kill1">A készüléke %s napja nem volt ellenőrizve</string>
+    <string name="need_to_kill2">Kérjük, ellenőrizze most</string>
+    <string name="is_cancel1">Javasolt az újraellenőrzés</string>
+    <string name="is_cancel2">Az ellenőrzés megszakítva,  biztonsági szintje nem megállapítható</string>
+    <string name="scanner_title">Ellenőrzés</string>
+    <string name="init_scan">0%</string>
+    <string name="gap_notice">%s óta ellenőrizve</string>
+    <string name="gap_error_notice">Utolsó ellenőrzés:%s</string>
+    <string name="scan_just_now">Az imént ellenőrizve</string>
+    <string name="defense_monitor_open">A figyelés aktív</string>
+    <string name="defense_monitor_close1">A figyelés részben aktív</string>
+    <string name="defense_monitor_close2">Rizikós</string>
+    <string name="scan_counts">Átvizsgálva:</string>
+    <string name="scan_time">Idő:</string>
+    <string name="viruse_counts">Vírus:</string>
+    <string name="caution_counts">Figyelem:</string>
+    <string name="scan_continue">Átvizsgálás folytatása</string>
+    <string name="scan_cancel">Vizsgálat megszakítása</string>
+    <string name="scan_pause">Vizsgálat szüneteltetése</string>
+    <string name="scan_pause_log">A vizsgálat már szünetel</string>
+    <string name="scan_finish">Kész</string>
+    <string name="clear_now">Tisztítás most</string>
+    <string name="scan_warm_tips">Figyem</string>
+    <string name="scan_dialog_content">A vírusellenőrzés még nem fejeződött be, biztosan abba akarja hagyni?</string>
+    <string name="scan_of_clound">Felhő-keresés</string>
+    <string name="scan_state_safe">Az ellenőrzés befejeződött, a készüléke biztonságos.</string>
+    <string name="scan_state_risk">Az ellenőrzés elhalasztása rizikós, ellenőrizze időnként gépét.</string>
+    <string name="scan_state_cloud_fail">Az ellenőrzés befejeződött, de a felhő-keresés nem elérhető!</string>
+    <string name="scan_result_Congratulate">Gratulálunk</string>
+    <string name="scan_result_tips">A készüléke biztonságos, csak így tovább.</string>
+    <string name="scan_result_suggestion">Tipp: eltávolítás</string>
+    <string name="scan_result_suggestion_del">Tipp: törlés</string>
+    <string name="scan_virus_soft">Vírus</string>
+    <string name="scan_caution_soft">Biztonsági kockázat</string>
+    <string name="defense_notification">Vírus ellenőrzés emlékeztető</string>
+    <string name="defense_risk_notification">Az alkalmazás kockázatnak teszi ki a gépet</string>
+    <string name="defense_virus_notification">Az alkalmazás vírust tartalmaz</string>
+    <string name="defense_safe_notification">Az alkalmazás biztonságos</string>
+    <string name="scan_interrupt">Átvizsgálás megállítva</string>
+    <string name="scan_interrupt_notifiction1">Vírus ellenőrzés megállítva</string>
+    <string name="scan_interrupt_notifiction2">Azt ajánljuk, hogy ellenőrizze ismét készülékét</string>
+    <string name="already_clear">A veszély elhárult, a készüléke tiszta</string>
+    <string name="scan_state_start">Átvizsgálás...</string>
+    <string name="scan_state_cloud">Felhő-alapú átvizsgálás...</string>
+    <string name="scan_state_end">Vírus ellenőrzés befejeződött</string>
+    <string name="scan_schedule_notice">Ellenőrzési emlékeztető</string>
+    <string name="scan_schedule_notice_summary">Elindítja készülékén a víruskeresést ?</string>
+    <string name="delete_notice">Törli ezt a fájlt?</string>
+    <string name="cloud_scan_error">Felhő-alapú átvizsgálási hiba!</string>
+    <string name="scan_init">Keresőmotor indítása…</string>
+    <string name="scan_pause_init">Átvizsgálás szüneteltetése, kérem várjon…</string>
+    <string name="update_title">Vírusadatbázis frissítés</string>
+    <string name="update_auto">Autó frissítés</string>
+    <string name="update_toast">Frissítés keresése, kérem várjon...</string>
+    <string name="update_wait">Vírusadatbázis frissítése, kérem várjon...</string>
+    <string name="network_error">Hálózati hiba, hibakód:</string>
+    <string name="connect_error">Ellenőrizze hálózati kapcsolatát</string>
+    <string name="update_tone">Figyelem!</string>
+    <string name="update_note_version">A jelenlegi %s vírusadatbázis elavult!</string>
+    <string name="update_notice">Kérjük, frissítse a legfrissebb verzióra:</string>
+    <string name="update_note_size">Frissítés mérete: %s</string>
+    <string name="update_note_already_latest">Már telepítette a legfrissebb vírusadatbázist.</string>
+    <string name="update_note_known">Kész</string>
+    <string name="update_tips">Ne felejtse el a vírusdefiníciós adatbázisát rendszeresen frissíteni.</string>
+    <string name="unupdate_tips">Már régóta nem frissítette vírusdefiníciós adatbázisát. Kérjük, frissítse most!</string>
+    <string name="update_version">Verzió:%s</string>
+    <string name="log_list_empty">Nenm történt korábban vírusellenőrzés.</string>
+    <string name="log_virus_counts">Vírus:%s</string>
+    <string name="log_caution_counts">Rizikós:%s</string>
+    <string name="log_clear_counts">Megtisztítva:%s</string>
+    <string name="log_unhandle_counts">Kezeletlen:%s</string>
+    <string name="log_clear_all">Törlés</string>
+    <string name="log_if_clear_all">Biztosan törli %s ellenőrzés eredményeit?</string>
+    <string name="setting">Vírusellenőrzés beállításai</string>
+    <string name="setting_install_monitor">Figyelés beállításai</string>
+    <string name="setting_unknown_costs">Gyanús viselkedés figyelése</string>
+    <string name="setting_unknown_costs_summary">Detektálj az esetlegesen káros, rejtett módosításokat elvégző alkalmazásokat</string>
+    <string name="setting_defense">Ellenőrzés beállításai</string>
+    <string name="setting_scan_of_clound">Felhő-alapú keresés</string>
+    <string name="setting_cloud_kill_summary">Másodlagos vírusellenőrzés használata online vírusdefiníciós adatbázissal</string>
+    <string name="setting_timer_scan_summary">Adja meg, mikorra időzíti a víruskeresést</string>
+    <string name="setting_time">Idő</string>
+    <string name="setting_defense_schedule">Keresés ütemezése</string>
+    <string name="setting_everyday">minden nap</string>
+    <string name="setting_everyweek">minden héten</string>
+    <string name="setting_defense_schedule_date">Ütemezés dátumra</string>
+    <string name="setting_update">Frissítési beállítások</string>
+    <string name="setting_auto_update">Autó frissítés</string>
+    <string name="setting_data_update">Vírusadatbázis frissítése</string>
+    <string name="setting_auto_update_summary">Csatlakozás az online vírusadatbázis frissítéshez</string>
+    <string name="setting_install_monitor_summary">Alkalmazások azonnali ellenőrzése telepítés után</string>
+    <string name="last_one_notice">Kérjük, válasszon legalább napi egyszeri alkalmat</string>
+    <string name="minute">perc</string>
+    <string name="second">másodperc</string>
+    <string name="monday">Hétfő</string>
+    <string name="tuesday">Kedd</string>
+    <string name="wednesday">Szerda</string>
+    <string name="thursday">Csütörtök</string>
+    <string name="friday">Péntek</string>
+    <string name="saturday">Szombat</string>
+    <string name="sunday">Vasárnap</string>
+    <string name="sure">Megerősít</string>
+    <string name="cancel">Mégsem</string>
+    <string name="every_day">Minden nap</string>
+    <string name="never">Soha</string>
+    <string name="day_concat">", "</string>
+    <string name="days">nap</string>
+    <string name="hours">óra</string>
+    <string name="minutes">perc</string>
+    <item type="string" name="BART_DUMMY_007c">false</item>
+    <item type="string" name="BART_DUMMY_007d">false</item>
+    <item type="string" name="BART_DUMMY_007e">false</item>
+    <item type="string" name="BART_DUMMY_007f">false</item>
+    <item type="string" name="BART_DUMMY_0080">false</item>
+    <item type="string" name="BART_DUMMY_0081">false</item>
+    <item type="string" name="BART_DUMMY_0082">false</item>
+    <item type="string" name="BART_DUMMY_0083">false</item>
+    <item type="string" name="BART_DUMMY_0084">false</item>
+    <item type="string" name="BART_DUMMY_0085">false</item>
+    <item type="string" name="BART_DUMMY_0086">false</item>
+    <item type="string" name="BART_DUMMY_0087">false</item>
+    <item type="string" name="BART_DUMMY_0088">false</item>
+    <item type="string" name="BART_DUMMY_0089">false</item>
+    <item type="string" name="BART_DUMMY_008a">false</item>
+    <item type="string" name="BART_DUMMY_008b">false</item>
+    <item type="string" name="BART_DUMMY_008c">false</item>
+    <item type="string" name="BART_DUMMY_008d">false</item>
+    <item type="string" name="BART_DUMMY_008e">false</item>
+    <item type="string" name="BART_DUMMY_008f">false</item>
+    <item type="string" name="BART_DUMMY_0090">false</item>
+    <item type="string" name="BART_DUMMY_0091">false</item>
+    <item type="string" name="BART_DUMMY_0092">false</item>
+    <item type="string" name="BART_DUMMY_0093">false</item>
+    <item type="string" name="BART_DUMMY_0094">false</item>
+    <item type="string" name="BART_DUMMY_0095">false</item>
+    <item type="string" name="BART_DUMMY_0096">false</item>
+    <item type="string" name="BART_DUMMY_0097">false</item>
+    <item type="string" name="BART_DUMMY_0098">false</item>
+    <item type="string" name="BART_DUMMY_0099">false</item>
+    <item type="string" name="BART_DUMMY_009a">false</item>
+    <item type="string" name="BART_DUMMY_009b">false</item>
+    <item type="string" name="BART_DUMMY_009c">false</item>
+    <item type="string" name="BART_DUMMY_009d">false</item>
+    <item type="string" name="BART_DUMMY_009e">false</item>
+    <item type="string" name="BART_DUMMY_009f">false</item>
+    <item type="string" name="BART_DUMMY_00a0">false</item>
+    <item type="string" name="BART_DUMMY_00a1">false</item>
+    <item type="string" name="BART_DUMMY_00a2">false</item>
+    <item type="string" name="BART_DUMMY_00a3">false</item>
+    <item type="string" name="BART_DUMMY_00a4">false</item>
+    <item type="string" name="BART_DUMMY_00a5">false</item>
+    <item type="string" name="BART_DUMMY_00a6">false</item>
+    <item type="string" name="BART_DUMMY_00a7">false</item>
+    <item type="string" name="BART_DUMMY_00a8">false</item>
+    <item type="string" name="BART_DUMMY_00a9">false</item>
+    <item type="string" name="BART_DUMMY_00aa">false</item>
+    <item type="string" name="BART_DUMMY_00ab">false</item>
+    <item type="string" name="BART_DUMMY_00ac">false</item>
+    <item type="string" name="BART_DUMMY_00ad">false</item>
+    <item type="string" name="BART_DUMMY_00ae">false</item>
+    <item type="string" name="BART_DUMMY_00af">false</item>
+    <item type="string" name="BART_DUMMY_00b0">false</item>
+    <item type="string" name="BART_DUMMY_00b1">false</item>
+    <item type="string" name="BART_DUMMY_00b2">false</item>
+    <item type="string" name="BART_DUMMY_00b3">false</item>
+    <item type="string" name="BART_DUMMY_00b4">false</item>
+    <item type="string" name="BART_DUMMY_00b5">false</item>
+    <item type="string" name="BART_DUMMY_00b6">false</item>
+    <item type="string" name="BART_DUMMY_00b7">false</item>
+    <item type="string" name="BART_DUMMY_00b8">false</item>
+    <item type="string" name="BART_DUMMY_00b9">false</item>
+    <item type="string" name="BART_DUMMY_00ba">false</item>
+    <item type="string" name="BART_DUMMY_00bb">false</item>
+    <item type="string" name="BART_DUMMY_00bc">false</item>
+    <item type="string" name="BART_DUMMY_00bd">false</item>
+    <item type="string" name="BART_DUMMY_00be">false</item>
+    <item type="string" name="BART_DUMMY_00bf">false</item>
+    <item type="string" name="BART_DUMMY_00c0">false</item>
+    <item type="string" name="BART_DUMMY_00c1">false</item>
+    <item type="string" name="BART_DUMMY_00c2">false</item>
+    <item type="string" name="BART_DUMMY_00c3">false</item>
+    <item type="string" name="BART_DUMMY_00c4">false</item>
+    <item type="string" name="BART_DUMMY_00c5">false</item>
+    <item type="string" name="BART_DUMMY_00c6">false</item>
+    <item type="string" name="BART_DUMMY_00c7">false</item>
+    <item type="string" name="BART_DUMMY_00c8">false</item>
+    <item type="string" name="BART_DUMMY_00c9">false</item>
+    <item type="string" name="BART_DUMMY_00ca">false</item>
+    <item type="string" name="BART_DUMMY_00cb">false</item>
+    <item type="string" name="BART_DUMMY_00cc">false</item>
+    <item type="string" name="BART_DUMMY_00cd">false</item>
+    <item type="string" name="BART_DUMMY_00ce">false</item>
+    <item type="string" name="BART_DUMMY_00cf">false</item>
+    <item type="string" name="BART_DUMMY_00d0">false</item>
+    <item type="string" name="BART_DUMMY_00d1">false</item>
+    <item type="string" name="BART_DUMMY_00d2">false</item>
+    <item type="string" name="BART_DUMMY_00d3">false</item>
+    <item type="string" name="BART_DUMMY_00d4">false</item>
+    <item type="string" name="BART_DUMMY_00d5">false</item>
+    <item type="string" name="BART_DUMMY_00d6">false</item>
+    <item type="string" name="BART_DUMMY_00d7">false</item>
+    <item type="string" name="BART_DUMMY_00d8">false</item>
+    <item type="string" name="BART_DUMMY_00d9">false</item>
+    <item type="string" name="BART_DUMMY_00da">false</item>
+    <item type="string" name="BART_DUMMY_00db">false</item>
+    <item type="string" name="BART_DUMMY_00dc">false</item>
+    <item type="string" name="BART_DUMMY_00dd">false</item>
+    <item type="string" name="BART_DUMMY_00de">false</item>
+    <item type="string" name="BART_DUMMY_00df">false</item>
+    <item type="string" name="BART_DUMMY_00e0">false</item>
+    <item type="string" name="BART_DUMMY_00e1">false</item>
+    <item type="string" name="BART_DUMMY_00e2">false</item>
+    <item type="string" name="BART_DUMMY_00e3">false</item>
+    <item type="string" name="BART_DUMMY_00e4">false</item>
+    <item type="string" name="BART_DUMMY_00e5">false</item>
+    <item type="string" name="BART_DUMMY_00e6">false</item>
+    <item type="string" name="BART_DUMMY_00e7">false</item>
+    <item type="string" name="BART_DUMMY_00e8">false</item>
+    <item type="string" name="BART_DUMMY_00e9">false</item>
+    <item type="string" name="BART_DUMMY_00ea">false</item>
+    <item type="string" name="BART_DUMMY_00eb">false</item>
+    <item type="string" name="BART_DUMMY_00ec">false</item>
+    <item type="string" name="BART_DUMMY_00ed">false</item>
+    <item type="string" name="BART_DUMMY_00ee">false</item>
+    <item type="string" name="BART_DUMMY_00ef">false</item>
+    <item type="string" name="BART_DUMMY_00f0">false</item>
+    <item type="string" name="BART_DUMMY_00f1">false</item>
+    <item type="string" name="BART_DUMMY_00f2">false</item>
+    <item type="string" name="BART_DUMMY_00f3">false</item>
+    <item type="string" name="BART_DUMMY_00f4">false</item>
+    <item type="string" name="BART_DUMMY_00f5">false</item>
+    <item type="string" name="BART_DUMMY_00f6">false</item>
+    <item type="string" name="BART_DUMMY_00f7">false</item>
+    <item type="string" name="BART_DUMMY_00f8">false</item>
+    <item type="string" name="BART_DUMMY_00f9">false</item>
+    <item type="string" name="BART_DUMMY_00fa">false</item>
+    <item type="string" name="BART_DUMMY_00fb">false</item>
+    <item type="string" name="BART_DUMMY_00fc">false</item>
+    <item type="string" name="BART_DUMMY_00fd">false</item>
+    <item type="string" name="BART_DUMMY_00fe">false</item>
+    <item type="string" name="BART_DUMMY_00ff">false</item>
+    <item type="string" name="BART_DUMMY_0100">false</item>
+    <item type="string" name="BART_DUMMY_0101">false</item>
+    <item type="string" name="BART_DUMMY_0102">false</item>
+    <item type="string" name="BART_DUMMY_0103">false</item>
+    <item type="string" name="BART_DUMMY_0104">false</item>
+    <item type="string" name="BART_DUMMY_0105">false</item>
+    <item type="string" name="BART_DUMMY_0106">false</item>
+    <item type="string" name="BART_DUMMY_0107">false</item>
+    <item type="string" name="BART_DUMMY_0108">false</item>
+    <item type="string" name="BART_DUMMY_0109">false</item>
+    <item type="string" name="BART_DUMMY_010a">false</item>
+    <item type="string" name="BART_DUMMY_010b">false</item>
+    <item type="string" name="BART_DUMMY_010c">false</item>
+    <item type="string" name="BART_DUMMY_010d">false</item>
+    <item type="string" name="BART_DUMMY_010e">false</item>
+</resources>
