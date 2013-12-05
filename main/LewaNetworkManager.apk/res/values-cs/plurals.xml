@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="day">
+        <item quantity="other">%d dnů</item>
+        <item quantity="one">1 den</item>
+    </plurals>
+    <plurals name="firewall_list_title">
+        <item quantity="other">%d aplikací používá Internet</item>
+        <item quantity="one">1 aplikace používá Internet</item>
+    </plurals>
+</resources>

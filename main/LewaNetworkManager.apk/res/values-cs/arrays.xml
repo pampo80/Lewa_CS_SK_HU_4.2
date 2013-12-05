@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="iface_wifi">
+        <item>wlan+</item>
+    </string-array>
+    <string-array name="iface_mobile">
+        <item>ccmni+</item>
+        <item>rmnet+</item>
+    </string-array>
+    <array name="pref_adjust_interval">
+        <item>@string/adjust_interval_none</item>
+        <item>Denně</item>
+        <item>Měsíčně</item>
+    </array>
+    <string-array name="detail_times">
+        <item>@string/time_today</item>
+        <item>@string/time_month</item>
+        <item>@string/time_yesterday</item>
+    </string-array>
+    <string-array name="pref_adjust_interval_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_daily_warning_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
