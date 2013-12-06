@@ -58,7 +58,7 @@
     </string-array>
     <string-array name="lock_after_timeout_entries">
         <item>Okamžitě</item>
-        <item>5 sekúnd</item>
+        <item>5 sekund</item>
         <item>15 sekund</item>
         <item>30 sekund</item>
         <item>1 minuta</item>
@@ -134,31 +134,31 @@
     </string-array>
     <string-array name="wifi_status">
         <item></item>
-        <item>Vyhľadávam…</item>
-        <item>Pripájam…</item>
-        <item>Overujem…</item>
-        <item>Získavam IP adresu…</item>
-        <item>Pripojené</item>
-        <item>Odložené</item>
-        <item>Odpájam…</item>
-        <item>Odpojené</item>
-        <item>Neúspešné</item>
-        <item>Blokované</item>
-        <item>Dočasne zabraňujem slabému spojeniu</item>
+        <item>Vyhledávám…</item>
+        <item>Připojuji…</item>
+        <item>Ověřuji…</item>
+        <item>Získávám IP adresu…</item>
+        <item>Připojeno</item>
+        <item>Odloženo</item>
+        <item>Odpojuji…</item>
+        <item>Odpojeno</item>
+        <item>Neúspěšné</item>
+        <item>Blokováno</item>
+        <item>Dočasně zabraňuji slabému spojení</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
         <item>Vyhľadávam…</item>
-        <item>Pripájam ku %1$s…</item>
-        <item>Overujem s %1$s…</item>
-        <item>Získavam IP adresu od %1$s…</item>
-        <item>Pripojené k %1$s</item>
-        <item>Odložené</item>
-        <item>Odpájam od %1$s…</item>
-        <item>Odpojené</item>
-        <item>Neúspešné</item>
-        <item>Blokované</item>
-        <item>Dočasne zabraňujem slabému spojeniu</item>
+        <item>Připojuji ku %1$s…</item>
+        <item>Ověřuji s %1$s…</item>
+        <item>Získávám IP adresu od %1$s…</item>
+        <item>Připojeno k %1$s</item>
+        <item>Odloženo</item>
+        <item>Odpojuji od %1$s…</item>
+        <item>Odpojeno</item>
+        <item>Neúspěšné</item>
+        <item>Blokováno</item>
+        <item>Dočasně zabraňuji slabému spojení</item>
     </string-array>
     <string-array name="wifi_security">
         <item>@string/wifi_security_none</item>
@@ -185,21 +185,21 @@
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
         <item>Push tlačidlo</item>
-        <item>PIN od peer zariadenia</item>
-        <item>PIN z tohoto zariadenia</item>
+        <item>PIN od peer zařízení</item>
+        <item>PIN z tohodle zařízení</item>
     </string-array>
     <string-array name="wifi_p2p_status">
-        <item>Pripojené</item>
+        <item>Připojeno</item>
         <item>Pozvaný</item>
-        <item>Neúspešné</item>
+        <item>Neúspěšné</item>
         <item>Dostupné</item>
         <item>Mimo rozsah</item>
     </string-array>
     <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 minúty</item>
-        <item>5 minút</item>
+        <item>2 minuty</item>
+        <item>5 minut</item>
         <item>1 hodina</item>
-        <item>Nikdy nevypršať</item>
+        <item>Nikdy nevyprší</item>
     </string-array>
     <string-array name="wifi_signal">
         <item>Slabá</item>
@@ -209,12 +209,12 @@
     </string-array>
     <string-array name="wifi_sleep_policy_entries">
         <item>Vždy</item>
-        <item>Len ak je pripojený</item>
-        <item>Nikdy (zvýši prenos dát)</item>
+        <item>Pouze pokud je připojen</item>
+        <item>Nikdy (zvýší přenos dat)</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries_wifi_only">
         <item>Vždy</item>
-        <item>Len ak je pripojený</item>
+        <item>Pouze pokud je připojen</item>
         <item>Nikdy</item>
     </string-array>
     <string-array name="wifi_sleep_policy_values">
@@ -233,9 +233,9 @@
         <item>2</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
-        <item>Čas behu</item>
-        <item>Počet spustení</item>
-        <item>Meno apl.</item>
+        <item>Čas béhu</item>
+        <item>počet spuštění</item>
+        <item>Jméno apl.</item>
     </string-array>
     <string-array name="wifi_eap_entries">
         <item>PEAP</item>
@@ -254,13 +254,13 @@
         <item>Statická</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
-        <item>Žiadne</item>
-        <item>Ručné</item>
+        <item>Žádné</item>
+        <item>Ručně</item>
     </string-array>
     <string-array name="emergency_tone_entries">
-        <item>Vypnuté</item>
+        <item>Vypnuto</item>
         <item>Výstraha</item>
-        <item>Vibrovať</item>
+        <item>Vibrovat</item>
     </string-array>
     <string-array name="emergency_tone_values">
         <item>0</item>
@@ -300,7 +300,7 @@
     <string-array name="bearer_entries">
         <item>LTE</item>
         <item>eHRPD</item>
-        <item>Nešpecifikované</item>
+        <item>Nespecifikováno</item>
     </string-array>
     <string-array name="bearer_values">
         <item>14</item>
@@ -308,12 +308,12 @@
         <item>0</item>
     </string-array>
     <string-array name="app_install_location_entries">
-        <item>Vnútorná pamäť</item>
+        <item>Vnitřní paměť</item>
         <item>SD karta</item>
         <item>Systém rozhodne</item>
     </string-array>
     <string-array name="app_install_location_values">
-        <item>zariadenie</item>
+        <item>zařízení</item>
         <item>SD karta</item>
         <item>auto</item>
     </string-array>
@@ -328,9 +328,9 @@
         <item>1500</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Nikdy nekontrolovať</item>
-        <item>Kontrolovať len DRM obsah</item>
-        <item>Vždy kontrolovať</item>
+        <item>Nikdy nekontrolovat</item>
+        <item>Kontrolovat jen DRM obsah</item>
+        <item>Vždy kontrolovat</item>
     </string-array>
     <string-array name="hdcp_checking_values">
         <item>nikdy</item>
@@ -338,18 +338,18 @@
         <item>vždy</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Nepoužívať kontrolu HDCP</item>
-        <item>Používať kontrolu HDCPU len na DRM obsah</item>
-        <item>Používať kontrolu HDCP</item>
+        <item>Nepoužívat kontrolu HDCP</item>
+        <item>Používat kontrolu HDCPU jen na DRM obsah</item>
+        <item>Používat kontrolu HDCP</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animation vypnutá</item>
-        <item>Animácia mierka  .5x</item>
-        <item>Animácia mierka  1x</item>
-        <item>Animácia mierka  1.5x</item>
-        <item>Animácia mierka  2x</item>
-        <item>Animácia mierka  5x</item>
-        <item>Animácia mierka  10x</item>
+        <item>Animace vypnuta</item>
+        <item>Animace měřítko  .5x</item>
+        <item>Animace měřítko  1x</item>
+        <item>Animace měřítko  1.5x</item>
+        <item>Animace měřítko  2x</item>
+        <item>Animace měřítko  5x</item>
+        <item>Animace měřítko  10x</item>
     </string-array>
     <string-array name="window_animation_scale_values">
         <item>0</item>
@@ -361,13 +361,13 @@
         <item>10</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animácia vypnutá</item>
-        <item>Animácia mierka .5x</item>
-        <item>Animácia mierka 1x</item>
-        <item>Animácia mierka 1.5x</item>
-        <item>Animácia mierka 2x</item>
-        <item>Animácia mierka 5x</item>
-        <item>Animácia mierka 10x</item>
+        <item>Animace vypnuta</item>
+        <item>Animace měřítko .5x</item>
+        <item>Animace měřítko 1x</item>
+        <item>Animace měřítko 1.5x</item>
+        <item>Animace měřítko 2x</item>
+        <item>Animace měřítko 5x</item>
+        <item>Animace měřítko 10x</item>
     </string-array>
     <string-array name="transition_animation_scale_values">
         <item>0</item>
@@ -379,13 +379,13 @@
         <item>10</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Animácia vypnutá</item>
-        <item>Animácia mierka .5x</item>
-        <item>Animácia mierka 1x</item>
-        <item>Animácia mierka 1.5x</item>
-        <item>Animácia mierka 2x</item>
-        <item>Animácia mierka 5x</item>
-        <item>Animácia mierka 10x</item>
+        <item>Animace vypnuta</item>
+        <item>Animace měřítko .5x</item>
+        <item>Animace měřítko 1x</item>
+        <item>Animace měřítko 1.5x</item>
+        <item>Animace měřítko 2x</item>
+        <item>Animace měřítko 5x</item>
+        <item>Animace měřítko 10x</item>
     </string-array>
     <string-array name="animator_duration_scale_values">
         <item>0</item>
@@ -423,12 +423,12 @@
         <item>chyba</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>Štandardný limit</item>
-        <item>Žiadne procesy na pozadí</item>
-        <item>Najviac 1 proces</item>
-        <item>Najviac 2 procesy</item>
-        <item>Najviac 3 procesy</item>
-        <item>Najviac 4 procesy</item>
+        <item>Standardní limit</item>
+        <item>Žádné procesy na pozadí</item>
+        <item>Nejvíce 1 proces</item>
+        <item>Nejvíce 2 procesy</item>
+        <item>Nejvíce 3 procesy</item>
+        <item>Nejvíce 4 procesy</item>
     </string-array>
     <string-array name="app_process_limit_values">
         <item>-1</item>
@@ -455,19 +455,19 @@
         <item>IPSec VPN with certificates and hybrid authentication</item>
     </string-array>
     <string-array name="vpn_states">
-        <item>Odpojený</item>
-        <item>Inicializujem…</item>
-        <item>Pripájam…</item>
-        <item>Pripojený</item>
-        <item>Čas vypršal</item>
-        <item>Neúspešne</item>
+        <item>Odpojeno</item>
+        <item>Inicializuji…</item>
+        <item>Připojuji…</item>
+        <item>Připojeno</item>
+        <item>Čas vypršel</item>
+        <item>Neúspěšné</item>
     </string-array>
     <string-array name="user_content_ratings_entries">
-        <item>Osvietená bytosť</item>
-        <item>Človek</item>
+        <item>Osvícená bytost</item>
+        <item>Člověk</item>
         <item>Neandertálec</item>
         <item>Šimpanz</item>
-        <item>Opica</item>
+        <item>Opice</item>
     </string-array>
     <string-array name="user_content_ratings_values">
         <item>5</item>
@@ -477,13 +477,13 @@
         <item>1</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
-        <item>Pýtať sa</item>
-        <item>Nikdy nepovoliť</item>
-        <item>Vždy povoliť</item>
+        <item>Ptát se</item>
+        <item>Nikdy nepovolit</item>
+        <item>Vždy povolit</item>
     </string-array>
     <string-array name="battery_style_entries">
         <item>Grafika</item>
-        <item>Percento</item>
+        <item>Procenta</item>
     </string-array>
     <string-array name="battery_style_values">
         <item>0</item>
@@ -499,8 +499,8 @@
         <item>SIM 2</item>
     </string-array>
     <string-array name="gemini_sim_info_number_display_format_entries">
-        <item>Prvé 4 číslice</item>
-        <item>Posledné 4 číslice</item>
+        <item>První 4 číslice</item>
+        <item>Poslední 4 číslice</item>
         <item>Nezobrazuj</item>
     </string-array>
     <string-array name="gemini_sim_info_number_display_format_values">
@@ -570,13 +570,13 @@
         <item>0</item>
     </string-array>
     <string-array name="auto_time_entries">
-        <item>Použi sieťou poskytnutý čas</item>
-        <item>Použi GPS poskytnutý čas</item>
-        <item>Vypnuté</item>
+        <item>Použij sítí poskytnutý čas</item>
+        <item>Použij GPS poskytnutý čas</item>
+        <item>Vypnuto</item>
     </string-array>
     <string-array name="network_use_entry">
-        <item>Len domáca sieť</item>
-        <item>Domáca + roaming</item>
+        <item>Jen domácí síť</item>
+        <item>Domácí + roaming</item>
     </string-array>
     <string-array name="tvout_system_list">
         <item>PAL</item>
@@ -611,14 +611,14 @@
         <item>AKA</item>
     </string-array>
     <string-array name="sim_slot">
-        <item>(nešpecifikované)</item>
+        <item>(nespecifikováno)</item>
         <item>Sim Slot 1</item>
         <item>Sim Slot 2</item>
     </string-array>
     <string-array name="wifi_hotspot_disable_policy_entries">
         <item>Vždy</item>
-        <item>Vypni ak sa nepoužíva 5 min</item>
-        <item>Vypni ak sa nepoužíva 10 min</item>
+        <item>Vypni pokud se nepoužívá 5 min</item>
+        <item>Vypni pokud se nepoužívá 10 min</item>
     </string-array>
     <string-array name="wifi_hotspot_disable_policy_values">
         <item>0</item>
@@ -652,8 +652,8 @@
     </string-array>
     <string-array name="hdmi_video_mode_entries">
         <item>Celá obrazovka</item>
-        <item>Najlepšie prispôsobiť</item>
-        <item>Originál veľkosť</item>
+        <item>Nejlépe přizpůsobit</item>
+        <item>Originální velikost</item>
     </string-array>
     <string-array name="hdmi_video_mode_entry_values">
         <item>0</item>
@@ -718,14 +718,14 @@
         <item>1</item>
     </string-array>
     <string-array name="wifi_ap_max_connection_entries">
-        <item>1 užívateľ</item>
-        <item>2 užívatelia</item>
-        <item>3 užívatelia</item>
-        <item>4 užívatelia</item>
-        <item>5 užívatelia</item>
-        <item>6 užívatelia</item>
-        <item>7 užívatelia</item>
-        <item>8 užívatelia</item>
+        <item>1 uživatet</item>
+        <item>2 uživatelé</item>
+        <item>3 uživatelé</item>
+        <item>4 uživatelé</item>
+        <item>5 uživatelé</item>
+        <item>6 uživatelé</item>
+        <item>7 uživatelé</item>
+        <item>8 uživatelé</item>
     </string-array>
     <string-array name="wifi_ap_max_connection_values">
         <item>0</item>
@@ -738,8 +738,8 @@
         <item>7</item>
     </string-array>
 	<string-array name="simguide_datauseage">
-        <item>MB/Mesiac</item>
-        <item>GB/Mesiac</item>
+        <item>MB/Měsíc</item>
+        <item>GB/Měsíc</item>
     </string-array>
 	    <string-array name="alarm_set">
         <item>Zapnutí je nastaveno na méně než 1 minutu od teď.</item>
