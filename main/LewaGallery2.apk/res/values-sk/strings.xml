@@ -441,7 +441,7 @@
 <string name="support_by_camera360">Technická podpora od Camera360</string>
 <string name="filter">Filter</string>
 <string name="year_month_format">MMMM yyyy</string>
-<string name="month_day_format">dd MMMM</string>
+<string name="month_day_format">dd.MMMM</string>
 <string name="month_format">MMMM</string>
 <string name="day_format">dd</string>
 <string name="audio_not_supported">Zlyhalo prehrávanie zvuku.</string>

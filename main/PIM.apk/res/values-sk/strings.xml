@@ -1376,7 +1376,7 @@ Opakované odoslanie..."</string>
 <string name="alter_title">Upozornenie</string>
 <string name="alter_message">Naozaj chcete vymazať túto správu?</string>
 <string name="alter_positive">Áno</string>
-<string name="alter_successed_toast">Úspešne vymazané</string>
+<string name="alter_successed_toast">Vymazané</string>
 <string name="alter_negtive">Zrušiť</string>
 <string name="replycontent">Obsah nesmie byť prázdny</string>
 <string name="message_ims_sending_string">odoslať správu.......</string>
