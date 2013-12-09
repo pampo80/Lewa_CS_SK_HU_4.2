@@ -436,12 +436,12 @@
 <string name="add_image_success">Pridanie obrázku úspešné</string>
 <string name="not_image_or_video">Žiadny obrázok</string>
 <string name="select_folder">Vybrať zobrazovanie albumov</string>
-<string name="no_storage_or_album_delete">Nenájdaná SD karta alebo vymazaný album</string>
+<string name="no_storage_or_album_delete">Nenájdená SD karta alebo vymazaný album</string>
 <string name="picture_move_to_album">Obrázok presunúť do albumu: %s</string>
 <string name="support_by_camera360">Technická podpora od Camera360</string>
 <string name="filter">Filter</string>
 <string name="year_month_format">MMMM yyyy</string>
-<string name="month_day_format">dd.MMMM</string>
+<string name="month_day_format">dd. MMMM</string>
 <string name="month_format">MMMM</string>
 <string name="day_format">dd</string>
 <string name="audio_not_supported">Zlyhalo prehrávanie zvuku.</string>

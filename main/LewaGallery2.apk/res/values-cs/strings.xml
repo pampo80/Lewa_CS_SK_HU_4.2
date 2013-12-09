@@ -84,7 +84,15 @@
     <string name="video">Video</string>
     <string name="add_image">Přidat</string>
     <string name="add_success">Přidání úspěšné</string>
-    <string name="not_image_or_video">Žádný obrázek či video</string>
+    <string name="not_image_or_video">Žádný obrázek či video</string>	
+	<string name="no_storage_or_album_delete">Nenalezena SD karta nebo vymazán album</string>
+	<string name="picture_move_to_album">Obrázek přesunout do alba: %s</string>
+	<string name="support_by_camera360">Technická podpora od Camera360</string>
+	<string name="filter">Filtr</string>
+	<string name="year_month_format">MMMM yyyy</string>
+	<string name="month_day_format">dd. MMMM</string>
+	<string name="month_format">MMMM</string>
+	<string name="day_format">dd</string>
     <string name="select_folder">Vybrat alba prezentace</string>
     <string name="setascontact_photo">Nastavit jako kontaktní</string>
     <string name="setas_wallpaper">Nastavit jako tapetu</string>
