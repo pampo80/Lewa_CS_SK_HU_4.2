@@ -455,7 +455,7 @@
 <string name="voice_sms_default_sim_title">Predvolený hovor/správa</string>
 <string name="fast_mode">Rýchly režim</string>
 <string name="fast_mode_title">Rýchly hovor/správa</string>
-<string name="fast_mode_summary">Otvoriť pre zistenie inteligentnej rýchlej voľby a odoslaných správ</string>
+<string name="fast_mode_summary">Zapnuté - potiahnutím tlačítka pre hovor/SMS doľava dočasne prepnete na druhú SIM. Vypnuté - zobrazia sa tlačítka SIM1 a SIM2.</string>
 <string name="sim_displayname_too_long">Maximálne 8 znakov</string>
 <string name="header_lewa_account_info">Podrobnosti účtu</string>
 <string name="header_lewa_account_info_nickname">Prezývka:</string>
