@@ -846,7 +846,7 @@
 <string name="dialerKeyboardHintText">Číslo vytočíte pomocou klávesnice.</string>
 <string name="onscreenHoldText">Podržať</string>
 <string name="onscreenEndCallText">Ukončiť</string>
-<string name="onscreenShowDialpadText">Číselná klávesnica</string>
+<string name="onscreenShowDialpadText">Číselník</string>
 <string name="onscreenHideDialpadText">Skryť</string>
 <string name="onscreenSpeakerText">Reproduktor</string>
 <string name="menu_more">Viacej</string>
