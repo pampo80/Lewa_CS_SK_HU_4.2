@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Kedvenc videoim</string>
+<string name="ok">OK</string>
+<string name="cancel">Mégsem</string>
+<string name="delete_dialog_title">Kedvencek törlése</string>
+<string name="delete_dialog_prompt">Kitörli a %1$s modulból?</string>
+<string name="transcoding_prompt">Video konvertálása</string>
+<string name="video_file_name_format">_yyyyMMdd_HHmmss</string>
+<string name="toast_video_add_cancelled">A video nem játszható le</string>
+<string name="img_thumb_desc">Video előnézet</string>
+<string name="img_del_desc">Ikon törlése</string>
+<string name="img_new_desc">Új ikon</string>
+<string name="img_edit_desc">Gombok módositása</string>
+<string name="img_rec_desc">Felvétel gomb</string>
+<string name="toast_video_unsupported_resolution">A video kiterjesztése nem engedélyezett</string>
+<string name="toast_low_storage">A memória kártya megtelt</string>
+<string name="toast_invalid_video">Nem támogatott video formátum.</string>
+</resources>

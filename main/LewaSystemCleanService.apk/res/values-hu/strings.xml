@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Rendszer tisztitás</string>
+<string name="menu_settings">Beállitás</string>
+<string name="title_activity_main">Fő folyamat</string>
+<string name="calculate_sdcard">Memória kártya számitás</string>
+<string name="calculate_size">Méret számitása...</string>
+<string name="clean_sdcard">Memória kártya tisztitása</string>
+<string name="clean_sdcard_completed">Memória kártya tisztitása befejezve</string>
+<string name="clean_log_file_name">Log fájlok</string>
+<string name="clean_app_sdcard_cache_name">Cache alkalmazások a memória kártyán</string>
+<string name="clean_sdcard_cache_name">Cache fájl</string>
+<string name="clean_sdcard_empty_file_name">Üres mappa</string>
+<string name="clean_sdcard_mtk_log_name">MTK logok</string>
+<string name="clean_sdcard_thum_file_name">Fájl nézetek</string>
+</resources>

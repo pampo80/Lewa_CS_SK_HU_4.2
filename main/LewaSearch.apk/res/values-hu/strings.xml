@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Keresés</string>
+<string name="app_setting">Keresés beállitása</string>
+<string name="app_setting_info">Keresés részletei</string>
+<string name="app_setting_about">A programról</string>
+<string name="system_app">Rendszer program</string>
+<string name="user_app">Felhasználó program</string>
+<string name="system_setting">Rendszer beállitás</string>
+<string name="web_search">Internetes keresés</string>
+<string name="app_search">Programok keresése</string>
+<string name="find_no_associated_app">Nem található válasz program!</string>
+<string name="enter_app_error_prefix">Ez</string>
+<string name="enter_app_error_suffix">!</string>
+<string name="web_search_prefix">"Keresés az interneten"</string>
+<string name="web_search_suffix">"Összefüggő információ"</string>
+<string name="app_search_prefix">"Keresés az interneten"</string>
+<string name="app_search_suffix">"Összefüggő információ"</string>
+<string name="select_browser">Böngésző keresés</string>
+<string name="choose_browser">Előnyös böngésző választása</string>
+<string name="info_setting_message">Üzenet</string>
+<string name="info_setting_message_str">Üzenet tartalma</string>
+<string name="info_setting_app">Program</string>
+<string name="info_setting_app_str">Telepitett programok</string>
+<string name="info_setting_image">Kép</string>
+<string name="info_setting_image_str">Kép</string>
+<string name="info_setting_contact">Névjegy</string>
+<string name="info_setting_contact_str">Névjegy adatai</string>
+<string name="info_setting_music">Zenelejátszó</string>
+<string name="info_setting_music_str">Zene fájlok</string>
+<string name="info_setting_setting">Rendszer beállitás</string>
+<string name="info_setting_setting_str">Részletes beállitás</string>
+<string name="info_setting_file">Helyi</string>
+<string name="info_setting_file_str">Más helyi fájlok</string>
+<string name="no_default_browser">Nincs előnyös böngésző</string>
+<string name="sdcard_status_changed_title">Memória kártya nem elérhető</string>
+<string name="sdcard_status_changed_msg">Győződjön meg róla, hogy a mem. kártya jelen van, és hogy a telefon nincs adathordozó üzemmódban.</string>
+<string name="type_ok">OK</string>
+<string name="no_browser">Nincs böngésző</string>
+</resources>

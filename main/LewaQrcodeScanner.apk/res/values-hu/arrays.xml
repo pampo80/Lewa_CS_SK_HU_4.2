@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_front_light_values">
+        <item>BE</item>
+        <item>AUTO</item>
+        <item>KI</item>
+    </string-array>
+</resources>
