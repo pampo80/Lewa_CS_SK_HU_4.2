@@ -30,8 +30,8 @@
 <string name="autostarts_empty_msg">Žádná aplikace k nastavení</string>
 <string name="autostarts_optimize_empty_msg">Žádná aplikace k optimalizaci</string>
 <string name="autostarts_optimize_btn_title">Optimalizovat aplikace spouštěné po startu</string>
-<string name="autostarts_startup_boot_des">Během uvádění do provozu</string>
-<string name="autostarts_startup_background_des">Po uvedení do provozu</string>
+<string name="autostarts_startup_boot_des">Během spouštění</string>
+<string name="autostarts_startup_background_des">Po spuštění</string>
 <string name="notify_dialog_message">Je vyžadován restart pro nastavení změn. Restartovat hned?</string>
 <string name="sdcard_storage_title">SD karta</string>
 <string name="usb_storage_title">Vnitřní úložiště</string>

@@ -13,8 +13,8 @@
 <string name="intercept_details">Volání: %1$s, Zprávy: %2$s</string>
 <string name="clearance_details">%1$s: využito %2$s</string>
 <string name="clearance_checking">Kontrola odkládacího souboru</string>
-<string name="auto_start_details">Aplikace které by měly být ukončeny: %1$s</string>
-<string name="auto_start_check_info">Auto. spouštěné apli. které by měly být ukončeny: %1$s</string>
+<string name="auto_start_details">Počet aplikací, které je možné ukončit: %1$s</string>
+<string name="auto_start_check_info">Počet aplikací, které je možné ukončit: %1$s</string>
 <string name="auto_start_checing">Kontroluji automaticky spouštěné</string>
 <string name="perm_manager_details">Aplikace které mají citlivá oprávnění: %1$s</string>
 <string name="notification_manager_open">Přístup do Cloudu je otevřen</string>
@@ -38,8 +38,8 @@
 <string name="goto_details">Detaily</string>
 <string name="clearance_calculate_state">detekuji %s</string>
 <string name="oneclick_optimize">Celková optimalizace</string>
-<string name="clearance_garbage_size">Nepotřebných souborů vyčištěno z cloudu: %1$s</string>
-<string name="clearance_garbage_cleared">Nepotřebných souborů vyčištěno z cloudu: %1$s</string>
+<string name="clearance_garbage_size">Velikost souborů na vyhození: %1$s</string>
+<string name="clearance_garbage_cleared">Velikost souborů vyhozených: %1$s</string>
 <string name="dialog_title">Zpráva centra zabezpečení</string>
 <string name="dialog_message_check">Probíhá kontrola, skutečně chcete zavřít?</string>
 <string name="dialog_message_optimize">Probíhá kontrola, skutečně chcete zavřít?</string>
