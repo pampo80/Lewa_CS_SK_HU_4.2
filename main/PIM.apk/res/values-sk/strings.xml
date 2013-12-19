@@ -1452,8 +1452,8 @@ In four, the opening of free information service needs to send a message to the 
 <string name="message_ims_user_service_to_later">Pripomenúť neskôr</string>
 <string name="message_ims_user_service_check_protocol">Čítať užívateľskú zmluvu</string>
 <string name="message_ims_user_protocol">protokol užívateľa</string>
-<string name="message_early">včas</string>
-<string name="message_today">dnes</string>
+<string name="message_early">staršie</string>
+<string name="message_today">dnešné</string>
 <string name="message_yesterday">včera</string>
 <string name="compose_voice_button">Podržaním voláte</string>
 <string name="compose_recorder_no_press">Prílohy neodoslané!</string>

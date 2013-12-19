@@ -1343,8 +1343,8 @@
 <string name="message_ims_user_service_to_later">Připomenout později</string>
 <string name="message_ims_user_service_check_protocol">Číst uživatelskou smlouvu</string>
 <string name="message_ims_user_protocol">protokol uživatele</string>
-<string name="message_early">brzy</string>
-<string name="message_today">dnes</string>
+<string name="message_early">starší</string>
+<string name="message_today">dnešní</string>
 <string name="message_yesterday">včera</string>
 <string name="compose_voice_button">Podržením voláte</string>
 <string name="compose_recorder_no_press">Přílohy neodeslány!</string>
