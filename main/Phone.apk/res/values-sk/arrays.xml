@@ -85,7 +85,7 @@
         <item>posterizácia</item>
         <item>voda</item>
         <item>pastel</item>
-        <item>mozajka</item>
+        <item>mozaika</item>
         <item>červená-tint</item>
         <item>modrá-tint</item>
         <item>zelená-tint</item>
@@ -280,9 +280,10 @@
         <item>nikdy</item>
     </string-array>
     <string-array name="dialpad_tone_types">
-        <item>Tón</item>
+        <item>Tóny</item>
         <item>Piano</item>
         <item>Gitara</item>
+		<item>Tichý</item>
     </string-array>
     <string-array name="dialpad_tone_type_values">
         <item>0</item>
