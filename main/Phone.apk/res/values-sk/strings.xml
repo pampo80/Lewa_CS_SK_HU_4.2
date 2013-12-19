@@ -358,7 +358,7 @@
 <string name="sum_cell_broadcast_control_on">Povoliť cell broadcast</string>
 <string name="sum_cell_broadcast_control_off">Zakázať cell broadcast</string>
 <string name="sum_cell_broadcast_setting">Jazyk a nastavenie kanála pre mobilný prenos</string>
-<string name="call_additional_sum">Ďalšie</string>
+<string name="call_additional_sum">Ďalšie doplňujúce nastavenia</string>
 <string name="vt_call_settings">Nastavenie videohovoru</string>
 <string name="vt_local_video_rep">Náhrada miestneho videa</string>
 <string name="vt_pic_replace_local_description">Nastaviť obrázok pri vypnutej kamere</string>
@@ -1068,14 +1068,16 @@
 <string name="networkError">Chyba siete. Skontrolujte sieťové nastavenia</string>
 <string name="piano_tone">Piano tón číselníka</string>
 <string name="piano_tone_sum">Piano tón číselníka</string>
-<string name="dialpad_tone_dlg_title">Tón číselníka</string>
-<string name="dialpad_tone_title">Tón číselníka</string>
-<string name="dialpad_tone_default_summary">Predvolený tón číselníka</string>
-<string name="yellowpage_title">zlatéstránky_súhrn</string>
-<string name="yellowpage_summary">zlatéstránky_súhrn</string>
+<string name="dialpad_tone_dlg_title">Zvuk číselníka</string>
+<string name="dialpad_tone_title">Zvuk číselníka</string>
+<string name="dialpad_tone_default_summary">Predvolený zvuk číselníka</string>
+<string name="yellowpage_title">Zlaté stránky</string>
+<string name="yellowpage_summary">Zhrnutie zlatých stránok</string>
 <string name="audio_sound_title">Zvuky</string>
 <string name="vibrate_ringing">Vibrovať pri zvonení</string>
 <string name="voice_call_ringtone_setting_title">Nastavenie zvonenia</string>
 <string name="voice_call_ringtone_title">Zvonenie</string>
-<string name="incoming_call_silent">Prevrátením stíšiť</string>
+<string name="incoming_call_silent">Prevrátením stíšiť zvonenie</string>
+<string name="smart_answer">Inteligentná odpoveď</string>
+<string name="smart_answer_summary">Prevziať prichádzajúci hovor priložením telefónu k uchu</string>
 </resources>

@@ -961,7 +961,17 @@
 <string name="networkError">Chyba sítě. Zkontrolujte síťové nastavení</string>
 <string name="piano_tone">Piano tón číselníku</string>
 <string name="piano_tone_sum">Piano tón číselníku</string>
-<string name="dialpad_tone_dlg_title">Tón číselníku</string>
-<string name="dialpad_tone_title">Tón číselníku</string>
-<string name="dialpad_tone_default_summary">Výchozí tón číselníku</string>
+<string name="dialpad_tone_dlg_title">Zvuk číselníku</string>
+<string name="dialpad_tone_title">Zvuk číselníku</string>
+<string name="dialpad_tone_default_summary">Výchozí zvuk číselníku</string>
+<string name="yellowpage_title">Zlaté stránky</string>
+<string name="yellowpage_summary">Shrnutí zlatých stránek</string>
+<string name="audio_sound_title">Zvuky</string>
+<string name="vibrate_ringing">Vibrovat při zvonění</string>
+<string name="voice_call_ringtone_setting_title">Nastavení vyzvánění</string>
+<string name="voice_call_ringtone_title">Vyzvánění</string>
+<string name="incoming_call_silent">Převrácením ztišit vyzvánění</string>
+<string name="call_additional_sum">Další doplňující nastavení</string>
+<string name="smart_answer">Inteligentní odpověď</string>
+<string name="smart_answer_summary">Převzít příchozí hovor přiložením telefonu k uchu</string>
 </resources>

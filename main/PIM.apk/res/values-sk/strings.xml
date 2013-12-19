@@ -573,10 +573,10 @@ Vyberte jednu z nasledovných možností:"</string>
 <string name="sim2">SIM2</string>
 <string name="all_resources">Všetky zdroje</string>
 <string name="both_sims">Obe SIM</string>
-<string name="all_calls">Všetky hovory</string>
-<string name="received_calls">Prijaté hovory</string>
-<string name="outgoing_calls">Odchádzajúce hovory</string>
-<string name="missed_calls">Zmeškané hovory</string>
+<string name="all_calls">Všetky</string>
+<string name="received_calls">Prijaté</string>
+<string name="outgoing_calls">Odchádzajúce</string>
+<string name="missed_calls">Zmeškané</string>
 <string name="call_via_sim1">Volať cez SIM1</string>
 <string name="call_via_sim2">Volať cez SIM2</string>
 <string name="choose_sim_header">Vyberte SIM</string>
@@ -1353,7 +1353,7 @@ Opakované odoslanie..."</string>
 <string name="twelve_hour_time_format">h:mma</string>
 <string name="send_message">Odoslať správu</string>
 <string name="dialpad_showdialpad">Zobraziť číselník</string>
-<string name="call_dialpad_setting">Nastavenie číselníka</string>
+<string name="call_dialpad_setting">Nastavenia číselníka</string>
 <string name="dialer_search_item_misscall_time">Zvonilo: %sx</string>
 <string name="dialpad_to_text">zavolať cez</string>
 <string name="call_log_clear_all">vymazať celý register hovorov</string>

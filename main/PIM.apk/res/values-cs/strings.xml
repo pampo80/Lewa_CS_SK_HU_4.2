@@ -507,10 +507,10 @@
 <string name="sim2">SIM2</string>
 <string name="all_resources">Všechny zdroje</string>
 <string name="both_sims">Obě SIM</string>
-<string name="all_calls">Všechny hovory</string>
-<string name="received_calls">Příchozí hovory</string>
-<string name="outgoing_calls">Odchozí hovory</string>
-<string name="missed_calls">Zmeškané hovory</string>
+<string name="all_calls">Všechny</string>
+<string name="received_calls">Příchozí</string>
+<string name="outgoing_calls">Odchozí</string>
+<string name="missed_calls">Zmeškané</string>
 <string name="call_via_sim1">Volat přes SIM1</string>
 <string name="call_via_sim2">Volat přes SIM2</string>
 <string name="choose_sim_header">Vyberte SIM</string>
