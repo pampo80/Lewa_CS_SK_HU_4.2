@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+	<string-array name="nightmode_entries">
+		<item>černá</item>
+		<item>červená</item>
+		<item>žlutá</item>
+	</string-array>
     <string-array name="timezone_filters">
         <item>Amerika</item>
         <item>Evropa</item>

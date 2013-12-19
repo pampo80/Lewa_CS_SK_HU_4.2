@@ -2443,8 +2443,8 @@ Každý používateľ môže prijať oprávnenia aplikácie v mene všetkých po
 <string name="location_sources_heading">Zdroje polohy</string>
 <string name="nightmodecolor_title">Farba nočného režimu</string>
 <string name="summary_nightmode_value">%1$s</string>
-<string name="inadvertmode_title">Zabránenie zlej operácií</string>
-<string name="inadvertmode_msg">Zabránenie nesprávnej operácií pokiaľ je telefón vo vrecku</string>
+<string name="inadvertmode_title">Zabránenie nechcenému spusteniu</string>
+<string name="inadvertmode_msg">Zabránenie nechcenému spusteniu funkcíí telefónu pokiaľ sa nachádza vo vrecku</string>
 <string name="sim_settings_guide_editname_title">Nastavenie Dual SIM</string>
 <string name="sim_settings_guide_voicesms_title">Volania a správy</string>
 <string name="sim_settings_guide_data_title">Internet and ochrana objemu dát</string>

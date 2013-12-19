@@ -2130,4 +2130,6 @@
     <string name="led_label">Notifikační dioda</string>
     <string name="nightmodecolor_title">Barva nočního režimu</string>
     <string name="summary_nightmode_value">%1$s</string>
+	<string name="inadvertmode_title">Zabránění nechtěnému spuštění</string>
+	<string name="inadvertmode_msg">Zabránění nechtěnému spuštění funkcí telefonu pokud se nachází v kapse</string>
 </resources>
