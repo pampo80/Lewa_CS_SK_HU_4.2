@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<string-array name="nightmode_entries">
+		<item>fekete</item>
+		<item>piros</item>
+		<item>sárga</item>
+	</string-array>
     <string-array name="timezone_filters">
         <item>Amerika</item>
         <item>Európa</item>
         <item>Afrika</item>
         <item>Ázsia</item>
         <item>Ausztrália</item>
-	<item>Csendes-óceán</item>
-	<item>Összes</item>    
+		<item>Csendes-óceán</item>
+		<item>Összes</item>    
     </string-array>
-        
-    
     <string-array name="screen_timeout_entries">
         <item>15 másodperc</item>
         <item>30 másodperc</item>
         <item>1 perc</item>
         <item>2 perc</item>
         <item>5 perc</item>
-	<item>10 perc</item>
-        <item>30 perc</item>
-        
+		<item>10 perc</item>
+        <item>30 perc</item>        
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Soha</item>
