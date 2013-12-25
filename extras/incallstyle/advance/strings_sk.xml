@@ -1,0 +1,5 @@
+<strings>
+    <string name="slide_down_answer" value="Prijať hovor" />
+    <string name="slide_down_hangup" value="Odmietnuť" />
+    <string name="slide_down_reply" value="Odpísať SMS" />
+</strings>

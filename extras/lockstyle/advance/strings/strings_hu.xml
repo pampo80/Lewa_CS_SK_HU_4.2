@@ -1,0 +1,14 @@
+<strings>
+    <string name="short_date_format" value="MM/dd EEEE" />
+    <string name="long_date_format" value="yyyy/MM/dd" />
+    <string name="slide_down_lock" value="lecsúszni feloldásához" />
+    <string name="slide_down_call" value="csúsztassa le hívás" />
+    <string name="slide_down_mess" value="csúsztassa le rendetlenség" />
+    <string name="air_quality" value="AQI:" />
+    <string name="chinese_calendar_show" value="0"/>
+    <string name="week_offsetY" value="0"/>
+    <string name="week_offsetX" value="110"/>
+    <string name="week_typeface" value="NeoSans-Light.otf"/>
+    <string name="unreadSMS" value=" olvasatlan SMS"/>
+    <string name="missCALL" value=" nem fogadott hívások"/>
+</strings>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lockscreen version="1" frameRate="30" screenWidth="720">
+	<Wallpaper/>
+	<Var name="guid_tips_alpha_show">
+		<VariableAnimation>
+			<AniFrame value="0" time="0"/>
+			<AniFrame value="179" time="1000"/>
+			<AniFrame value="179" time="100000000000"/>
+		</VariableAnimation>
+	</Var>
+	<Var name="guid_tips_alpha_miss">
+		<VariableAnimation>
+			<AniFrame value="179" time="0"/>
+			<AniFrame value="0" time="1000"/>
+			<AniFrame value="0" time="100000000000"/>
+		</VariableAnimation>
+	</Var>
+	<Group alpha="ifelse(#lock_state_normal,#guid_tips_alpha_miss,#guid_tips_alpha_show)-(#lock_offsetY+#call_offsetY+#mess_offsetY)">
+		<Text x="#screen_width/2" y="#screen_height*894/1280-120" color="#ff77ec5c" align="center" size="24" text="prijať hovor" visibility="ne(#unlocker_lock.state,0)"/>
+		<Text x="602" y="#screen_height-1280+919-150" color="#ffe7402b" align="center" size="24" text="odmietnuť" visibility="ne(#unlocker_mess.state,0)"/>
+		<Text x="118" y="#screen_height-1280+919-150" color="#ffFFFFFF" align="center" size="24" text="odpísať SМS" visibility="ne(#unlocker_call.state,0)"/>
+	</Group>
+	<Group name="lock_part">
+		<Var name="unlocker_pos_centerY" expression="#screen_height-1280+919"/>
+		<Var name="lock_offsetY" expression="ifelse(lt(#unlocker_lock.move_y,-20),-20-((#unlocker_lock.move_y+20)*40/#unlocker_lock.move_y),#unlocker_lock.move_y)"/>
+		<Var name="call_offsetY" expression="ifelse(lt(#unlocker_call.move_y,-20),-20-((#unlocker_call.move_y+20)*40/#unlocker_call.move_y),#unlocker_call.move_y)"/>
+		<Var name="mess_offsetY" expression="ifelse(lt(#unlocker_mess.move_y,-20),-20-((#unlocker_mess.move_y+20)*40/#unlocker_mess.move_y),#unlocker_mess.move_y)"/>
+		<Var name="line_ani_move_x">
+			<VariableAnimation>
+				<AniFrame value="0" time="0"/>
+				<AniFrame value="720" time="6000"/>
+			</VariableAnimation>
+		</Var>
+		<Group name="lines" alpha="ifelse(#lock_state_normal,#guide_show,#guide_miss)">
+			<Image name="line_1_norm_0" x="#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" src="line_1.png"/>
+			<Image name="line_1_norm_1" x="-#line_1_norm_0.bmp_width+#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" src="line_1.png"/>
+			<Image name="line_2_norm_0" x="#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" src="line_2.png"/>
+			<Image name="line_2_norm_1" x="-#line_2_norm_0.bmp_width+#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" src="line_2.png"/>
+			<Image name="line_3_norm_0" x="#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" src="line_3.png"/>
+			<Image name="line_3_norm_1" x="-#line_3_norm_0.bmp_width+#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" src="line_3.png"/>
+		</Group>
+		<Var name="lock_image_size_n">
+			<VariableAnimation>
+				<AniFrame value="#img_normal_lock.bmp_width*1.25" time="0"/>
+				<AniFrame value="#img_normal_lock.bmp_width" time="100"/>
+				<AniFrame value="#img_normal_lock.bmp_width" time="1000000000000"/>
+			</VariableAnimation>
+		</Var>
+		<Var name="call_image_size_n">
+			<VariableAnimation>
+				<AniFrame value="#img_normal_call.bmp_width*1.25" time="0"/>
+				<AniFrame value="#img_normal_call.bmp_width" time="100"/>
+				<AniFrame value="#img_normal_call.bmp_width" time="1000000000000"/>
+			</VariableAnimation>
+		</Var>
+		<Var name="mess_image_size_n">
+			<VariableAnimation>
+				<AniFrame value="#img_normal_mess.bmp_width*1.25" time="0"/>
+				<AniFrame value="#img_normal_mess.bmp_width" time="100"/>
+				<AniFrame value="#img_normal_mess.bmp_width" time="1000000000000"/>
+			</VariableAnimation>
+		</Var>
+		<Group name="lock_normal" visibility="eq(#unlocker_call.state,0)*eq(#unlocker_lock.state,0)*eq(#unlocker_mess.state,0)">
+			<Var name="paline_vi" expression="0" const="true"/>
+			<Var name="lock_backY_N">
+				<VariableAnimation>
+					<AniFrame value="#lock_backN_init" time="0"/>
+					<AniFrame value="-12" time="100"/>
+					<AniFrame value="0" time="130"/>
+					<AniFrame value="15" time="160"/>
+					<AniFrame value="0" time="190"/>
+					<AniFrame value="-9" time="210"/>
+					<AniFrame value="0" time="230"/>
+					<AniFrame value="12" time="250"/>
+					<AniFrame value="0" time="270"/>
+					<AniFrame value="-6" time="280"/>
+					<AniFrame value="0" time="290"/>
+					<AniFrame value="9" time="300"/>
+					<AniFrame value="0" time="310"/>
+					<AniFrame value="0" time="10000000000000"/>
+				</VariableAnimation>
+			</Var>
+			<Path name="paline" type="quad" style="stroke" width="2" color="#4dFFFFFF" fromX="0" fromY="#unlocker_pos_centerY" moveX="#screen_width/2" moveY="#unlocker_pos_centerY+(#lock_offsetY+#lock_backY_N)*1.8" toX="#screen_width" toY="#unlocker_pos_centerY" visibility="#paline_vi" alpha="255*0.2">
+				<AlphaAnimation>
+					<Alpha a="255*0.2" time="0"/>
+					<Alpha a="255*0.2" time="450"/>
+					<Alpha a="100" time="500"/>
+					<Alpha a="0" time="600"/>
+					<Alpha a="0" time="100000000000"/>
+				</AlphaAnimation>
+			</Path>
+			<Image name="img_normal_lock" x="#screen_width/2" y="#unlocker_pos_centerY+#lock_offsetY+#lock_backY_N" align="center" alignV="center" src="phone_up.png" w="#lock_image_size_n" h="#lock_image_size_n">
+				<PositionAnimation>
+					<Position x="0" y="0" time="0"/>
+					<Position x="0" y="10" time="1000"/>
+					<Position x="0" y="0" time="2000"/>
+					<Position x="0" y="-10" time="3000"/>
+					<Position x="0" y="0" time="4000"/>
+				</PositionAnimation>
+			</Image>
+			<Image name="img_normal_call" x="119" y="#unlocker_pos_centerY+#lock_offsetY*0.3+#lock_backY_N*0.3" align="center" alignV="center" src="message.png" w="#call_image_size_n" h="#call_image_size_n">
+				<PositionAnimation>
+					<Position x="0" y="0" time="0"/>
+					<Position x="0" y="-10" time="1000"/>
+					<Position x="0" y="0" time="2000"/>
+					<Position x="0" y="10" time="3000"/>
+					<Position x="0" y="0" time="4000"/>
+				</PositionAnimation>
+			</Image>
+			<Image name="img_normal_mess" x="#screen_width-119" y="#unlocker_pos_centerY+#lock_offsetY*0.3+#lock_backY_N*0.3" align="center" alignV="center" src="phone_down.png" w="#mess_image_size_n" h="#mess_image_size_n">
+				<PositionAnimation>
+					<Position x="0" y="0" time="0"/>
+					<Position x="0" y="-10" time="1000"/>
+					<Position x="0" y="0" time="2000"/>
+					<Position x="0" y="10" time="3000"/>
+					<Position x="0" y="0" time="4000"/>
+				</PositionAnimation>
+			</Image>
+		</Group>
+		<Group name="lock_pressed">
+			<Var name="lock_back_init" expression="0" type="number" const="true"/>
+			<Var name="lock_backY">
+				<VariableAnimation>
+					<AniFrame value="0" time="0"/>
+					<AniFrame value="#lock_back_init-12" time="200"/>
+					<AniFrame value="#lock_back_init" time="230"/>
+					<AniFrame value="#lock_back_init+20" time="260"/>
+					<AniFrame value="#lock_back_init" time="290"/>
+					<AniFrame value="#lock_back_init-9" time="310"/>
+					<AniFrame value="#lock_back_init" time="330"/>
+					<AniFrame value="#lock_back_init+15" time="350"/>
+					<AniFrame value="#lock_back_init" time="370"/>
+					<AniFrame value="#lock_back_init-6" time="380"/>
+					<AniFrame value="#lock_back_init" time="390"/>
+					<AniFrame value="#lock_back_init+10" time="400"/>
+					<AniFrame value="#lock_back_init" time="410"/>
+					<AniFrame value="#lock_back_init" time="10000000000000"/>
+				</VariableAnimation>
+			</Var>
+			<Group name="lock_press" visibility="ne(#unlocker_lock.state,0)">
+				<Var name="lock_image_size">
+					<VariableAnimation>
+						<AniFrame value="#img_normal_lock.bmp_width" time="0"/>
+						<AniFrame value="#img_normal_lock.bmp_width*1.25" time="200"/>
+						<AniFrame value="#img_normal_lock.bmp_width*1.25" time="1000000000000"/>
+					</VariableAnimation>
+				</Var>
+				<Path type="quad" style="stroke" width="2" color="#4dFFFFFF" fromX="0" fromY="#unlocker_pos_centerY" moveX="#screen_width/2" moveY="#unlocker_pos_centerY+#lock_offsetY*1.8+#lock_backY*1.8" toX="#screen_width" toY="#unlocker_pos_centerY" alpha="255*0.2"/>
+				<Image name="img_normal_call" x="119" y="#unlocker_pos_centerY+#lock_offsetY*0.5+#lock_backY*0.5" align="center" alignV="center" src="message.png"/>
+				<Image x="#screen_width/2" y="#unlocker_pos_centerY+#lock_offsetY" w="#lock_image_size" h="#lock_image_size" align="center" alignV="center" src="phone_up.png"/>
+				<Image name="img_normal_mess" x="#screen_width-119" y="#unlocker_pos_centerY+#lock_offsetY*0.5+#lock_backY*0.5" align="center" alignV="center" src="phone_down.png"/>
+			</Group>
+			<Group name="call_press" visibility="ne(#unlocker_call.state,0)">
+				<Var name="call_image_size">
+					<VariableAnimation>
+						<AniFrame value="#img_normal_call.bmp_width" time="0"/>
+						<AniFrame value="#img_normal_call.bmp_width*1.25" time="200"/>
+						<AniFrame value="#img_normal_call.bmp_width*1.25" time="1000000000000"/>
+					</VariableAnimation>
+				</Var>
+				<Path type="quad" style="stroke" width="2" color="#4dFFFFFF" fromX="0" fromY="#unlocker_pos_centerY" moveX="30" moveY="#unlocker_pos_centerY+#call_offsetY*2+#lock_backY*2" toX="#screen_width" toY="#unlocker_pos_centerY" alpha="255*0.2"/>
+				<Image x="119" y="#unlocker_pos_centerY+#call_offsetY" w="#call_image_size" h="#call_image_size" align="center" alignV="center" src="message.png"/>
+				<Image name="img_normal_lock" x="#screen_width/2" y="#unlocker_pos_centerY+#call_offsetY*0.9+#lock_backY*0.9" align="center" alignV="center" src="phone_up.png"/>
+				<Image name="img_normal_mess" x="#screen_width-119" y="#unlocker_pos_centerY+#call_offsetY*0.3+#lock_backY*0.3" align="center" alignV="center" src="phone_down.png"/>
+			</Group>
+			<Group name="mess_press" visibility="ne(#unlocker_mess.state,0)">
+				<Var name="mess_image_size">
+					<VariableAnimation>
+						<AniFrame value="#img_normal_mess.bmp_width" time="0"/>
+						<AniFrame value="#img_normal_mess.bmp_width*1.25" time="200"/>
+						<AniFrame value="#img_normal_mess.bmp_width*1.25" time="1000000000000"/>
+					</VariableAnimation>
+				</Var>
+				<Path type="quad" style="stroke" width="2" color="#4dFFFFFF" fromX="0" fromY="#unlocker_pos_centerY" moveX="#screen_width-30" moveY="#unlocker_pos_centerY+#mess_offsetY*2+#lock_backY*2" toX="#screen_width" toY="#unlocker_pos_centerY" alpha="255*0.2"/>
+				<Image x="#screen_width-119" y="#unlocker_pos_centerY+#mess_offsetY" w="#mess_image_size" h="#mess_image_size" align="center" alignV="center" src="phone_down.png"/>
+				<Image name="img_normal_lock" x="#screen_width/2" y="#unlocker_pos_centerY+#mess_offsetY*0.9+#lock_backY*0.9" align="center" alignV="center" src="phone_up.png"/>
+				<Image name="img_normal_call" x="119" y="#unlocker_pos_centerY+#mess_offsetY*0.3+#lock_backY*0.3" align="center" alignV="center" src="message.png"/>
+			</Group>
+		</Group>
+	</Group>
+	<!--引导动画-->
+	<Group name="guide">
+		<Var name="guide_show">
+			<VariableAnimation>
+				<AniFrame value="#guide_miss" time="0"/>
+				<AniFrame value="255" time="500"/>
+				<AniFrame value="255" time="100000000000"/>
+			</VariableAnimation>
+		</Var>
+		<Var name="guide_miss">
+			<VariableAnimation>
+				<AniFrame value="#guide_show" time="0"/>
+				<AniFrame value="0" time="500"/>
+				<AniFrame value="0" time="100000000000"/>
+			</VariableAnimation>
+		</Var>
+		<Var name="isreached_to_pressed" expression="1" const="true"/>
+		<Var name="lock_state_pressed" expression="eq(#unlocker_lock.state,1)+eq(#unlocker_call.state,1)+eq(#unlocker_mess.state,1)"/>
+		<Var name="lock_state_normal" expression="eq(#unlocker_lock.state,0)*eq(#unlocker_call.state,0)*eq(#unlocker_mess.state,0)"/>
+		<Var name="lockstate" expression="#unlocker_lock.state+#unlocker_call.state+#unlocker_mess.state"/>
+		<Var name="guide_ani_trigger" expression="#lockstate" threshold="1">
+			<Trigger>
+				<Command target="unlock_tips.visibility" value="true" condition="#lock_state_pressed"/>
+				<Command target="guid_tips_alpha_show.animation" value="play" condition="#lock_state_pressed"/>
+				<Command target="guid_tips_alpha_miss.animation" value="play" condition="#lock_state_normal"/>
+				<Command target="guide_show.animation" value="play" condition="eq(#lock_state_normal,1)"/>
+				<VariableCommand name="isreached_to_pressed" expression="0" const="true" condition="eq(#lockstate,2)"/>
+				<VariableCommand name="isreached_to_pressed" expression="1" const="true" condition="eq(#lockstate,0)"/>
+				<Command target="guide_miss.animation" value="play" condition="#lock_state_pressed*#isreached_to_pressed"/>
+			</Trigger>
+		</Var>
+		<Image x="#screen_width/2" y="#screen_height-234" align="center" alignV="top" src="guide_bg.png" alpha="ifelse(#lock_state_normal,#guide_show,#guide_miss)"/>
+		<Image x="#screen_width/2" y="#screen_height-234-30" align="center" src="guide_light.png" alpha="ifelse(#lock_state_normal,#guide_show,#guide_miss)">
+			<PositionAnimation>
+				<Position x="0" y="0" time="0"/>
+				<Position x="0" y="120" time="1000"/>
+				<Position x="0" y="120" time="1500"/>
+			</PositionAnimation>
+			<Mask x="#screen_width/2-8" y="#screen_height-234-55" src="guide_mask.png" align="absolute"/>
+		</Image>
+	</Group>
+	<Var name="screen_middle" expression="#screen_width/2" type="number" const="true"/>
+	<Var name="press_back" expression="1" const="true"/>
+	<Var name="lock_back" expression="#press_back" threshold="1">
+		<Trigger>
+			<Command target="lock_backY_N.animation" value="play" condition="eq(#press_back,1)"/>
+			<VariableCommand name="paline_vi" expression="1" condition="eq(#press_back,1)"/>
+			<Command target="paline.animation" value="play" condition="eq(#press_back,1)"/>
+		</Trigger>
+	</Var>
+	<InCallUnlocker name="unlocker_lock" delay="500">
+		<StartPoint x="#screen_width/2-100" y="#screen_height-1280+919-100" w="200" h="200">
+			<NormalState>
+				<Trigger>
+					<VariableCommand name="press_back" expression="1" const="true"/>
+					<Command target="lock_image_size_n.animation" value="play"/>
+				</Trigger>
+			</NormalState>
+			<PressedState>
+				<Trigger>
+					<Command target="lock_image_size.animation" value="play"/>
+					<VariableCommand name="touch_state" expression="0" const="true"/>
+					<VariableCommand name="press_back" expression="0" const="true"/>
+					<VariableCommand name="lock_backN_init" expression="#lock_offsetY" type="number" const="true"/>
+				</Trigger>
+			</PressedState>
+			<ReachedState>
+				<Trigger action="up">
+					<VariableCommand name="lock_back_init" expression="-#lock_offsetY" type="number" const="true"/>
+					<Command target="lock_backY.animation" value="play"/>
+				</Trigger>
+			</ReachedState>
+		</StartPoint>
+		<EndPoint x="-200" y="#screen_height*1000/1280" w="920" h="400">
+			<Intent action="lewa.intent.action.answer"/>
+		</EndPoint>
+	</InCallUnlocker>
+	<Var name="press_back_1" expression="1" const="true"/>
+	<Var name="lock_back_1" expression="#press_back_1" threshold="1">
+		<Trigger>
+			<Command target="lock_backY_N.animation" value="play" condition="eq(#press_back_1,1)"/>
+			<VariableCommand name="paline_vi" expression="1" condition="eq(#press_back_1,1)"/>
+			<Command target="paline.animation" value="play" condition="eq(#press_back_1,1)"/>
+		</Trigger>
+	</Var>
+	<InCallUnlocker name="unlocker_call" delay="500">
+		<StartPoint x="119-100" y="#screen_height-1280+919-100" w="200" h="200">
+			<NormalState>
+				<Trigger>
+					<VariableCommand name="press_back_1" expression="1" const="true"/>
+					<Command target="call_image_size_n.animation" value="play"/>
+				</Trigger>
+			</NormalState>
+			<PressedState>
+				<Trigger>
+					<Command target="call_image_size.animation" value="play"/>
+					<VariableCommand name="touch_state" expression="0" const="true"/>
+					<VariableCommand name="press_back_1" expression="0" const="true"/>
+					<VariableCommand name="lock_backN_init" expression="#call_offsetY" type="number" const="true"/>
+				</Trigger>
+			</PressedState>
+			<ReachedState>
+				<Trigger action="up">
+					<VariableCommand name="lock_back_init" expression="-#call_offsetY" type="number" const="true"/>
+					<Command target="lock_backY.animation" value="play"/>
+				</Trigger>
+			</ReachedState>
+		</StartPoint>
+		<EndPoint x="-200" y="#screen_height*1000/1280" w="920" h="400">
+			<Intent action="lewa.intent.action.rejectsms"/>
+		</EndPoint>
+	</InCallUnlocker>
+	<Var name="press_back_2" expression="1" const="true"/>
+	<Var name="lock_back_2" expression="#press_back_2" threshold="1">
+		<Trigger>
+			<Command target="lock_backY_N.animation" value="play" condition="eq(#press_back_2,1)"/>
+			<VariableCommand name="paline_vi" expression="1" condition="eq(#press_back_2,1)"/>
+			<Command target="paline.animation" value="play" condition="eq(#press_back_2,1)"/>
+		</Trigger>
+	</Var>
+	<InCallUnlocker name="unlocker_mess" delay="500">
+		<StartPoint x="#screen_width-119-100" y="#screen_height-1280+919-100" w="200" h="200">
+			<NormalState>
+				<Trigger>
+					<VariableCommand name="press_back_2" expression="1" const="true"/>
+					<Command target="mess_image_size_n.animation" value="play"/>
+				</Trigger>
+			</NormalState>
+			<PressedState>
+				<Trigger>
+					<Command target="mess_image_size.animation" value="play"/>
+					<VariableCommand name="touch_state" expression="0" const="true"/>
+					<VariableCommand name="press_back_2" expression="0" const="true"/>
+					<VariableCommand name="lock_backN_init" expression="#mess_offsetY" type="number" const="true"/>
+				</Trigger>
+			</PressedState>
+			<ReachedState>
+				<Trigger action="up">
+					<VariableCommand name="lock_back_init" expression="-#mess_offsetY" type="number" const="true"/>
+					<Command target="lock_backY.animation" value="play"/>
+				</Trigger>
+			</ReachedState>
+		</StartPoint>
+		<EndPoint x="-200" y="#screen_height*1000/1280" w="920" h="400">
+			<Intent action="lewa.intent.action.end"/>
+		</EndPoint>
+	</InCallUnlocker>
+</Lockscreen>
