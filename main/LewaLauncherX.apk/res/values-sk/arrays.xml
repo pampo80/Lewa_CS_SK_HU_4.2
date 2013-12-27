@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="desktop_transition_effect_entries">
-        <item>Klasický</item>
-        <item>Klasický(bez prepalov)</item>
+        <item>Štandardný</item>
+        <item>Štandardný(bez prepalov)</item>
         <item>Tablet</item>
         <item>Zväčšovanie</item>
         <item>Zmenšovanie</item>
         <item>Otáčanie hore</item>
         <item>Otáčanie dole</item>
-        <item>Kocka in</item>
-        <item>Kocka out</item>
-        <item>Narovnávanie</item>
+        <item>Pretočenie</item>
+        <item>Prevrátenie</item>		
+        <item>V kocke</item>
+        <item>Zvonka kocky</item>
+        <item>Kopiť</item>
+        <item>Harmonika</item>
+        <item>V cylindri</item>
+        <item>Zvonka cylindra</item>
+        <item>Kolotoč vľavo</item>		
+        <item>Kolotoč vpravo</item>				
     </string-array>
     <string-array name="desktop_transition_effect_values">
         <item>Standard</item>
@@ -20,8 +27,15 @@
         <item>ZoomOut</item>
         <item>RotateUp</item>
         <item>RotateDown</item>
+        <item>Spin</item>
+        <item>Flip</item>
         <item>CubeIn</item>
         <item>CubeOut</item>
         <item>Stack</item>
+        <item>Accordion</item>
+        <item>CylinderIn</item>
+        <item>CylinderOut</item>
+        <item>CarouselLeft</item>
+        <item>CarouselRight</item>
     </string-array>
 </resources>
