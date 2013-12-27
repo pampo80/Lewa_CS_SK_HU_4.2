@@ -85,7 +85,7 @@ Aktuálne dostupnej pamäte je %2$d M"</string>
     <string name="cannot_delete_more_screen">Nie je už viac obrazoviek na vymazanie.</string>
     <string name="menu_preview">Náhľad</string>
     <string name="menu_edit">Widgety</string>
-    <string name="menu_desktop_settings">Nastavenie obrazovky</string>
+    <string name="menu_desktop_settings">Nastavenia spúšťača</string>
     <string name="pref_desktop_effect">Prechodový efekt obrazovky</string>
     <string name="pref_screen_layout">Rozloženie obrazovky</string>
     <string name="pref_screen_layout_summary">Vybrať rozvrhnutie ikón na ploche</string>
@@ -101,7 +101,7 @@ Aktuálne dostupnej pamäte je %2$d M"</string>
     <string name="pref_title_update">Hľadať aktualizáciu</string>
     <string name="pref_summary_update">Zistí, či je nainštalovaná najnovšia verzia Lewa Launcher</string>
     <string name="message_resetlauncher">Prednastavia sa všetky ikony, widgety a pozícia obrazovky.</string>
-    <string name="pref_label_settings">Launcher nastavenia</string>
+    <string name="pref_label_settings">Nastavenia spúšťača</string>
     <string name="folder_full_hint">Táto zložka je plná.</string>
     <string name="shortcut_phone">Telefón</string>
     <string name="shortcut_contacts">Kontakty</string>
