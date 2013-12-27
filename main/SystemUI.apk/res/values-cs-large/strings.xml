@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Vymazat vše</string>
+    <string name="notifications_off_title">Vypnutí notifikací</string>
+    <string name="notifications_off_text">Stisknutím opět povolíte notifikace</string>
+</resources>
