@@ -214,7 +214,7 @@
 <string name="confirm_restore_message">Naozaj chcete obnoviť štandardné nastavenia?</string>
 <string name="review_play">Spustiť</string>
 <string name="review_cancel">ZRUŠIŤ</string>
-<string name="review_ok">HOTOVO</string>
+<string name="review_ok">OK</string>
 <string name="review_retake">OPAKOVAŤ</string>
 <string name="camera_gallery_photos_text">Galéria</string>
 <string name="time_lapse_title">Časový okruh nahrávania</string>
@@ -435,7 +435,7 @@
 <string name="add_image">Pridať obrázok</string>
 <string name="add_image_success">Pridanie obrázku úspešné</string>
 <string name="not_image_or_video">Žiadny obrázok</string>
-<string name="select_folder">Vybrať zobrazovanie albumov</string>
+<string name="select_folder">Výber albumov prezentácie</string>
 <string name="no_storage_or_album_delete">Nenájdená SD karta alebo vymazaný album</string>
 <string name="picture_move_to_album">Obrázok presunúť do albumu: %s</string>
 <string name="support_by_camera360">Technická podpora od Camera360</string>
@@ -444,6 +444,8 @@
 <string name="month_day_format">dd. MMMM</string>
 <string name="month_format">MMMM</string>
 <string name="day_format">dd</string>
+<string name="no_other_album">Nemáte viac albumov.</string>
+<string name="ic_more">Viac</string>
 <string name="audio_not_supported">Zlyhalo prehrávanie zvuku.</string>
 <string name="can_not_trim">Nastala chyba, video nebolo ustrihnuté.</string>
 <string name="settings">Nastavenie</string>
@@ -623,7 +625,7 @@
 <string name="undo">KROK SPÄŤ</string>
 <string name="select_all">Označiť všetko</string>
 <string name="deselect_all">Odznačiť všetko</string>
-<string name="slideshow">Slideshow</string>
+<string name="slideshow">Prezentácia</string>
 <string name="details">Podrobnosti</string>
 <string name="details_title">%1$d of %2$d položiek:</string>
 <string name="close">Ukončiť</string>
