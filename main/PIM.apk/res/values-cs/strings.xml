@@ -1333,6 +1333,8 @@
 <string name="sms_import_sdcard">Importovat sms z: %s </string>
 <string name="sms_export_sdcard">Exportovat sms na: %s</string>
 <string name="sms_whether_export_item">Chcete exportovat na: %s?</string>
+<string name="message_send_fail_view">odosílání selhalo</string>
+<string name="message_send_of_late">(naposled)</string>
 <string name="prefs_ims_settings">FMS nastavení</string>
 <string name="prefs_ims_close_title">Bezplatná služba zpráv</string>
 <string name="prefs_ims_close_title_summary">Zapnout odesílání libovolného textu, hlasu, fotografií a video zpráv.</string>

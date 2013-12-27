@@ -1308,6 +1308,8 @@
 <string name="add_quick_text">gyorsszöveg hozzáadása</string>
 <string name="menu_delete_quick_text">gyorsszöveg törlése</string>
 <string name="menu_select_quick_text">gyorsszöveg kiválasztása</string>
+<string name="message_send_fail_view">küldése sikertelen</string>
+<string name="message_send_of_late">(utolsó)</string>
 <string name="prefs_ims_settings">FMS beállítások</string>
 <string name="prefs_ims_close_title">Ingyenes szöveg szolgáltatás (FMS)</string>
 <string name="prefs_ims_close_title_summary">Kapcsolja be szöveges, hang, kép és videóüzenetek küldéséhez.</string>
