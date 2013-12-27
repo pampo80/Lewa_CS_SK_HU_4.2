@@ -749,7 +749,7 @@
 <string name="contactsIconLabel">"Kontakty"</string>
 <string name="import_contact_count">%d úspěšně importovaných kontaktů</string>
 <string name="onscreenBluetoothText">"Bluetooth"</string>
-<string name="onscreenMuteText">"Vypnout mikrofon"</string>
+<string name="onscreenMuteText">"Vypnout"</string>
 <string name="onscreenAddCallText">Přidat hovor</string>
 <string name="onscreenMergeCallsText">Spojit hovory</string>
 <string name="onscreenSwapCallsText">Zaměnit</string>

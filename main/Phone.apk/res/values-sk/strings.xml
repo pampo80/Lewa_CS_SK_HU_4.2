@@ -856,7 +856,7 @@
 <string name="contactsIconLabel">Kontakty</string>
 <string name="import_contact_count">%dcontacts úspešne importovaných</string>
 <string name="onscreenBluetoothText">Bluetooth</string>
-<string name="onscreenMuteText">Ignorovať</string>
+<string name="onscreenMuteText">Vypnúť</string>
 <string name="onscreenAddCallText">Pridať hovor</string>
 <string name="onscreenMergeCallsText">Zlúčiť hovory</string>
 <string name="onscreenSwapCallsText">Zameniť</string>
