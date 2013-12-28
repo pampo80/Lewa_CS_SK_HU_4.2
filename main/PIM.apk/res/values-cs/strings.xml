@@ -1276,7 +1276,7 @@
 <string name="send_message">Odeslat zprávu</string>
 <string name="dialpad_showdialpad">Zobrazit Číselník</string>
 <string name="call_dialpad_setting">Nastavení číselníku</string>
-<string name="dialer_search_item_misscall_time">Zvonilo: %sx</string>
+<string name="dialer_search_item_misscall_time">Vyzvánělo: %sx</string>
 <string name="dialpad_to_text">vytáčím</string>
 <string name="call_log_clear_all">vymazat celý registr hovorů</string>
 <string name="mms_select_contacts_group_count">kontakty</string>
