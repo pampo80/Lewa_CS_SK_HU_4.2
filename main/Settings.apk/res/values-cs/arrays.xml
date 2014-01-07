@@ -318,8 +318,8 @@
         <item>Systém rozhodne</item>
     </string-array>
     <string-array name="app_install_location_values">
-        <item>zařízení</item>
-        <item>SD karta</item>
+        <item>device</item>
+        <item>sdcard</item>
         <item>auto</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
@@ -338,9 +338,9 @@
         <item>Vždy kontrolovat</item>
     </string-array>
     <string-array name="hdcp_checking_values">
-        <item>nikdy</item>
-        <item>iba drm</item>
-        <item>vždy</item>
+        <item>never</item>
+        <item>drm-only</item>
+        <item>always</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Nepoužívat kontrolu HDCP</item>
