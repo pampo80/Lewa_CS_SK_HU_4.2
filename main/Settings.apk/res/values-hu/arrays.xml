@@ -171,26 +171,17 @@
     <string-array name="app_install_location_entries">
         <item>Belső tárhely</item>
         <item>Eltávolítható SD-kártya</item>
-	<item>Döntse el a rendszer</item>
-    </string-array>
-        
-   
+		<item>Döntse el a rendszer</item>
+    </string-array>   
     <string-array name="long_press_timeout_selector_titles">
-	<item>Rövid</item>
-	<item>Közepes</item>
-	<item>Hosszú</item>
+		<item>Rövid</item>
+		<item>Közepes</item>
+		<item>Hosszú</item>
     </string-array>
-        
-   
     <string-array name="hdcp_checking_titles">
         <item>Ellenőrzés soha</item>
         <item>Csak DRM-tartalom ellenőrzése</item>
         <item>Ellenőrzés mindig</item>
-    </string-array>
-    <string-array name="hdcp_checking_values">
-        <item>never</item>
-        <item>drm-only</item>
-        <item>always</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Soha ne használjon HDCP ellenőrzést</item>

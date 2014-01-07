@@ -14,15 +14,6 @@
         <item>Pacifik</item>
         <item>Všetky</item>
     </string-array>
-    <string-array name="date_format_values">
-        <item></item>
-        <item>MM-dd-yyyy</item>
-        <item>dd-MM-yyyy</item>
-        <item>yyyy-MM-dd</item>
-        <item>EE-MMM-d-yyyy</item>
-        <item>EE-d-MMM-yyyy</item>
-        <item>yyyy-MMM-d-EE</item>
-    </string-array>
     <string-array name="screen_timeout_entries">
         <item>15 sekúnd</item>
         <item>30 sekúnd</item>
@@ -31,15 +22,6 @@
         <item>5 minút</item>
         <item>10 minút</item>
         <item>30 minút</item>
-    </string-array>
-    <string-array name="screen_timeout_values">
-        <item>15000</item>
-        <item>30000</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>1800000</item>
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Nikdy</item>
@@ -51,16 +33,6 @@
         <item>10 minút</item>
         <item>30 minút</item>
     </string-array>
-    <string-array name="dream_timeout_values">
-        <item>0</item>
-        <item>15000</item>
-        <item>30000</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>1800000</item>
-    </string-array>
     <string-array name="lock_after_timeout_entries">
         <item>Okamžite</item>
         <item>5 sekúnd</item>
@@ -71,17 +43,6 @@
         <item>5 minút</item>
         <item>10 minút</item>
         <item>30 minút</item>
-    </string-array>
-    <string-array name="lock_after_timeout_values">
-        <item>0</item>
-        <item>5000</item>
-        <item>15000</item>
-        <item>30000</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>1800000</item>
     </string-array>
     <string-array name="entries_font_size">
         <item>Malá</item>
@@ -102,26 +63,12 @@
         <item>Rýchlo</item>
         <item>Veľmi rýchlo</item>
     </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-    </string-array>
     <string-array name="tts_pitch_entries">
         <item>Veľmi pomaly</item>
         <item>Pomaly</item>
         <item>Stredne</item>
         <item>Rýchlo</item>
         <item>Veľmi rýchlo</item>
-    </string-array>
-    <string-array name="tts_pitch_values">
-        <item>50</item>
-        <item>80</item>
-        <item>100</item>
-        <item>120</item>
-        <item>150</item>
     </string-array>
     <string-array name="tts_demo_strings">
         <item>This is an example of speech synthesis in English.</item>
@@ -222,20 +169,10 @@
         <item>Len ak je pripojený</item>
         <item>Nikdy</item>
     </string-array>
-    <string-array name="wifi_sleep_policy_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Auto</item>
         <item>5 GHz iba</item>
         <item>2.4 GHz iba</item>
-    </string-array>
-    <string-array name="wifi_frequency_band_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>Čas behu</item>
@@ -267,11 +204,6 @@
         <item>Výstraha</item>
         <item>Vibrovať</item>
     </string-array>
-    <string-array name="emergency_tone_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
     <string-array name="special_locale_codes">
         <item>zh_CN</item>
         <item>zh_TW</item>
@@ -286,61 +218,30 @@
         <item>CHAP</item>
         <item>PAP alebo CHAP</item>
     </string-array>
-    <string-array name="apn_auth_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
     <string-array name="apn_protocol_entries">
         <item>IPv4</item>
         <item>IPv6</item>
         <item>IPv4/IPv6</item>
-    </string-array>
-    <string-array name="apn_protocol_values">
-        <item>IP</item>
-        <item>IPV6</item>
-        <item>IPV4V6</item>
     </string-array>
     <string-array name="bearer_entries">
         <item>LTE</item>
         <item>eHRPD</item>
         <item>Nešpecifikované</item>
     </string-array>
-    <string-array name="bearer_values">
-        <item>14</item>
-        <item>13</item>
-        <item>0</item>
-    </string-array>
     <string-array name="app_install_location_entries">
         <item>Vnútorná pamäť telefónu</item>
         <item>SD karta</item>
         <item>Systém sa rozhodne</item>
-    </string-array>
-    <string-array name="app_install_location_values">
-        <item>device</item>
-        <item>sdcard</item>
-        <item>auto</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Krátke</item>
         <item>Stredné</item>
         <item>Dlhé</item>
     </string-array>
-    <string-array name="long_press_timeout_selector_values">
-        <item>500</item>
-        <item>1000</item>
-        <item>1500</item>
-    </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Nikdy nekontrolovať</item>
         <item>Kontrolovať len DRM obsah</item>
         <item>Vždy kontrolovať</item>
-    </string-array>
-    <string-array name="hdcp_checking_values">
-        <item>never</item>
-        <item>drm-only</item>
-        <item>always</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Nepoužívať kontrolu HDCP</item>
@@ -356,15 +257,6 @@
         <item>Animácia mierka  5x</item>
         <item>Animácia mierka  10x</item>
     </string-array>
-    <string-array name="window_animation_scale_values">
-        <item>0</item>
-        <item>.5</item>
-        <item>1</item>
-        <item>1.5</item>
-        <item>2</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animácia vypnutá</item>
         <item>Animácia mierka .5x</item>
@@ -373,15 +265,6 @@
         <item>Animácia mierka 2x</item>
         <item>Animácia mierka 5x</item>
         <item>Animácia mierka 10x</item>
-    </string-array>
-    <string-array name="transition_animation_scale_values">
-        <item>0</item>
-        <item>.5</item>
-        <item>1</item>
-        <item>1.5</item>
-        <item>2</item>
-        <item>5</item>
-        <item>10</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Animácia vypnutá</item>
@@ -392,15 +275,6 @@
         <item>Animácia mierka 5x</item>
         <item>Animácia mierka 10x</item>
     </string-array>
-    <string-array name="animator_duration_scale_values">
-        <item>0</item>
-        <item>.5</item>
-        <item>1</item>
-        <item>1.5</item>
-        <item>2</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
     <string-array name="overlay_display_devices_entries">
         <item>None</item>
         <item>720x480 mdpi</item>
@@ -408,24 +282,11 @@
         <item>1920x1080 xhdpi</item>
         <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
     </string-array>
-    <string-array name="overlay_display_devices_values">
-        <item></item>
-        <item>720x480/160</item>
-        <item>1280x720/213</item>
-        <item>1920x1080/320</item>
-        <item>1280x720/213;1920x1080/320</item>
-    </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>None</item>
         <item>Logcat</item>
         <item>Systrace (Graphics)</item>
         <item>Call stack on glGetError</item>
-    </string-array>
-    <string-array name="enable_opengl_traces_values">
-        <item>0</item>
-        <item>1</item>
-        <item>systrace</item>
-        <item>chyba</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Štandardný limit</item>
@@ -434,14 +295,6 @@
         <item>Najviac 2 procesy</item>
         <item>Najviac 3 procesy</item>
         <item>Najviac 4 procesy</item>
-    </string-array>
-    <string-array name="app_process_limit_values">
-        <item>-1</item>
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
     </string-array>
     <string-array name="vpn_types">
         <item>PPTP</item>
@@ -474,13 +327,6 @@
         <item>Šimpanz</item>
         <item>Opica</item>
     </string-array>
-    <string-array name="user_content_ratings_values">
-        <item>5</item>
-        <item>4</item>
-        <item>3</item>
-        <item>2</item>
-        <item>1</item>
-    </string-array>
     <string-array name="security_settings_premium_sms_values">
         <item>Pýtať sa</item>
         <item>Nikdy nepovoliť</item>
@@ -489,10 +335,6 @@
     <string-array name="battery_style_entries">
         <item>Grafika</item>
         <item>Percento</item>
-    </string-array>
-    <string-array name="battery_style_values">
-        <item>0</item>
-        <item>1</item>
     </string-array>
     <string-array name="core_nums_strs">
         <item>Single-core</item>
@@ -508,30 +350,15 @@
         <item>Posledné 4 číslice</item>
         <item>Nezobrazuj</item>
     </string-array>
-    <string-array name="gemini_sim_info_number_display_format_values">
-        <item>1</item>
-        <item>2</item>
-        <item>0</item>
-    </string-array>
     <string-array name="gemini_sim_roaming_reminder_entries">
         <item>Iba raz</item>
         <item>Vždy</item>
         <item>Nikdy</item>
     </string-array>
-    <string-array name="gemini_sim_roaming_reminder_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
     <string-array name="gsm_umts_network_preferences_choices">
         <item>GSM/WCDMA (auto.mód)</item>
         <item>len WCDMA</item>
         <item>len GSM</item>
-    </string-array>
-    <string-array name="gsm_umts_network_preferences_values">
-        <item>0</item>
-        <item>2</item>
-        <item>1</item>
     </string-array>
     <array name="wifi_security_wfa">
         <item>@string/wifi_security_none</item>
@@ -568,11 +395,6 @@
         <item>Auto</item>
         <item>720P</item>
         <item>480P</item>
-    </string-array>
-    <string-array name="hdmi_video_resolution_entry_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
     </string-array>
     <string-array name="auto_time_entries">
         <item>Použi sieťou poskytnutý čas</item>
@@ -625,20 +447,10 @@
         <item>Vypni ak sa nepoužíva 5 min</item>
         <item>Vypni ak sa nepoužíva 10 min</item>
     </string-array>
-    <string-array name="wifi_hotspot_disable_policy_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
     <string-array name="input_method_selector_titles">
         <item>@string/input_method_selector_show_automatically_title</item>
         <item>@string/input_method_selector_always_show_title</item>
         <item>@string/input_method_selector_always_hide_title</item>
-    </string-array>
-    <string-array name="input_method_selector_values">
-        <item>@string/input_method_selector_show_automatically_value</item>
-        <item>@string/input_method_selector_always_show_value</item>
-        <item>@string/input_method_selector_always_hide_value</item>
     </string-array>
     <string-array name="apn_type_orange_tethering_only">
         <item>tethering</item>
@@ -649,43 +461,21 @@
         <item>720p_50Hz</item>
         <item>1080p_24Hz</item>
     </string-array>
-    <string-array name="hdmi_video_resolution_entry_values_8193">
-        <item>100</item>
-        <item>2</item>
-        <item>3</item>
-        <item>8</item>
-    </string-array>
     <string-array name="hdmi_video_mode_entries">
         <item>Celá obrazovka</item>
         <item>Najlepšie prispôsobiť</item>
         <item>Originál veľkosť</item>
-    </string-array>
-    <string-array name="hdmi_video_mode_entry_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="hdmi_color_space_entries">
         <item>RGB</item>
         <item>YCbCr444</item>
         <item>YCbCr422</item>
     </string-array>
-    <string-array name="hdmi_color_space_entry_values">
-        <item>0</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
     <string-array name="hdmi_deep_color_entries">
         <item>8bit</item>
         <item>Auto</item>
         <item>10 bit</item>
         <item>12 bit</item>
-    </string-array>
-    <string-array name="hdmi_deep_color_entry_values">
-        <item>1</item>
-        <item>0</item>
-        <item>2</item>
-        <item>3</item>
     </string-array>
     <string-array name="wifi_WEP_index">
         <item>1</item>
@@ -702,25 +492,13 @@
         <item>IPv4</item>
         <item>IPv4 &amp; IPv6</item>
     </string-array>
-    <string-array name="tethered_ipv6_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <string-array name="usb_tether_type_entries">
         <item>Windows(RNDIS)</item>
         <item>Linux/Mac OS(EEM)</item>
     </string-array>
-    <string-array name="usb_tether_type_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <string-array name="wifi_ap_wps_mode_entries">
         <item>Push tlačidlo</item>
         <item>PIN od klienta</item>
-    </string-array>
-    <string-array name="wifi_ap_wps_mode_values">
-        <item>0</item>
-        <item>1</item>
     </string-array>
     <string-array name="wifi_ap_max_connection_entries">
         <item>1 užívateľ</item>
@@ -731,16 +509,6 @@
         <item>6 užívatelia</item>
         <item>7 užívatelia</item>
         <item>8 užívatelia</item>
-    </string-array>
-    <string-array name="wifi_ap_max_connection_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
     </string-array>
 	<string-array name="simguide_datauseage">
         <item>MB/Mesiac</item>
