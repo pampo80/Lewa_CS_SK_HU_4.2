@@ -30,8 +30,8 @@
     <string name="usage_remain">Zbývá</string>
     <string name="usage_nocard">Není k dispozici</string>
     <string name="usage_total">Celkem využito</string>
-    <string name="usage_plan">Upravit plán</string>
-    <string name="usage_adjust">Synchronizace</string>
+    <string name="usage_plan">Nastavit plán</string>
+    <string name="usage_adjust">Synchron.</string>
     <string name="usage_adjusting">Synchronizuji</string>
     <string name="usage_adjust_success">Synchronizace dokončena</string>
     <string name="usage_adjust_failure">Chyba při synchronizaci</string>
