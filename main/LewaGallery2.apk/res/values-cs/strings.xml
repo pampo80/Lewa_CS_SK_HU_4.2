@@ -64,6 +64,13 @@
     <string name="pref_settings_weather_none_data">Žádná data</string>
     <string name="pref_settings_close">Zavřít</string>
     <string name="none_weather_data_tip">Žádná data o počasí, otevřete systémovou aplikaci počasí!</string>
+	<string name="insta_weather_air_quality">PM:</string>
+	<string name="title_activity_filter_show">Foto editor</string>
+	<string name="cannot_load_image">Není možné načíst obrázek!</string>
+	<string name="original_picture_text">@string/original</string>
+	<string name="original">Originál</string>
+	<string name="borders">Okraje</string>
+	<string name="done">OK</string>
     <string name="crop">Ořezat</string>
     <string name="rotate">Otočit</string>
     <string name="camera_roll_tab">Fotoaparát</string>

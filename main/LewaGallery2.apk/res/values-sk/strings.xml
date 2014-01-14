@@ -363,7 +363,7 @@
 <string name="original_picture_text">@string/original</string>
 <string name="original">Originál</string>
 <string name="borders">Okraje</string>
-<string name="done">Hotovo</string>
+<string name="done">OK</string>
 <string name="filtershow_undo">Krok späť</string>
 <string name="filtershow_redo">Zrušiť krok späť</string>
 <string name="show_history_panel">Zobraziť históriu</string>
