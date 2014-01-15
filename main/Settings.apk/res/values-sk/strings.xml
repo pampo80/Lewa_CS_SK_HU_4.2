@@ -608,7 +608,7 @@
 <string name="date_time_12_hour_sample">1:00 pop.</string>
 <string name="date_time_24_hour_sample">13:00</string>
 <string name="choose_timezone">Zvoľte časové pásmo</string>
-<string name="default_date_format">MM/dd/yyyy</string>
+<string name="default_date_format">dd.MM.yyyy</string>
 <string name="normal_date_format">Miestne nastavenie (%s)</string>
 <string name="display_preview_label">Ukážka:</string>
 <string name="display_font_size_label">Veľkosť písma:</string>
@@ -1114,7 +1114,7 @@ Nastavenie telefónu vyžaduje značný sieťový prenos dát."</string>
 <string name="ring_volume_title">Hlasitosť vyzváňania</string>
 <string name="vibrate_in_silent_title">Vibrovať v tichom režime</string>
 <string name="notification_sound_title">Predvolené upozornenie</string>
-<string name="notification_pulse_title">Blikať kontrolkou upozornenia</string>
+<string name="notification_pulse_title">Blikať LED diódou</string>
 <string name="incoming_call_volume_title">Vyzváňací tón</string>
 <string name="notification_volume_title">Upozornenie</string>
 <string name="checkbox_notification_same_as_incoming_call">Použije hlasitosť prichádzajúcich hovorov aj pre upozornenia</string>
@@ -2350,9 +2350,9 @@ Každý používateľ môže prijať oprávnenia aplikácie v mene všetkých po
 <string name="haptic_feedback_enable_summary">Vibrovať pri dotyku kláves pod displejom</string>
 <string name="key_label">Tlačítka pod displejom</string>
 <string name="keyboard_lights_title">Podsvietenie tlačítok</string>
-<string name="keyboard_lights_summary">Zapína podsvietenie tlačítok pod displejom</string>
+<string name="keyboard_lights_summary">Zapína/vypína podsvietenie tlačítok pod displejom</string>
 <string name="keyboard_auto_lights_title">Automatické podsvietenie</string>
-<string name="keyboard_auto_lights_summary">Pri vysokom okolnom osvetlení sa vypína podsvietenie kláves</string>
+<string name="keyboard_auto_lights_summary">Podsvietenie tlačítok sa riadi jasom okolia</string>
 <string name="volume_key_title">Tlačítka hlasitosti</string>
 <string name="volume_wake_title">Hlasitosťou zobudiť</string>
 <string name="volume_wake_summary">Pokiaľ je obrazovka vypnutá, stlačením tlačítok hlasitosti sa zapne</string>

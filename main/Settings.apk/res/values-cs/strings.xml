@@ -257,7 +257,7 @@
     <string name="gemini_sim_tether_info_title">Kontakty a SIM</string>
     <string name="gemini_sim_tether_add_record">Přidat kontakty</string>
     <string name="gemini_sim_add_title">Kontakty</string>
-    <string name="gemini_sim_tether_norecord">Nemáte žádné kontaktní číslo spojené s aktuální SIM.Chcete-li přiřadit číslo kontaktu s touto SIM:<li>Stiskněte tlačítko <font fgcolor="#ffffffff"><b>Přidat kontakty</b></font> </li><li>Vyberte kontakt, který chcete přiřadit k této SIM</li><li>Stiskněte <font fgcolor="#ffffffff"><b>Uložit </b></font>pro uložení změn</li></string>
+    <string name="gemini_sim_tether_norecord">Nemáte žádné kontaktní číslo spojené s aktuální SIM.Chcete-li přiřadit číslo kontaktu s touto SIM:<li>Stiskněte tlačítko <b><font fgcolor="#ffffffff">Přidat kontakty</font></b> </li><li>Vyberte kontakt, který chcete přiřadit k této SIM</li><li>Stiskněte <b><font fgcolor="#ffffffff">Uložit </font></b>pro uložení změn</li></string>
     <string name="gemini_sim_tether_nocontacts">Žádné kontakty nejsou uloženy v telefonu. Přidejte nový kontakt nebo importujte kontakty.</string>
     <string name="gemini_sim_tether_no_assc_contacts">Kontakty jsou vázány úspěšně</string>
     <string name="gemini_sim_tether_disassociate">Zrušit přiřazení</string>
@@ -326,9 +326,9 @@
     <string name="schedule_power_on_set">Nastav plán. zapnutí on</string>
     <string name="schedule_power_off_set">Nastav plán. zapnutí off</string>
     <string name="enable_schpwr">Povolit</string>
-	<string name="disable_schpwr">Vypnout</string>
+    <string name="disable_schpwr">Vypnout</string>
     <string name="day">1 den</string>
-	<string name="days">%s dnů</string>
+    <string name="days">%s dnů</string>
     <string name="hour">1 hodina</string>
     <string name="hours">%s hodin</string>
     <string name="minute">1 minuta</string>
@@ -510,7 +510,7 @@
     <string name="date_time_12_hour_sample">1:00 pm</string>
     <string name="date_time_24_hour_sample">13:00</string>
     <string name="choose_timezone">Vybrat časové pásmo</string>
-    <string name="default_date_format">MM/dd/yyyy</string>
+    <string name="default_date_format">dd/MM/yyyy</string>
     <string name="normal_date_format">Regionální (%s)</string>
     <string name="display_preview_label">Náhled:</string>
     <string name="display_font_size_label">Velikost písma:</string>
@@ -968,7 +968,7 @@
     <string name="ring_volume_title">Hlasitost vyzvánění</string>
     <string name="vibrate_in_silent_title">Vibrovat v tichém režimu</string>
     <string name="notification_sound_title">Tón oznámení</string>
-    <string name="notification_pulse_title">Blikat kontrolkou oznámení</string>
+    <string name="notification_pulse_title">Blikat LED diodou</string>
     <string name="incoming_call_volume_title">Vyzváněcí tón</string>
     <string name="notification_volume_title">Upozornění</string>
     <string name="checkbox_notification_same_as_incoming_call">Použije hlasitost příchozích hovorů také pro oznámení</string>
@@ -1509,14 +1509,14 @@
     <string name="accessibility_settings_title">Nastavení usnadnění</string>
     <string name="accessibility_services_title">Služby</string>
     <string name="accessibility_system_title">Systém</string>
-	<string name="accessibility_toggle_large_text_title">Velký text</string>
+    <string name="accessibility_toggle_large_text_title">Velký text</string>
     <string name="accessibility_power_button_ends_call_title">Tlačítko Power ukončí volání</string>
     <string name="accessibility_speak_password_title">Vyprávět hesla</string>
     <string name="accessibility_long_press_timeout_title">Zpoždění kliknutí &amp; podržení</string>
-    <string name="accessibility_script_injection_title">Usnadnit dostupnost web stránek</string>	
-	<string name="accessibility_service_state_on">Zap.</string>
-    <string name="accessibility_service_state_off">Vyp.</string>		
+    <string name="accessibility_script_injection_title">Usnadnit dostupnost web stránek</string>
     <string name="accessibility_menu_item_settings">Nastavení</string>
+    <string name="accessibility_service_state_on">Zap.</string>
+    <string name="accessibility_service_state_off">Vyp.</string>
     <string name="accessibility_script_injection_allowed">Povoleno</string>
     <string name="accessibility_script_injection_disallowed">Nepovoleno</string>
     <string name="accessibility_script_injection_button_allow">Povolit</string>
@@ -2046,9 +2046,9 @@
     <string name="haptic_feedback_enable_summary">Vibrovat při dotyku kláves pod displejem</string>
     <string name="key_label">Klávesy</string>
     <string name="keyboard_lights_title">Podsvícení kláves</string>
-    <string name="keyboard_lights_summary">Zapíná podsvícení kláves pod displejem</string>
+    <string name="keyboard_lights_summary">Zapíná/vypíná podsvícení tlačítek pod displejem.</string>
     <string name="keyboard_auto_lights_title">Automatické podsvícení</string>
-    <string name="keyboard_auto_lights_summary">Při vysokém okolním osvětlení vypíná podsvícení kláves</string>
+    <string name="keyboard_auto_lights_summary">Podsvícení tlačítek se řídí jasem oklolí</string>
     <string name="volume_key_title">Tlačítka hlasitosti</string>
     <string name="volume_wake_title">Hlasitostí probudit</string>
     <string name="volume_wake_summary">Stlačením klaves hlasitosti pokud je telefon vypnutý se zapne obrazovka</string>
@@ -2127,9 +2127,21 @@
     <string name="default_gprs_title">Vybrat výchozí SIM pro GPRS</string>
     <string name="could_modify_in_simmanagement">Může být změněno ve správě SIM</string>
     <string name="agreement_title">Smlouva o poskytování služeb</string>
-    <string name="led_label">Notifikační dioda</string>
     <string name="nightmodecolor_title">Barva nočního režimu</string>
     <string name="summary_nightmode_value">%1$s</string>
-	<string name="inadvertmode_title">Zabránění nechtěnému spuštění</string>
-	<string name="inadvertmode_msg">Zabránění nechtěnému spuštění funkcí telefonu pokud se nachází v kapse</string>
+    <string name="inadvertmode_title">Zabránění nechtěnému spuštění</string>
+    <string name="inadvertmode_msg">Zabránění nechtěnému spuštění funkcí telefonu pokud se nachází v kapse</string>
+    <string name="led_label">Notifikační dioda</string>
+    <string name="led_settings">Notifikační LED dioda</string>
+    <string name="led_colors_summary">Notifikace</string>
+    <string name="led_frequence_summary">Nastavte interval blikání LED</string>
+    <string name="led_pulse_summary">LED bude blikat, když dostanete novou zprávu nebo jiné sdělení</string>
+    <string name="breathing_light_freq_title">Frekvence blikání</string>
+    <string name="led_settings_summary">Nastavení způsobu fungování LED oznamovací diody</string>
+    <string name="notification_led_color_titel">Farby oznámení</string>
+    <string name="incoming_call_led_color_titel">Barva zmeškaného hovoru</string>
+    <string name="mms_led_color_titel">Barva SMS/MMS</string>
+    <string name="notification_led_freq_title">Frekvence blikání notifikace</string>
+    <string name="incoming_call_led_freq_title">Frekvence blikání zmeškaného hovoru</string>
+    <string name="mms_led_freq_title">Frekvence blikání SMS/MMS</string>	
 </resources>
