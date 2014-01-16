@@ -4,4 +4,8 @@
         <item quantity="other">%d nedávnych apl</item>
         <item quantity="one">1 nedávna apl</item>
     </plurals>
+    <plurals name="notifilter_headernotice">
+        <item quantity="other">Počet zablokovaných notifikácií: %d</item>
+        <item quantity="one">Počet zablokovaných notifikácií: %d</item>
+    </plurals>	
 </resources>

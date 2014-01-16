@@ -38,13 +38,4 @@
         <item>CarouselLeft</item>
         <item>CarouselRight</item>
     </string-array>
-    <string-array name="screen_layout">
-        <item>4 * 4</item>
-        <item>4 * 5</item>
-    </string-array>
-    <string-array name="screen_layout_value">
-        <item>4|4</item>
-        <item>4|5</item>
-    </string-array>
-    <array name="wallpapers" />
 </resources>

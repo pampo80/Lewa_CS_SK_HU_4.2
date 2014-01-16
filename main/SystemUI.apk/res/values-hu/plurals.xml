@@ -4,4 +4,8 @@
         <item quantity="other">%d korábbi alkalamazás</item>
         <item quantity="one">1 korábbi alkalamazás</item>
     </plurals>
+    <plurals name="notifilter_headernotice">
+        <item quantity="other">Száma blokkolt értesítések: %d</item>
+        <item quantity="one">Száma blokkolt értesítések: %d</item>
+    </plurals>		
 </resources>

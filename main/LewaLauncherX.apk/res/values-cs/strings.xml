@@ -108,6 +108,8 @@
     <string name="pref_summary_update">Kontrola Lewa spouštěče na nejnovější verzi</string>
     <string name="message_resetlauncher">Obnoví výchozí nastavení ikon, widgetů a polohu obrazovek spouštěče.</string>
     <string name="pref_label_settings">Nastavení spouštěče</string>
+	<string name="pref_keep_resident">Držet trvale v paměti</string>
+    <string name="pref_summary_keep_resident">Držet launcher trvale v paměti.</string>
     <string name="folder_full_hint">Tato složka je plná.</string>
     <string name="shortcut_phone">Telefon</string>
     <string name="shortcut_contacts">Kontakty</string>

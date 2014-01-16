@@ -4,4 +4,8 @@
         <item quantity="other">%d posledních apps</item>
         <item quantity="one">1 poslední app</item>
     </plurals>
+    <plurals name="notifilter_headernotice">
+        <item quantity="other">Počet zablokovaných oznámení: %d</item>
+        <item quantity="one">Počet zablokovaných oznámení: %d</item>
+    </plurals>	
 </resources>

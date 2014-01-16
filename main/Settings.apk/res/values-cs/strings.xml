@@ -2137,8 +2137,8 @@
     <string name="led_frequence_summary">Nastavte interval blikání LED</string>
     <string name="led_pulse_summary">LED bude blikat, když dostanete novou zprávu nebo jiné sdělení</string>
     <string name="breathing_light_freq_title">Frekvence blikání</string>
-    <string name="led_settings_summary">Nastavení způsobu fungování LED oznamovací diody</string>
-    <string name="notification_led_color_titel">Farby oznámení</string>
+    <string name="led_settings_summary">Nastavení způsobu fungování LED notifikační diody</string>
+    <string name="notification_led_color_titel">Barvy notifikace</string>
     <string name="incoming_call_led_color_titel">Barva zmeškaného hovoru</string>
     <string name="mms_led_color_titel">Barva SMS/MMS</string>
     <string name="notification_led_freq_title">Frekvence blikání notifikace</string>
