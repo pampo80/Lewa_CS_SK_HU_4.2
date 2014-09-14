@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>-->
+﻿<?xml version="1.0" encoding="utf-8"?><!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>-->
 <resources>
-	<string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
-    <string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
-    <string name="status_bar_date_formatter">%2$s</string>
     <string name="gemini_default_sim_always_ask">Rákérdezés mindig</string>
     <string name="app_label">Rendszer UI</string>
     <string name="status_bar_clear_all_button">Törlés</string>

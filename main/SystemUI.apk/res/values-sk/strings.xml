@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
-<string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
-<string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
-<string name="status_bar_date_formatter">"%2$s
-%1$s"</string>
 <string name="gemini_default_sim_always_ask">Vždy sa opýtať</string>
 <string name="accessibility_phone_four_bars">Štyri čiarky signálu telefónnej siete.</string>
 <string name="sim_switch_tip">Táto SIM je nastavená ako východzia pre %s. Pre zmenu SIM podržte a stiahnite stavový riadok.</string>
