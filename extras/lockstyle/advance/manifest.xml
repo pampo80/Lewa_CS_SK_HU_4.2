@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Lockscreen version="1" frameRate="30" frameRateBatteryLow="20" screenWidth="720">
 	
-	<Image name="camera_bg" x="0" y="0" w="#screen_width" h="#screen_height" src="camera_bg.png" visibility="false"/>
 	<!--天气-->
 	<VariableBinders>
 		<ContentProviderBinder columns="city,temperature,sort,pmcondition" countName="hasWeather" uri="content://com.lewa.weather" notifyUri="content://com.lewa.weather">
@@ -12,16 +11,16 @@
 		</ContentProviderBinder>
 	</VariableBinders>
 	<VirtualScreen name="virtualscreen" freeze="true">
-		<Var name="sms_unread" expression="#sms_unread_count"/>
-	    <Var name="miss_call" expression="#call_missed_count "/>
-<!-- 	    <Var name="sms_unread" expression="100"/>
-	    <Var name="miss_call" expression="80"/> -->
+		<Var name="sms_unread" expression="#sms_unread_count+#mms_unread_count"/>
+	  <Var name="miss_call" expression="#call_missed_count"/>
+	<!--<Var name="sms_unread" expression="100"/>
+	    <Var name="miss_call" expression="80"/>-->
 		<Wallpaper blur="5" blurMaskGradient="#00000000|#ff000000" coverGradient="#00000000|#00000000|#bb000000"/>
 		<Image x="0" y="0" src="bg_charge.png" visibility="gt(#battery_state,0)*ne(#battery_state,2)*not(#music_control.visibility)"/>
 		<!-- 音乐控件 -->
 		<Var name="music_btn_y" expression="265"/>
 		<MusicControl name="music_control" autoShow="true" visibility="false">
-			<Image name="music_album_cover" x="360" y="640" w="1280" h="1280" align="center" alignV="center" antiAlias="false" blur="5" blurMaskGradient="#00000000|#ff000000" coverGradient="#00000000|#00000000|#bb000000"/>
+			<Image name="music_album_cover" x="360" y="640" w="1280" h="1280" align="center" scaleType="centerCrop" alignV="center" antiAlias="false" blur="5" blurMaskGradient="#00000000|#ff000000" coverGradient="#00000000|#00000000|#bb000000"/>
 			<Text name="music_display" x="#screen_width/2" y="385" align="center" alignV="top" size="28" color="#ffffff" w="400" marqueeSpeed="50" shadow="5|2|3|#4d000000" textExp="@music_control.title"/>
 			<!--上一首按钮-->
 			<Button name="music_prev" x="120" y="#music_btn_y-50" w="100" h="100">
@@ -76,16 +75,35 @@
 			<Var name="time_width" expression="int(#hf_width+#hs_width+#dot_width+#mf_width+#ms_width)"/>
 			<Var name="time_pos_x" expression="(#screen_width-#time_width)/2"/>
 			<Var name="hour" expression="ifelse(eq(#time_format,0),#hour12,#hour24)" />
-			<Text name="h_s" x="#time_pos_x+#hf_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(eq(#ampm,1)*eq(#hour,0),12,#hour)" typeface="NeoSans-Light.otf"/>
+			<Var name="lunar_week_width" expression=" ifelse(@chinese_calendar_show,#lunar_calendar_width,#week.text_width)"/>
+			<Var name="week_width" expression="#week.text_width"/>
+			<Var name="week_pos_x" expression="ifelse(@chinese_calendar_show,(#screen_width-#week_width)/2,(#screen_width-(#mon_width+#week_width))/2+#mon_width + 8)"/>
+			<Var name="time_aside_str"  type="string" expression="ifelse(@chinese_calendar_show,@time_aside_str_ch,@time_aside_str_en)" />
+			<Var name="time_aside_str_ch"  type="string" expression="ifelse(
+			                                                 ge(#hour24, 0) *lt(#hour24, 4), @time_0_3 ,
+			                                                 ge(#hour24, 4) *lt(#hour24, 7), @time_4_6 ,
+			                                                 ge(#hour24, 7) *lt(#hour24, 10), @time_7_9 ,
+			                                                 ge(#hour24, 10) *lt(#hour24, 12), @time_10_11 ,
+			                                                 ge(#hour24, 12) *lt(#hour24, 13), @time_12 ,
+			                                                 ge(#hour24, 13) *lt(#hour24, 17), @time_13_16 ,
+			                                                 ge(#hour24, 17) *lt(#hour24, 19), @time_17_18 ,
+			                                                 ge(#hour24, 19) *lt(#hour24, 24), @time_19_23 ,
+			                                                 @time_0_3 )" />
+			<Var name="time_aside_str_en"  type="string" expression="ifelse(
+                                                             ge(#hour24, 0) *lt(#hour24, 12), @am ,
+                                                             ge(#hour24, 12) *lt(#hour24, 24), @pm ,
+                                                             @am)" />
+			<Text name="h_s" x="#time_pos_x+#hf_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(eq(#hour,0)*eq(#time_format,0),12,#hour)" typeface="NeoSans-Light.otf"/>
 			<Image name="t_dot" x="#time_pos_x+#hf_width+#hs_width" y="#time_pos_y+160" align="left" alignV="bottom" src="time_dot.png"/>
 			<Text name="m_f" x="#time_pos_x+#hf_width+#hs_width+#dot_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(digit(#minute ,2),digit(#minute ,2),0)" typeface="NeoSans-Light.otf"/>
 			<Text name="m_s" x="#time_pos_x+#hf_width+#hs_width+#dot_width+#mf_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(digit(#minute ,1),digit(#minute ,1),0)" typeface="NeoSans-Light.otf"/>
-			<DateTime name="mon" x="(#screen_width-(#mon_width+#lunar_calendar_width))/2" y="320" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="left" format="EEEE dd. MM." typeface="Roboto-Light.ttf"/>			
+			<DateTime name="mon" x="(#screen_width-(#mon_width+#lunar_week_width))/2+ ifelse(eq(#time_format,0) *eq(@chinese_calendar_show,0),-30,0)" y="320" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="left" format="EEEE dd. MM." typeface="Roboto-Light.ttf"/>
+		    <Text name="time_aside" visibility="eq(#time_format,0)" x="#week_pos_x +ifelse(@chinese_calendar_show,70,90)" y="320+@week_offsetY" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="ifelse(@chinese_calendar_show,'center','left')" format="%s" typeface="@week_typeface" paras="@time_aside_str"/>
 		</Group>
 		<Var name="degree" expression="replace(@weather_temperature,'℃','')" type="string"/>
 		<!--天气-->
 		<Group name="weather" visibility="not(#music_control.visibility)*gt(#hasWeather,0)*eq(#miss_call,0)*eq(#sms_unread,0)">
-			<Var name="icon_index" expression="ifelse(eq(@weather_type,0),6,eq(@weather_type,1),7,eq(@weather_type,2),1,eq(@weather_type,3)+eq(@weather_type,4),4,eq(@weather_type,5),12,eq(@weather_type,6),8,eq(@weather_type,8)+eq(@weather_type,7)+eq(@weather_type,10),10,eq(@weather_type,9),0,eq(@weather_type,11),3,eq(@weather_type,12),2,ge(@weather_type,13)*le(@weather_type,16),9,eq(@weather_type,17),5,eq(@weather_type,18),11,7)"/>
+			<Var name="icon_index" expression="ifelse(eq(@weather_type,18),3,eq(@weather_type,19),5, @weather_type)"/>
 			<Image x="#screen_width/2" y="408+78" align="center" alignV="top" srcExp="'weather/weather_'+ #icon_index + '.png'"/>
 			<Var name="dtw" expression="#degree_t.text_width"/>
 			<Var name="dt_posX" expression="int((#screen_width-#dtw-16)/2)+8" type="number"/>
@@ -121,13 +139,18 @@
 			</VariableAnimation>
 		</Var>
 		<Group alpha="ifelse(#lock_state_normal,#guid_tips_alpha_miss,#guid_tips_alpha_show)-(#lock_offsetY+#call_offsetY+#mess_offsetY)">
-		<Text name="unlock_tips" x="#screen_width/2" align="center" y="#screen_height-1280+919-150" format="%s" paras="@slide_down_lock" color="#ffffff" size="24" shadow="0|0|6|#bf000000" visibility="ne(#unlocker_lock.state,0)" />
 		<Text name="call_tips" x="118" align="center" y="#screen_height-1280+919-150" format="%s" paras="@slide_down_call" color="#ffffff" size="24" shadow="0|0|6|#bf000000" visibility="ne(#unlocker_call.state,0)" />
 		<Text name="mess_tips" x="602" align="center" y="#screen_height-1280+919-150" format="%s" paras="@slide_down_mess" color="#ffffff" size="24" shadow="0|0|6|#bf000000" visibility="ne(#unlocker_mess.state,0)" />
 	</Group>
+	
+    <Group alpha="ifelse(#lock_state_normal,0,179)-ifelse(#lock_offsetY,#lock_offsetY,-1.3*#lock_offsetY)))">
+        <Text name="camera_tips" x="#screen_width/2" align="center" y="#screen_height-1280+919-178" format="%s" paras="@slide_up_camera" color="#ffffff" size="24" shadow="0|0|6|#bf000000" visibility="ne(#unlocker_lock.state,0)" multiLine= "true" />
+        <Text name="unlock_tips" x="#screen_width/2" align="center" y="#screen_height-1280+919-150" format="%s" paras="@slide_down_lock" color="#ffffff" size="24" shadow="0|0|6|#bf000000" visibility="ne(#unlocker_lock.state,0)" multiLine= "true" />
+    </Group>
+    
 		<Group name="lock_part">
 			<Var name="unlocker_pos_centerY" expression="#screen_height-1280+919"/>
-			<Var name="lock_offsetY" expression="ifelse(lt(#unlocker_lock.move_y,-20),-20-((#unlocker_lock.move_y+20)*40/#unlocker_lock.move_y),#unlocker_lock.move_y)"/>
+			<Var name="lock_offsetY" expression="ifelse(lt(#unlocker_lock.move_y,-150),-150-((#unlocker_lock.move_y+150)*40/#unlocker_lock.move_y),#unlocker_lock.move_y)"/>
 			<Var name="call_offsetY" expression="ifelse(lt(#unlocker_call.move_y,-20),-20-((#unlocker_call.move_y+20)*40/#unlocker_call.move_y),#unlocker_call.move_y)"/>
 			<Var name="mess_offsetY" expression="ifelse(lt(#unlocker_mess.move_y,-20),-20-((#unlocker_mess.move_y+20)*40/#unlocker_mess.move_y),#unlocker_mess.move_y)"/>
 			<Var name="line_ani_move_x">
@@ -322,14 +345,14 @@
 					<Text name="bl_show1" x="#screen_width/2" y="#unlocker_pos_centerY+#lock_offsetY-11+#mess_offsetY*0.9+#lock_backY*0.9" align="center" alignV="center" color="#15ff0f" size="54" typeface="NeoSans-Light.otf" format="%d" paras="#battery_level" visibility="#battery_state*ne(#battery_state,2)"/>
 					<Image name="img_normal_call" x="119" y="#unlocker_pos_centerY+#mess_offsetY*0.3+#lock_backY*0.3" align="center" alignV="center" src="unlocker_call.png"/>
 				</Group>
-				<!--sms_unread_count-->
+				<!--sms_unread_count -->
 				<Group name="sms_unread_count">
 					<Group name="miss_mess_normal" x="#mm_x" y="#mm_y" visibility="gt(#sms_unread,0)">
-						<Image x="0" y="0" align="center" alignV="center"  srcExp="ifelse(gt(#sms_unread,99),'msg_hint_bg_new','msg_hint_bg')+'.png'"/>
+						<Image x="0" y="0" align="center" alignV="center"  srcExp="ifelse(gt(#sms_unread,99),'msg_hint_bg','msg_hint_bg_s')+'.png'"/>
 						<Text x="0" y="-3" align="center" alignV="center" color="#ffffff" shadow="1|1|1|#bf000000" size="26" textExp="ifelse(le(#sms_unread,99),#sms_unread,'99+')"/>
 					</Group>
 					<Group name="miss_call_normal" x="#mc_x" y="#mc_y" visibility="gt(#miss_call,0)">
-						<Image x="0" y="0" align="center" alignV="center" srcExp="ifelse(gt(#miss_call,99),'msg_hint_bg_new','msg_hint_bg')+'.png'"/>
+						<Image x="0" y="0" align="center" alignV="center" srcExp="ifelse(gt(#miss_call,99),'msg_hint_bg','msg_hint_bg_s')+'.png'"/>
 						<Text x="0" y="-3" align="center" alignV="center" color="#ffffff" shadow="1|1|1|#bf000000" size="26" textExp="ifelse(le(#miss_call,99),#miss_call,'99+')"/>
 					</Group>
 				</Group>
@@ -358,6 +381,7 @@
 			<Var name="guide_ani_trigger" expression="#lockstate" threshold="1">
 				<Trigger>
 					<Command target="unlock_tips.visibility" value="true" condition="#lock_state_pressed"/>
+					<Command target="camera_tips.visibility" value="true" condition="#lock_state_pressed"/>
 					<Command target="guid_tips_alpha_show.animation" value="play" condition="#lock_state_pressed"/>
 					<Command target="guid_tips_alpha_miss.animation" value="play" condition="#lock_state_normal"/>
 					<Command target="guide_show.animation" value="play" condition="eq(#lock_state_normal,1)"/>
@@ -378,52 +402,9 @@
 		</Group>
 	</VirtualScreen>
 
-	<Var name="touch_dist" expression="int(#touch_x-#touch_begin_x)"/>
-	<Var name="leftToRight" expression="ifelse(gt(#touch_dist,0),1,0)"/>
-	<Var name="vs_moveX" expression="ifelse(lt(abs(#touch_dist),10),0,#touch_dist)"/>
-	<Var name="touch_state" expression="0" const="true"/>
-	<Var name="camera_show_ani_init" expression="0" const="true"/>
-	<Var name="camera_show_ani_end" expression="0" const="true"/>
-	<Var name="move_start" expression="0" const="true"/>
-	<Var name="camera_show_ani">
-		<VariableAnimation>
-			<AniFrame value="#camera_show_ani_init" time="0"/>
-			<AniFrame value="#camera_show_ani_end" time="300"/>
-			<AniFrame value="#camera_show_ani_end" time="1000"/>
-			<AniFrame value="#camera_show_ani_end" time="100000000000"/>
-		</VariableAnimation>
-	</Var>
 
-	<Image x="ifelse(#touch_state*lt(#touch_y,#screen_height-460),#vs_moveX,0)+#camera_show_ani+#move_start" y="0" useVirtualScreen="true" src="virtualscreen"/>
-	
-	<Var name="camera_unlock" expression="ifelse(eq(#camera_show_ani,#camera_show_ani_end)*ne(#camera_show_ani_end,0),1,0)" threshold="1">
-		<Trigger>
-			<ExternCommand command="unlock" condition="#camera_unlock" strPara="'lewa.media.action.STILL_IMAGE_CAMERA'" numPara="-1" delay="300"/>
-			<!-- 	<IntentCommand action="lewa.media.action.STILL_IMAGE_CAMERA" category="android.intent.category.DEFAULT" condition="#camera_unlock" anim="false" delay="60"/>
-			<VariableCommand name="virtualscreen.freeze" expression="0" delay="500"/> -->
-		</Trigger>
-	</Var>
 	<Var name="screen_middle" expression="#screen_width/2" type="number" const="true"/>
-	<Var name="camera_show_ani_con" expression="ifelse(lt((#touch_begin_x-#screen_middle)*(#touch_x-#screen_middle),0)*gt(abs(#touch_dist),80)*lt(#touch_y,#screen_height-420),1,0)"/>
-	<Button name="camera_btn" x="0" y="0" w="#screen_width" h="#screen_height-460">
-		<Triggers>
-			<Trigger action="down">
-				<VariableCommand name="virtualscreen.freeze" expression="1"/>
-				<VariableCommand name="vs_moveX" expression="0"/>
-				<VariableCommand name="touch_state" expression="1" const="true"/>
-				<Command target="camera_bg.visibility" value="true"/>
-			</Trigger>
-			<Trigger action="up">
-				<VariableCommand name="touch_state" expression="0" const="true"/>
-				<VariableCommand name="move_start" expression="#touch_dist" const="true" condition="#camera_show_ani_con"/>
-				<VariableCommand name="camera_show_ani_init" expression="0" const="true" condition="#camera_show_ani_con"/>
-				<VariableCommand name="camera_show_ani_end" expression="ifelse(#leftToRight,#screen_width-abs(#touch_dist),abs(#touch_dist)-#screen_width)" const="true" condition="#camera_show_ani_con"/>
-				<Command target="camera_show_ani.animation" value="play" condition="#camera_show_ani_con"/>
-				<VariableCommand name="virtualscreen.freeze" expression="0" condition="eq(#camera_show_ani_con,0)"/>
-				<Command target="camera_bg.visibility" value="false" condition="eq(#camera_show_ani_con,0)"/>
-			</Trigger>
-		</Triggers>
-	</Button>
+
 	<!-- <Var name="testVar" expression="0" const="true" /> -->
 	<Var name="touch_endY_up" expression="ifelse(#touch_state*gt(#touch_y,(#screen_height-460)),1,0)" threshold="1">
 			<Trigger>
@@ -450,7 +431,7 @@
 			<AniFrame value="#locker_dissmis_end" time="100000000000"/>
 		</VariableAnimation>
 	</Var>
-	<Unlocker name="unlocker_lock" delay="500">
+	<Unlocker name="unlocker_lock" delay="150">
 		<StartPoint x="#screen_width/2-100" y="#screen_height-1280+919-100" w="200" h="200">
 			<NormalState>
 				<Trigger>
@@ -469,14 +450,18 @@
 			<ReachedState>
 				<Trigger action="up">
 					<VariableCommand name="lock_back_init" expression="-#lock_offsetY" type="number" const="true"/>
-					<Command target="lock_backY.animation" value="play"/>
-						<VariableCommand name="locker_dissmis_init" expression="255" type="number" const="true"/>
-						<VariableCommand name="locker_dissmis_end" expression="0" type="number"  const="true"/>
-					    <Command target="locker_dissmis.animation" value="play"/>
+					<Command target="lock_backY.animation" value="play"/> 
+					<VariableCommand name="locker_dissmis_init" expression="255" type="number" const="true"/>
+					<VariableCommand name="locker_dissmis_end" expression="0" type="number"  const="true"/>
+				   <Command target="locker_dissmis.animation" value="play"/> 
 				</Trigger>
 			</ReachedState>
 		</StartPoint>
-		<EndPoint x="-200" y="#screen_height*1000/1280" w="920" h="400"/>
+		<EndPoint x="-200" y="#screen_height*950/1280" w="920" h="400"/>
+		<EndPoint  x="-200" y="#screen_height*50/1280" w="920" h="650">
+		    <Intent action="lewa.media.action.STILL_IMAGE_CAMERA"  category="android.intent.category.DEFAULT"/> 
+            <Intent action="android.media.action.STILL_IMAGE_CAMERA"  category="android.intent.category.DEFAULT"/>
+       </EndPoint>
 	</Unlocker>
 	<Var name="press_back_1" expression="1" const="true"/>
 	<Var name="lock_back_1" expression="#press_back_1" threshold="1">
@@ -518,13 +503,15 @@
 					<VariableCommand name="lock_back_init" expression="-#call_offsetY" type="number" const="true"/>
 					<Command target="lock_backY.animation" value="play"/>
 					<VariableCommand name="caller_dissmis_init" expression="255" type="number" const="true"/>
-						<VariableCommand name="caller_dissmis_end" expression="0" type="number"  const="true"/>
-					    <Command target="caller_dissmis.animation" value="play"/>
+					<VariableCommand name="caller_dissmis_end" expression="0" type="number"  const="true"/>
+					<Command target="caller_dissmis.animation" value="play"/>
 				</Trigger>
 			</ReachedState>
 		</StartPoint>
 		<EndPoint x="-200" y="#screen_height*1000/1280" w="920" h="400">
-			<Intent action="android.intent.action.VIEW" type="vnd.android.cursor.dir/calls"/>
+		     <Trigger>
+				<IntentCommand action="android.intent.action.VIEW" type="vnd.android.cursor.dir/calls" category="android.intent.category.DEFAULT"/>
+			</Trigger>
 		</EndPoint>
 	</Unlocker>
 	<Var name="press_back_2" expression="1" const="true"/>
@@ -566,23 +553,19 @@
 				<Trigger action="up">
 					<VariableCommand name="lock_back_init" expression="-#mess_offsetY" type="number" const="true"/>
 					<Command target="lock_backY.animation" value="play"/>
-					<VariableCommand name="var_unlock_mess" expression="1" type="number" const="true"/>
 					<VariableCommand name="messer_dissmis_init" expression="255" type="number" const="true"/>
-						<VariableCommand name="messer_dissmis_end" expression="0" type="number"  const="true"/>
-					    <Command target="messer_dissmis.animation" value="play"/>
+					<VariableCommand name="messer_dissmis_end" expression="0" type="number"  const="true"/>
+				    <Command target="messer_dissmis.animation" value="play"/>
 				</Trigger>
 			</ReachedState>
 		</StartPoint>
 		<EndPoint x="-200" y="#screen_height*1000/1280" w="920" h="400">
+			<Trigger>
+				<IntentCommand action="android.intent.action.MAIN" type="vnd.android-dir/mms-sms" category="android.intent.category.DEFAULT" condition="ne(#sms_unread,1)"/>
+				<IntentCommand action="com.lewa.intent.action.VIEW_PIM_DETAIL_MESSAGE" type="vnd.android-dir/mms-sms" category="android.intent.category.DEFAULT" condition="eq(#sms_unread,1)"/>
+			</Trigger>
 		</EndPoint>
 	</Unlocker>
-	<Var name="var_unlock_mess" expression="0" type="number" const="true"/>
-	<Var name="unlocker_to_mess" expression="#var_unlock_mess" threshold="1">
-		<Trigger>
-			<IntentCommand action="android.intent.action.MAIN" type="vnd.android-dir/mms-sms" category="android.intent.category.DEFAULT" condition="ne(#sms_unread,1)"/>
-			<IntentCommand action="com.lewa.intent.action.VIEW_PIM_DETAIL_MESSAGE" type="vnd.android-dir/mms-sms" category="android.intent.category.DEFAULT" condition="eq(#sms_unread,1)"/>
-		</Trigger>
-	</Var>
 	 <!-- <Text x="0" y="0" color="#FFFFFFFF" size="50" format="touch_endY_up:%s" paras="#touch_endY_up"/>
 	<Text x="0" y="50" color="#FFFFFFFF" size="50" format="testVar:%s" paras="#testVar"/>
 	<Text x="0" y="100" color="#FFFFFFFF" size="50" format="touch_dist:%s" paras="#touch_dist"/>
