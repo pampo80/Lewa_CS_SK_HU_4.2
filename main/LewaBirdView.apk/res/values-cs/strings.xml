@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BirdView</string>
+    <string name="mb">MB</string>
+    <string name="gb">GB</string>
+    <string name="nosim">Žádný přenos dat</string>
+    <string name="nosim_set">Přenos dat není nastaven</string>
+    <string name="used">Použito</string>
+    <string name="surplus">Zbývá</string>
+    <string name="noalarm">Přidat budík</string>
+    <string name="off">Vyp</string>
+    <string name="on">Zap</string>
+    <string name="alarm">Budík</string>
+    <string name="power_on">Úspora</string>
+    <string name="power_surplus">Zbývá</string>
+    <string name="power_full">Nabíjení</string>
+    <string name="power_isfull">Nabito</string>
+    <string name="power_h">h</string>
+    <string name="power_m">m</string>
+    <string name="torch">Svítilna</string>
+    <string name="safe_scanning">Skenování...</string>
+    <string name="safe_scanning_error">Chyba skenování, zkuste to prosím později</string>
+    <string name="safe_status_one">Zdravé</string>
+    <string name="safe_status_two">"dní nebylo testováno"</string>
+    <string name="safe_status_three">Nikdy netestováno</string>
+    <string name="clean_toast_str0">Byl optimalizován co nejlépe</string>
+    <string name="clean_toast_str1">"Úspěšně uvolněno %1$d M paměti 
+Aktuálně dostupná paměť je %2$d M"</string>
+</resources>
